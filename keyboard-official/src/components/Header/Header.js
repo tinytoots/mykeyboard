@@ -21,16 +21,16 @@ export default class Header extends React.Component {
     return (
       <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
         <Menu.Item key="progress">
-          <NavLink to="/progress">我的键盘</NavLink>
+          <NavLink to="/progress">键盘</NavLink>
         </Menu.Item>
         <Menu.Item key="price">
-          <NavLink to="/price">键盘价格</NavLink>
+          <NavLink to="/price">键帽</NavLink>
         </Menu.Item>
-        <Menu.Item key="problem">
+        {/* <Menu.Item key="problem">
           <NavLink to="/problem">键圈吐槽</NavLink>
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item key="profile">
-          <NavLink to="/profile">我的键盘</NavLink>
+          <NavLink to="/profile">关于</NavLink>
         </Menu.Item>
       </Menu>
     );

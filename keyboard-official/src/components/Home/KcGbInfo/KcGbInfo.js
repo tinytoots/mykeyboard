@@ -56,7 +56,7 @@ function delayCal(start, end) {
   return percent2;
 }
 
-var parcel = progressCal("5/3/2021", "6/30/2022").toFixed(1);
+var parcel = progressCal("5/31/2021", "6/30/2022").toFixed(1);
 var arch = progressCal("5/30/2021", "6/30/2022").toFixed(1);
 var sunset = progressCal("5/28/2021", "4/30/2022").toFixed(1);
 var jelly = progressCal("5/28/2021", "6/30/2022").toFixed(1);
@@ -126,26 +126,53 @@ var Honor = progressCal("11/30/2020", "9/30/2021").toFixed(1);
 var Hallyu = progressCal("12/1/2020", "9/30/2021").toFixed(1);
 var Taegeukgi = progressCal("11/20/2020", "9/30/2021").toFixed(1);
 var Red_Line = progressCal("11/13/2020", "9/30/2021").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
-var WasabiR2 = progressCal("5/4/2021", "3/31/2022").toFixed(1);
+var Grand_Prix = progressCal("5/4/2021", "5/31/2021").toFixed(1);
+var Mudbeam = progressCal("10/30/2020", "5/31/2021").toFixed(1);
+var Retrocast = progressCal("11/6/2020", "10/31/2021").toFixed(1);
+var Rainy_Day = progressCal("11/16/2020", "10/31/2021").toFixed(1);
+var Noire = progressCal("11/4/2020", "10/31/2021").toFixed(1);
+var Space_Cadet_R2 = progressCal("10/30/2020", "6/30/2021").toFixed(1);
+var Red_Dragon = progressCal("11/1/2020", "9/30/2021").toFixed(1);
+var Demon_Sword = progressCal("10/31/2020", "9/30/2021").toFixed(1);
+var Sloth = progressCal("10/2/2020", "8/31/2021").toFixed(1);
+var Monokai_Material = progressCal("10/4/2020", "5/31/2021").toFixed(1);
+var Shorebound = progressCal("10/4/2020", "8/31/2021").toFixed(1);
+var Red_Devils = progressCal("9/30/2020", "9/30/2021").toFixed(1);
+var Yuru = progressCal("10/1/2020", "8/31/2021").toFixed(1);
+var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
+var Beta = progressCal("9/21/2020", "6/30/2021").toFixed(1);
+var Shoko_R2 = progressCal("9/15/2020", "7/30/2021").toFixed(1);
+var HammerHead = progressCal("7/31/2020", "5/31/2021").toFixed(1);
+var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
+var Bento_R2 = progressCal("8/31/2020", "3/31/2021").toFixed(1);
+var Minimal_R2 = progressCal("9/2/2020", "7/31/2021").toFixed(1);
+var Dolch_R5 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
+var Ishtar = progressCal("8/28/2020", "6/30/2021").toFixed(1);
+var Evil_Dolch = progressCal("8/28/2020", "6/30/2021").toFixed(1);
+var Pono = progressCal("8/14/2020", "6/30/2021").toFixed(1);
+var Sumi = progressCal("8/15/2020", "4/30/2021").toFixed(1);
+var Prepress = progressCal("8/28/2020", "4/30/2021").toFixed(1);
+var Mecha_01 = progressCal("8/7/2020", "5/31/2021").toFixed(1);
+var Nord = progressCal("7/10/2020", "4/30/2021").toFixed(1);
+var Modern_Dolch_R2 = progressCal("7/2/2020", "7/11/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+
 
 
 // document.write("<br><br>进度" + u80a_seq2);
@@ -782,52 +809,277 @@ const data = [
       progress: <Progress percent={Red_Line} />,
     },
     {
-      key: '13',
-      name: 'Metropolis R2',
+      key: '71',
+      name: 'Grand Prix',
       brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      time: '2021-04-30',
-      progress: <Progress percent={Metropolis_R2} />,
+      quantity: '2000',
+      price: '$125',
+      time: '2020-10-30',
+      progress: <Progress percent={Grand_Prix} />,
     },
     {
-      key: '13',
-      name: 'Metropolis R2',
+      key: '72',
+      name: 'Mudbeam',
       brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      time: '2021-04-30',
-      progress: <Progress percent={Metropolis_R2} />,
+      quantity: '765',
+      price: '$135',
+      time: '2020-10-30',
+      progress: <Progress percent={Mudbeam} />,
     },
     {
-      key: '13',
-      name: 'Metropolis R2',
+      key: '73',
+      name: 'Retrocast',
       brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      time: '2021-04-30',
-      progress: <Progress percent={Metropolis_R2} />,
+      quantity: '1006',
+      price: '$134.99',
+      time: '2020-11-06',
+      progress: <Progress percent={Retrocast} />,
     },
     {
-      key: '13',
-      name: 'Metropolis R2',
+      key: '74',
+      name: 'Rainy Day',
       brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      time: '2021-04-30',
-      progress: <Progress percent={Metropolis_R2} />,
+      quantity: '3124',
+      price: '$134.99',
+      time: '2020-11-16',
+      progress: <Progress percent={Rainy_Day} />,
     },
     {
-      key: '13',
-      name: 'Metropolis R2',
+      key: '75',
+      name: 'Noire',
+      brand: 'GMK',
+      quantity: '1765',
+      price: '$140',
+      time: '2020-11-04',
+      progress: <Progress percent={Noire} />,
+    },
+    {
+      key: '76',
+      name: 'Space Cadet R2',
       brand: 'GMK',
       quantity: '未知',
       price: '$120',
-      time: '2021-04-30',
-      progress: <Progress percent={Metropolis_R2} />,
+      time: '2020-10-30',
+      progress: <Progress percent={Space_Cadet_R2} />,
+    },
+    {
+      key: '77',
+      name: 'Red Dragon',
+      brand: 'GMK',
+      quantity: '1372',
+      price: '$134.99',
+      time: '2020-11-01',
+      progress: <Progress percent={Red_Dragon} />,
+    },
+    {
+      key: '78',
+      name: 'Demon Sword',
+      brand: 'GMK',
+      quantity: '1112',
+      price: '$134.99',
+      time: '2020-10-31',
+      progress: <Progress percent={Demon_Sword} />,
+    },
+    {
+      key: '79',
+      name: 'Sloth',
+      brand: 'GMK',
+      quantity: '1104',
+      price: '$125',
+      time: '2020-10-02',
+      progress: <Progress percent={Sloth} />,
+    },
+    {
+      key: '80',
+      name: 'Monokai Material',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$135',
+      time: '2020-10-04',
+      progress: <Progress percent={Monokai_Material} />,
+    },
+    {
+      key: '81',
+      name: 'Shorebound',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$140',
+      time: '2020-10-04',
+      progress: <Progress percent={Shorebound} />,
+    },
+    {
+      key: '82',
+      name: 'Red Devils',
+      brand: 'GMK',
+      quantity: '567',
+      price: '$135',
+      time: '2020-09-30',
+      progress: <Progress percent={Red_Devils} />,
+    },
+    {
+      key: '83',
+      name: 'Yuru',
+      brand: 'GMK',
+      quantity: 'Latin 673 Hiragana 1072',
+      price: '$134.99',
+      time: '2020-10-01',
+      progress: <Progress percent={Yuru} />,
+    },
+    {
+      key: '84',
+      name: 'Posh',
+      brand: 'GMK',
+      quantity: '760',
+      price: '$139.99',
+      time: '2020-10-02',
+      progress: <Progress percent={Posh} />,
+    },
+    {
+      key: '85',
+      name: 'Beta',
+      brand: 'GMK',
+      quantity: 'Beta 501 JS 1083',
+      price: '$138',
+      time: '2020-09-21',
+      progress: <Progress percent={Beta} />,
+    },
+    {
+      key: '86',
+      name: 'Shoko R2',
+      brand: 'GMK',
+      quantity: '4142',
+      price: '$134.99',
+      time: '2020-09-15',
+      progress: <Progress percent={Shoko_R2} />,
+    },
+    {
+      key: '87',
+      name: 'HammerHead',
+      brand: 'GMK',
+      quantity: 'Dark 2216 Light 1156',
+      price: '$125',
+      time: '2020-07-31',
+      progress: <Progress percent={HammerHead} />,
+    },
+    {
+      key: '88',
+      name: 'OG Spacekeys R2',
+      brand: 'GMK',
+      quantity: '1615',
+      price: '$25',
+      time: '2020-09-04',
+      progress: <Progress percent={OG_Spacekeys_R2} />,
+    },
+    {
+      key: '89',
+      name: 'Oni',
+      brand: 'GMK',
+      quantity: '1520',
+      price: '$135',
+      time: '2020-09-01',
+      progress: <Progress percent={Oni} />,
+    },
+    {
+      key: '90',
+      name: 'Bento R2',
+      brand: 'GMK',
+      quantity: 'Traditional 5001 Revival 1083',
+      price: '$125',
+      time: '2020-08-31',
+      progress: <Progress percent={Bento_R2} />,
+    },
+    {
+      key: '91',
+      name: 'Minimal R2',
+      brand: 'GMK',
+      quantity: '5043',
+      price: '$99.99',
+      time: '2020-09-02',
+      progress: <Progress percent={Minimal_R2} />,
+    },
+    {
+      key: '92',
+      name: 'Dolch_R5',
+      brand: 'GMK',
+      quantity: '1020',
+      price: '$135',
+      time: '2020-09-04',
+      progress: <Progress percent={Dolch_R5} />,
+    },
+    {
+      key: '93',
+      name: 'Ishtar',
+      brand: 'GMK',
+      quantity: '1021',
+      price: '$144.99',
+      time: '2020-08-28',
+      progress: <Progress percent={Ishtar} />,
+    },
+    {
+      key: '94',
+      name: 'Evil Dolch',
+      brand: 'GMK',
+      quantity: '1000',
+      price: '$129.99',
+      time: '2020-08-28',
+      progress: <Progress percent={Evil_Dolch} />,
+    },
+    {
+      key: '95',
+      name: 'Pono',
+      brand: 'GMK',
+      quantity: '2041',
+      price: '$124.99',
+      time: '2020-08-14',
+      progress: <Progress percent={Pono} />,
+    },
+    {
+      key: '96',
+      name: 'Sumi',
+      brand: 'GMK',
+      quantity: '3647',
+      price: '$135',
+      time: '2020-08-15',
+      progress: <Progress percent={Sumi} />,
+    },
+    {
+      key: '97',
+      name: 'Prepress',
+      brand: 'GMK',
+      quantity: '317',
+      price: '$149.99',
+      time: '2020-08-28',
+      progress: <Progress percent={Prepress} />,
+    },
+    {
+      key: '98',
+      name: 'Mecha-01',
+      brand: 'GMK',
+      quantity: '2592',
+      price: '$125',
+      time: '2020-08-07',
+      progress: <Progress percent={Mecha_01} />,
+    },
+    {
+      key: '99',
+      name: 'Nord',
+      brand: 'GMK',
+      quantity: '1040',
+      price: '$125',
+      time: '2020-07-10',
+      progress: <Progress percent={Nord} />,
+    },
+    {
+      key: '100',
+      name: 'Modern Dolch R2',
+      brand: 'GMK',
+      quantity: 'Standard 7107 Mist 1502',
+      price: '$99.99',
+      time: '2020-07-02',
+      progress: <Progress percent={Modern_Dolch_R2} />,
     },
     
- 
+    
 
 
 
@@ -989,7 +1241,7 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h1>键盘团购信息</h1>
+            {/* <h1>键盘团购信息</h1> */}
             <Progress className={'point'} percent={99} showInfo={false}/> 进度 <br/>
             <Progress className={'point'} strokeColor="orange" percent={99} showInfo={false}/> 延期 <br/>
             <Progress className={'point'} strokeColor="green" percent={99} showInfo={false}/> 发货 <br/>
