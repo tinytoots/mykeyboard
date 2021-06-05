@@ -24,10 +24,10 @@ export default class Header extends React.Component {
     const { current } = this.state;
     return (
       <div className='header-root'>
-        <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
         <NavLink to="/keybaord">
         <img className='logo' src={logo} height={50} width={35} />
         </NavLink>
+        <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
           <Menu.Item key="keybaord" className="keybaord-header">
             <NavLink to="/keybaord">键盘</NavLink>
           </Menu.Item>
