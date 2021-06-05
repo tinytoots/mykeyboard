@@ -13,10 +13,10 @@ function App() {
       <div className='App-content'>
         <Header />
         <Switch>
-          <Route path="/profile" component={Profile} /> 
-          <Route path="/price" component={Price} /> 
-          <Route path="/problem" component={Problem} /> 
-          <Route path="/progress" component={Home} /> 
+          <Route path="/readme" component={Profile} /> 
+          <Route path="/keycap" component={Price} /> 
+          {/* <Route path="/problem" component={Problem} />  */}
+          <Route path="/keyboard" component={Home} /> 
           <Route path="/" component={Home} /> 
           <Redirect to="/" />
         </Switch>

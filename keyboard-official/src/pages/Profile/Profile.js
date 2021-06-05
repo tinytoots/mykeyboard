@@ -75,7 +75,7 @@ export default function Profile() {
                 </Paragraph>
                 <Progress className={'point'} percent={61} /> &nbsp;&nbsp;&nbsp; 进度: 当前时间距离截团时间在从截团到发货总时间中所占比例 <br/>
                 <Progress className={'point'} strokeColor="orange" percent={31} /> &nbsp;&nbsp;&nbsp; 延期: 当前时间距离原计划发货时间在从截团到发货总时间中所占比例 <br/>
-                <Progress className={'point'} strokeColor="green" percent={100} /> &nbsp;&nbsp;&nbsp; 发货 <br/>
+                <Progress className={'point'} percent={100} /> &nbsp;&nbsp;&nbsp; 发货 <br/>
                 <Progress className={'point'} strokeColor="red" percent={100} status="exception"/> &nbsp;&nbsp;&nbsp; 流团 <br/><br/>
                 <Title level={2}>关于内容</Title>
                 <Paragraph>
