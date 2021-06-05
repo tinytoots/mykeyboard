@@ -6,6 +6,7 @@ import { Menu, Image } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom'
 import logo from './logo.svg';
+import logo2 from './logo2.svg';
 
 
 const { SubMenu } = Menu;

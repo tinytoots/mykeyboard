@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="44px" height="20px" viewBox="0 0 44 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#FAAD14" fill="#FAAD14" x="0.5" y="5.5" width="43" height="4"></rect>
+        <rect id="Rectangle" stroke="#52C41A" fill="#52C41A" x="0.5" y="10.5" width="43" height="4"></rect>
+        <rect id="Rectangle" stroke="#FF4D4F" fill="#FF4D4F" x="0.5" y="15.5" width="43" height="4"></rect>
+        <rect id="Rectangle" stroke="#1890FF" fill="#1890FF" x="0.5" y="0.5" width="43" height="4"></rect>
+    </g>
+</svg>
