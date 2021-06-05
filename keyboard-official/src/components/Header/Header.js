@@ -30,7 +30,7 @@ export default class Header extends React.Component {
           <NavLink to="/problem">键圈吐槽</NavLink>
         </Menu.Item> */}
         <Menu.Item key="profile">
-          <NavLink to="/profile">关于</NavLink>
+          <NavLink to="/profile">说明</NavLink>
         </Menu.Item>
       </Menu>
     );

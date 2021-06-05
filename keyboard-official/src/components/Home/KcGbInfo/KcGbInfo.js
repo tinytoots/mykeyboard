@@ -155,23 +155,36 @@ var Prepress = progressCal("8/28/2020", "4/30/2021").toFixed(1);
 var Mecha_01 = progressCal("8/7/2020", "5/31/2021").toFixed(1);
 var Nord = progressCal("7/10/2020", "4/30/2021").toFixed(1);
 var Modern_Dolch_R2 = progressCal("7/2/2020", "7/11/2021").toFixed(1);
+var Cyrillic_WoB_Beige = progressCal("6/1/2021", "6/30/2022").toFixed(1);
+var Hazakura = progressCal("6/1/2021", "6/30/2022").toFixed(1);
+var Skyriter = progressCal("8/28/2020", "3/31/2021").toFixed(1);
+var Rocket = progressCal("8/26/2020", "6/30/2021").toFixed(1);
+var Daisy = progressCal("9/30/2020", "6/30/2021").toFixed(1);
+var Dual_Shot = progressCal("10/11/2020", "9/30/2021").toFixed(1);
+var Jadeite = progressCal("10/16/2020", "8/31/2021").toFixed(1);
+var Bliss_R2 = progressCal("10/15/2020", "12/31/2021").toFixed(1);
+var Nightlight = progressCal("10/30/2020", "9/30/2021").toFixed(1);
+var Carbon_R3 = progressCal("10/30/2020", "9/17/2021").toFixed(1);
+var Biso = progressCal("10/31/2020", "6/30/2021").toFixed(1);
+var Angel_Devil_Daisy = progressCal("11/15/2020", "6/30/2021").toFixed(1);
+var Silent_Assassin = progressCal("12/23/2020", "11/30/2021").toFixed(1);
+var Recall = progressCal("1/15/2021", "3/31/2022").toFixed(1);
+var Laser_R2 = progressCal("3/2/2021", "4/11/2022").toFixed(1);
+var Strong_Spirit_R2 = progressCal("3/20/2021", "3/31/2022").toFixed(1);
+var sp_8010 = progressCal("4/3/2021", "9/30/2022").toFixed(1);
+var Tatooine = progressCal("4/16/2021", "6/30/2022").toFixed(1);
+var X_mas_Gift = progressCal("4/11/2021", "6/15/2022").toFixed(1);
+var sp_Handarbeit = progressCal("5/1/2021", "6/24/2022").toFixed(1);
+var Prism = progressCal("4/30/2021", "6/30/2022").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Espresso = progressCal("5/14/2021", "6/14/2022").toFixed(1);
+var Ramses = progressCal("5/14/2021", "9/30/2022").toFixed(1);
+var Tang = progressCal("5/27/2021", "8/31/2022").toFixed(1);
+// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 
 
 
@@ -1078,14 +1091,223 @@ const data = [
       time: '2020-07-02',
       progress: <Progress percent={Modern_Dolch_R2} />,
     },
+    {
+      key: '101',
+      name: 'Cyrillic WoB Beige',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      time: '2021-06-01',
+      progress: <Progress percent={Cyrillic_WoB_Beige} />,
+    },
+    {
+      key: '102',
+      name: 'Hazakura',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$135',
+      time: '2021-06-01',
+      progress: <Progress percent={Hazakura} />,
+    },
+    {
+      key: '103',
+      name: 'Skyriter',
+      brand: 'Signature Plastics',
+      quantity: '594',
+      price: '$130',
+      time: '2020-08-28',
+      progress: <Progress percent={Skyriter} />,
+    },
+    {
+      key: '104',
+      name: 'Rocket',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$105',
+      time: '2020-08-26',
+      progress: <Progress percent={Rocket} />,
+    },
+    {
+      key: '105',
+      name: 'Daisy',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥823',
+      time: '2020-09-30',
+      progress: <Progress percent={Daisy} />,
+    },
+    {
+      key: '106',
+      name: 'Dual Shot',
+      brand: 'Signature Plastics',
+      quantity: '1002',
+      price: '$125',
+      time: '2020-10-11',
+      progress: <Progress percent={Dual_Shot} />,
+    },
+    {
+      key: '107',
+      name: 'Jadeite',
+      brand: 'Signature Plastics',
+      quantity: '507',
+      price: '$120',
+      time: '2020-10-16',
+      progress: <Progress percent={Jadeite} />,
+    },
+    {
+      key: '108',
+      name: 'Bliss R2',
+      brand: 'Signature Plastics',
+      quantity: 'grey 1193 pink 1109',
+      price: '$130',
+      time: '2020-10-15',
+      progress: <Progress percent={Bliss_R2} />,
+    },
+    {
+      key: '109',
+      name: 'Nightlight',
+      brand: 'Signature Plastics',
+      quantity: '436',
+      price: '$90',
+      time: '2020-10-30',
+      progress: <Progress percent={Nightlight} />,
+    },
+    {
+      key: '110',
+      name: 'Carbon R3',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$130',
+      time: '2020-10-30',
+      progress: <Progress percent={Carbon_R3} />,
+    },
+    {
+      key: '111',
+      name: 'Biso',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$140',
+      time: '2020-10-31',
+      progress: <Progress percent={Biso} />,
+    },
+    {
+      key: '112',
+      name: 'Angel/Devil Daisy',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥1098', 
+      time: '2020-11-15',
+      progress: <Progress percent={Angel_Devil_Daisy} />,
+    },
+    {
+      key: '113',
+      name: 'Silent Assassin',
+      brand: 'Signature Plastics',
+      quantity: '436',
+      price: '¥912',
+      time: '2020-12-23',
+      progress: <Progress percent={Silent_Assassin} />,
+    },
+    {
+      key: '114',
+      name: 'Recall',
+      brand: 'Signature Plastics',
+      quantity: '287',
+      price: '$130',
+      time: '2021-01-15',
+      progress: <Progress percent={Recall} />,
+    },
+    {
+      key: '115',
+      name: 'Laser R2',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$125',
+      time: '2021-03-02',
+      progress: <Progress percent={Laser_R2} />,
+    },
+    {
+      key: '116',
+      name: 'Strong Spirit R2',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$130',
+      time: '2021-03-20',
+      progress: <Progress percent={Strong_Spirit_R2} />,
+    },
+    {
+      key: '117',
+      name: '8010',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$140',
+      time: '2021-04-03',
+      progress: <Progress percent={sp_8010} />,
+    },
+    {
+      key: '118',
+      name: 'Tatooine',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$250',
+      time: '2021-04-16',
+      progress: <Progress percent={Tatooine} />,
+    },
+    {
+      key: '119',
+      name: 'X-mas Gift',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥699',
+      time: '2021-04-11',
+      progress: <Progress percent={X_mas_Gift} />,
+    },
+    {
+      key: '120',
+      name: 'Handarbeit',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$130',
+      time: '2021-05-01',
+      progress: <Progress percent={sp_Handarbeit} />,
+    },
+    {
+      key: '121',
+      name: 'Prism',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥1190',
+      time: '2021-04-30',
+      progress: <Progress percent={Prism} />,
+    },
+    {
+      key: '122',
+      name: 'Espresso',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$120',
+      time: '2021-05-14',
+      progress: <Progress percent={Espresso} />,
+    },
+    {
+      key: '123',
+      name: 'Ramses',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '$140',
+      time: '2021-05-14',
+      progress: <Progress percent={Ramses} />,
+    },
+    {
+      key: '124',
+      name: 'Tang',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥1380',
+      time: '2021-05-27',
+      progress: <Progress percent={Tang} />,
+    },
     
-    
-
-
-
-
-
-
   ];
 
 

@@ -87,7 +87,7 @@ var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
 
-document.write("<br><br>进度" + u80a_seq2);
+// document.write("<br><br>进度" + u80a_seq2);
 
 const data = [
     {
