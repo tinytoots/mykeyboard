@@ -60,8 +60,8 @@ function delayCal(start, end) {
 var thermal_seq2 = progressCal("4/8/2021", "9/1/2022").toFixed(1);
 var kara = progressCal("12/31/2020", "6/1/2021").toFixed(1);
 var u80a_seq2 = progressCal("10/31/2020", "6/30/2021").toFixed(1);
-var foundary_jules = progressCal("4/15/2020", "10/1/2021").toFixed(1);
-var m50a = progressCal("5/15/2020", "10/1/2021").toFixed(1);
+var foundary_jules = progressCal("4/15/2020", "6/23/2021").toFixed(1);
+var m50a = delayCal("5/31/2020", "12/31/2020").toFixed(1);
 var iron165_r2 = progressCal("2/27/2021", "3/1/2022").toFixed(1);
 var iron180 = progressCal("11/14/2020", "10/1/2021").toFixed(1);
 var im = progressCal("9/1/2020", "9/1/2021").toFixed(1);
@@ -81,7 +81,7 @@ var am_hatsu = progressCal("4/29/2021", "10/29/2021").toFixed(1);
 var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
 var piggy60 = progressCal("5/25/2021", "9/30/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
@@ -129,12 +129,12 @@ const data = [
     },
     {
       key: '5',
-      name: 'FM50-A GRID',
+      name: 'M50-A GRID',
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$300',
-      time: '2020-05-15',
-      progress: <Progress percent={m50a} />,
+      time: '2020-05-31',
+      progress: <Progress strokeColor="orange" percent={m50a} />,
     },
     {
       key: '6',
@@ -193,7 +193,7 @@ const data = [
     {
       key: '12',
       name: 'Andromeda 仙女座',
-      brand: 'Lin Design Studio',
+      brand: 'ai03',
       type: '限量100',
       price: '¥4999',
       time: '2020-10-31',
@@ -298,6 +298,82 @@ const data = [
       time: '2021-05-25',
       progress: <Progress percent={piggy60} />,
     },
+    {
+      key: '24',
+      name: 'FOUNDRY ZENITH KEYBOARD',
+      brand: 'RAMA WORKS',
+      type: '不限量',
+      price: '$450',
+      time: '2020-07-30',
+      progress: <Progress strokeColor="orange" percent={ZENITH} />,
+    },
+    // {
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },
+    // {
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },
+    // {
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },{
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },{
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },{
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },{
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },{
+    //   key: '23',
+    //   name: 'Piggy60',
+    //   brand: 'Jacky Lab',
+    //   type: '不限量',
+    //   price: '$428',
+    //   time: '2021-05-25',
+    //   progress: <Progress percent={piggy60} />,
+    // },
  
 
 

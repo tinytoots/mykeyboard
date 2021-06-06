@@ -126,8 +126,8 @@ var Honor = progressCal("11/30/2020", "9/30/2021").toFixed(1);
 var Hallyu = progressCal("12/1/2020", "9/30/2021").toFixed(1);
 var Taegeukgi = progressCal("11/20/2020", "9/30/2021").toFixed(1);
 var Red_Line = progressCal("11/13/2020", "9/30/2021").toFixed(1);
-var Grand_Prix = progressCal("5/4/2021", "5/31/2021").toFixed(1);
-var Mudbeam = progressCal("10/30/2020", "5/31/2021").toFixed(1);
+var Grand_Prix = progressCal("5/4/2021", "9/30/2021").toFixed(1);
+var Mudbeam = progressCal("10/30/2020", "9/30/2021").toFixed(1);
 var Retrocast = progressCal("11/6/2020", "10/31/2021").toFixed(1);
 var Rainy_Day = progressCal("11/16/2020", "10/31/2021").toFixed(1);
 var Noire = progressCal("11/4/2020", "10/31/2021").toFixed(1);
@@ -135,29 +135,29 @@ var Space_Cadet_R2 = progressCal("10/30/2020", "6/30/2021").toFixed(1);
 var Red_Dragon = progressCal("11/1/2020", "9/30/2021").toFixed(1);
 var Demon_Sword = progressCal("10/31/2020", "9/30/2021").toFixed(1);
 var Sloth = progressCal("10/2/2020", "8/31/2021").toFixed(1);
-var Monokai_Material = progressCal("10/4/2020", "5/31/2021").toFixed(1);
+var Monokai_Material = progressCal("10/4/2020", "8/31/2021").toFixed(1);
 var Shorebound = progressCal("10/4/2020", "8/31/2021").toFixed(1);
 var Red_Devils = progressCal("9/30/2020", "9/30/2021").toFixed(1);
 var Yuru = progressCal("10/1/2020", "8/31/2021").toFixed(1);
 var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = progressCal("9/21/2020", "6/30/2021").toFixed(1);
 var Shoko_R2 = progressCal("9/15/2020", "7/30/2021").toFixed(1);
-var HammerHead = progressCal("7/31/2020", "5/31/2021").toFixed(1);
+var HammerHead = progressCal("7/31/2020", "9/30/2021").toFixed(1);
 var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
-var Bento_R2 = progressCal("8/31/2020", "3/31/2021").toFixed(1);
+var Bento_R2 = progressCal("8/31/2020", "7/31/2021").toFixed(1);
 var Minimal_R2 = progressCal("9/2/2020", "7/31/2021").toFixed(1);
 var Dolch_R5 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
 var Ishtar = progressCal("8/28/2020", "6/30/2021").toFixed(1);
 var Evil_Dolch = progressCal("8/28/2020", "6/30/2021").toFixed(1);
 var Pono = progressCal("8/14/2020", "6/30/2021").toFixed(1);
-var Sumi = progressCal("8/15/2020", "4/30/2021").toFixed(1);
-var Prepress = progressCal("8/28/2020", "4/30/2021").toFixed(1);
-var Mecha_01 = progressCal("8/7/2020", "5/31/2021").toFixed(1);
-var Nord = progressCal("7/10/2020", "4/30/2021").toFixed(1);
+var Sumi = delayCal("8/15/2020", "4/30/2021").toFixed(1);
+var Prepress = progressCal("8/28/2020", "8/31/2021").toFixed(1);
+var Mecha_01 = delayCal("8/7/2020", "5/31/2021").toFixed(1);
+var Nord = delayCal("7/10/2020", "4/30/2021").toFixed(1);
 var Modern_Dolch_R2 = progressCal("7/2/2020", "7/11/2021").toFixed(1);
 var Cyrillic_WoB_Beige = progressCal("6/1/2021", "6/30/2022").toFixed(1);
 var Hazakura = progressCal("6/1/2021", "6/30/2022").toFixed(1);
-var Skyriter = progressCal("8/28/2020", "3/31/2021").toFixed(1);
+var Skyriter = progressCal("8/28/2020", "6/31/2021").toFixed(1);
 var Rocket = progressCal("8/26/2020", "6/30/2021").toFixed(1);
 var Daisy = progressCal("9/30/2020", "6/30/2021").toFixed(1);
 var Dual_Shot = progressCal("10/11/2020", "9/30/2021").toFixed(1);
@@ -1053,7 +1053,7 @@ const data = [
       quantity: '3647',
       price: '$135',
       time: '2020-08-15',
-      progress: <Progress percent={Sumi} />,
+      progress: <Progress strokeColor="orange" percent={Sumi} />,
     },
     {
       key: '97',
@@ -1071,7 +1071,7 @@ const data = [
       quantity: '2592',
       price: '$125',
       time: '2020-08-07',
-      progress: <Progress percent={Mecha_01} />,
+      progress: <Progress strokeColor="orange" percent={Mecha_01} />,
     },
     {
       key: '99',
@@ -1080,7 +1080,7 @@ const data = [
       quantity: '1040',
       price: '$125',
       time: '2020-07-10',
-      progress: <Progress percent={Nord} />,
+      progress: <Progress strokeColor="orange" percent={Nord} />,
     },
     {
       key: '100',
