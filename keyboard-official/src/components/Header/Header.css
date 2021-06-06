@@ -24,6 +24,14 @@
     border-bottom-style: none !important;
 } */
 
+.navModify {
+    border-bottom: 2px solid red !important;
+}
+
+.navModify2 {
+    border-bottom: 2px solid #2c2c2e !important;
+}
+
 .inner{
     height: 50px;
     background: #2c2c2e;

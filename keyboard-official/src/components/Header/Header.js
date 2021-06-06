@@ -7,7 +7,6 @@ import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/ico
 import { NavLink } from 'react-router-dom'
 import logo from './logo.svg';
 import logo2 from './logo2.svg';
-import '../../index.css';
 
 
 const { SubMenu } = Menu;
@@ -31,10 +30,10 @@ export default class Header extends React.Component {
           <img className='logo' src={logo} height={50} width={35} />
           </NavLink>
           <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
-            <Menu.Item key="keybaord">
+            <Menu.Item key="keybaord" className='navModify'>
               <NavLink to="/keybaord" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键盘</NavLink>
             </Menu.Item>
-            <Menu.Item key="keycap">
+            <Menu.Item key="keycap" className='navModify2'>
               <NavLink to="/keycap" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键帽</NavLink>
             </Menu.Item>
             {/* <Menu.Item key="problem">
