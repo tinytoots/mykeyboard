@@ -258,7 +258,7 @@ const data = [
       key: '19',
       name: 'CYBERBOARD R2',
       brand: 'Angry Miao',
-      type: '数量未知',
+      type: '未知',
       price: '¥3700',
       time: '2021-05-28',
       progress: <Progress percent={cyberboard_r2} />,
