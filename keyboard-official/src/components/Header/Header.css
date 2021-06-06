@@ -21,5 +21,10 @@
 
 .modified-item {
     border-bottom: 0px solid transparent !important;
-    color:#2c2c2e ;
+    border-bottom-color:#2c2c2e ;
 }
+
+/* .modified-item {
+    border-bottom: 0px solid transparent !important;
+    border-bottom-color:#2c2c2e ;
+} */
