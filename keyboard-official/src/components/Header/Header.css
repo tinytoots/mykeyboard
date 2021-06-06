@@ -19,12 +19,9 @@
     background: #2c2c2e;
 }
 
-.modified-item {
+.modified-item:hover {
     border-bottom: 2px solid transparent !important;
-    border-bottom-color:#2c2c2e ;
+    color:  #2c2c2e !important;
 }
 
-/* .modified-item {
-    border-bottom: 0px solid transparent !important;
-    border-bottom-color:#2c2c2e ;
-} */
+
