@@ -29,16 +29,14 @@
     background: #2c2c2e;
 }
 
-/* .ant-menu-horizontal > .ant-menu-item-active {
-    border-bottom: 0px solid #2c2c2e !important;
-    border-bottom-style: none !important;
+ .ant-menu-horizontal > .ant-menu-item-active {
+    border-bottom: 2px solid red !important;
 }
 
 .ant-menu-horizontal > .ant-menu-item:hover {
     color: #2c2c2e !important;;
-    border-bottom: 0px solid #2c2c2e !important;
-    border-bottom-style: none !important;
-} */
+    border-bottom: 2px solid orange !important;
+} 
 
 
 
