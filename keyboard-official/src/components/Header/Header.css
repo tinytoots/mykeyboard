@@ -13,10 +13,12 @@
 .ant-menu{
     background: #2c2c2e;
     border-bottom: 0px !important;
+    border-bottom-style: none !important;
 }
 
 .ant-menu-item-selected {
     border-bottom: 0px !important;
+    border-bottom-style: none !important;
 }
 
 .inner{
@@ -26,11 +28,13 @@
 
 .ant-menu-horizontal > .ant-menu-item-active {
     border-bottom: 0px solid #2c2c2e !important;
+    border-bottom-style: none !important;
 }
 
 .ant-menu-horizontal > .ant-menu-item:hover {
     color: #2c2c2e !important;;
-    border-bottom: 0px solid #2c2c2e !important;;
+    border-bottom: 0px solid #2c2c2e !important;
+    border-bottom-style: none !important;
 }
 
 
