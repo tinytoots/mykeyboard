@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <svg width="29px" height="24px" viewBox="0 0 29 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M27.1775841,1.26665258 C24.5109175,5.26665258 21.8442508,9.26665258 19.1775841,13.2666526" id="Path-5" stroke="#FF4D4F" stroke-width="2"></path>
-        <path d="M8,2.0733608 L10.0286067,5.92686658 L14.4828563,6.53365441 L11.2625684,9.47647152 L12.0315199,13.6795945 L8,11.6925676 L3.96848012,13.6795945 L4.73743161,9.47647152 L1.51714369,6.53365441 L5.97139328,5.92686658 L8,2.0733608 Z" id="Star" stroke="#FAAD14" fill="#FFFFFF"></path>
-        <path d="M4.09563459,16.4198602 C11.8682549,23.6358276 22.6859894,26.6039407 27.7863665,15.9128392" id="Path-2" stroke="#52C41A" stroke-width="2"></path>
+        <path d="M8,2.6100412 L9.86733958,6.15720674 L13.9200584,6.70929535 L10.9917396,9.38530042 L11.6961388,13.2355781 L8,11.4138513 L4.30386119,13.2355781 L5.00826044,9.38530042 L2.0799416,6.70929535 L6.13266042,6.15720674 L8,2.6100412 Z" id="Star" stroke="#FAAD14" stroke-width="1.5" fill="#FFFFFF"></path>
+        <path d="M4.09563459,16.4198602 C11.8682549,23.6358276 22.6859894,26.6039407 27.7863665,15.9128392" id="Path-2" stroke="#52C41A" stroke-width="2" stroke-linejoin="round"></path>
         <line x1="18.5" y1="3.5" x2="27.5" y2="12.5" id="Line" stroke="#1890FF" stroke-width="2" stroke-linecap="square"></line>
     </g>
 </svg>
