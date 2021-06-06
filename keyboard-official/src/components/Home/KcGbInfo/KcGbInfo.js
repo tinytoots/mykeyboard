@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Table, Input, Button, Space } from 'antd';
+import './KcGbInfo.css';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 import { Progress } from 'antd';
@@ -1463,7 +1464,7 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h2>键帽团购信息</h2>
+            <h2 className="keycapTitle">键帽团购信息</h2>
             <Table className={'table'} columns={columns} dataSource={data} 
             pagination={{ defaultPageSize: 30}} />
         </div>

@@ -6,6 +6,7 @@ import 'antd/dist/antd.css';
 import { Progress } from 'antd';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
+import { Row, Col } from 'antd';
 
 function progressCal(start, end) {
   var startDate = new Date(start); 
@@ -536,7 +537,7 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h2>键盘团购信息</h2>
+            <h2 className="keyboardTitle">键盘团购信息</h2>
             {/* <Progress className={'point'} percent={99} showInfo={false}/> 进度 <br/>
             <Progress className={'point'} strokeColor="orange" percent={99} showInfo={false}/> 延期 <br/>
             <Progress className={'point'} percent={100} showInfo={false}/> 发货 <br/>

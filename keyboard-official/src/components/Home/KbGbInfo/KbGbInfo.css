@@ -8,7 +8,8 @@
     margin-left: 700px;
 }
 
-h2 {
+.keyboardTitle {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
