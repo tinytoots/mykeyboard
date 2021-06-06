@@ -29,8 +29,8 @@ export default class Header extends React.Component {
           <NavLink to="/keybaord">
           <img className='logo' src={logo} height={50} width={35} />
           </NavLink>
-          <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">
-            <Menu.Item key="keybaord" className="modified-item">
+          <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
+            <Menu.Item key="keybaord">
               <NavLink to="/keybaord" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键盘</NavLink>
             </Menu.Item>
             <Menu.Item key="keycap" className="modified-item">
