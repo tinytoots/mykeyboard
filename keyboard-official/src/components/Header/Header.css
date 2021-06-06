@@ -1,9 +1,25 @@
+
 .header-root {
     margin-right:  10%;
     margin-left: 10%;
+    background-color: #262626;
 } 
 
 .logo {
     float: left;
     margin-right: 20px;
+}
+
+.ant-menu{
+    background: #2c2c2e;
+}
+
+.inner{
+    height: 50px;
+    background: #2c2c2e;
+}
+
+/* 取消header下划线 */
+.modified-item {
+    border-bottom: 0px solid transparent !important;
 }
