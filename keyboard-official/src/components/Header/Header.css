@@ -15,12 +15,12 @@
 
 .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
     color: #2c2c2e !important;
-    border-bottom: 2px solid #2c2c2e !important;
+    border-bottom: 1px solid #2c2c2e !important;
 }
 
 .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover:after {
-    border-bottom: 2px solid #2c2c2e !important;
-    border-bottom-width: 2px !important;
+    border-bottom: 1px solid #2c2c2e !important;
+    border-bottom-width: 1px !important;
     border-bottom-style: solid !important;
     border-bottom-color: #2c2c2e !important;
 }
