@@ -19,7 +19,7 @@
     background: #2c2c2e;
 }
 
-/* 取消header下划线 */
 .modified-item {
     border-bottom: 0px solid transparent !important;
+    color:#2c2c2e ;
 }
