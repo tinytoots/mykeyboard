@@ -13,14 +13,19 @@
     background: #2c2c2e;
 }
 
-.ant-menu-item-selected {
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+    color: #2c2c2e;
+    border-bottom: 2px solid #2c2c2e;
+}
+
+/* .ant-menu-item-selected {
   border-color: green !important;
 }
 
 .ant-menu-item:hover {
     color: green !important;;
     border-color: green !important;
-} 
+}  */
 
 /* .ant-menu-item-selected {
     border-bottom: 0px !important;

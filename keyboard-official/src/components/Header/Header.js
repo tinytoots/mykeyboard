@@ -7,6 +7,7 @@ import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/ico
 import { NavLink } from 'react-router-dom'
 import logo from './logo.svg';
 import logo2 from './logo2.svg';
+import headersolve from './headersolve.svg';
 
 
 const { SubMenu } = Menu;
