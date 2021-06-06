@@ -1463,7 +1463,7 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h2>键帽团购进度</h2>
+            <h2>键帽团购信息</h2>
             <Table className={'table'} columns={columns} dataSource={data} 
             pagination={{ defaultPageSize: 30}} />
         </div>
