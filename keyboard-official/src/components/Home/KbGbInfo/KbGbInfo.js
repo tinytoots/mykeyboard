@@ -495,7 +495,7 @@ export default class KbGbInfo extends React.Component {
         sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.name.localeCompare(b.name)},
         width: '15%',
-        responsive: ['md']
+        responsive: ['sm', 'xs']
       },
       {
         title: '品牌',
@@ -506,15 +506,15 @@ export default class KbGbInfo extends React.Component {
         sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.brand.localeCompare(b.brand)},
         width: '15%',
-        responsive: ['xs']
+        responsive: ['sm']
       },
-      // {
-      //   title: '团购类别',
-      //   dataIndex: 'type',
-      //   key: 'type',
-      //   width: '10%',
-      //   responsive: ['xs']
-      // },
+      {
+        title: '团购类别',
+        dataIndex: 'type',
+        key: 'type',
+        width: '10%',
+        responsive: ['sm']
+      },
       {
         title: '起售价',
         key: 'price',
@@ -522,7 +522,7 @@ export default class KbGbInfo extends React.Component {
         // sortDirections: ['ascend', 'descend', 'ascend'],
         // sorter: (a, b) =>{return a.price.localeCompare(b.price)},
         width: '10%',
-        responsive: ['xs']
+        responsive: ['sm']
       },
       {
         title: '截团时间',
@@ -530,7 +530,7 @@ export default class KbGbInfo extends React.Component {
         dataIndex: 'time',
         sorter: (a, b) =>{return a.time.localeCompare(b.time)},
         width: '15%',
-        responsive: ['xs']
+        responsive: ['sm']
       },
       {
         title: '进度',
@@ -538,7 +538,7 @@ export default class KbGbInfo extends React.Component {
         key: 'progress',
         width: '15%',
         sortDirections: ['ascend', 'descend', 'ascend'],
-        responsive: ['xs']
+        responsive: ['sm', 'xs']
       },
     ];
     return (
