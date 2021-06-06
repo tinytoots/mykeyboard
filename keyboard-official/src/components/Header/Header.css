@@ -1,4 +1,3 @@
-
 .header-root {
     margin-right:  10%;
     margin-left: 10%;
@@ -14,23 +13,26 @@
     background: #2c2c2e;
 }
 
-/* .ant-menu-item-selected {
-    border-bottom: 0px !important;
-    border-bottom-style: none !important;
+.ant-menu-item-selected {
+  border-color: green !important;
 }
 
-.ant-menu-item {
+.ant-menu-item:hover {
+    color: green !important;;
+    border-color: green !important;
+} 
+
+/* .ant-menu-item-selected {
     border-bottom: 0px !important;
-    border-bottom-style: none !important;
 } */
 
-.navModify {
+/* .navModify {
     border-bottom: 2px solid red !important;
 }
 
 .navModify2 {
     border-bottom: 2px solid #2c2c2e !important;
-}
+} */
 
 .inner{
     height: 50px;
@@ -51,5 +53,3 @@
 /* .ant-menu-item-selected {
     border-bottom: 0px
 } */
-
-
