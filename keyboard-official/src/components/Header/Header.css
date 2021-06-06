@@ -14,14 +14,30 @@
     background: #2c2c2e;
 }
 
+.ant-menu-item-selected {
+    border-bottom: 0px;
+    border-bottom: 2px solid #2c2c2e !important;
+}
+
 .inner{
     height: 50px;
     background: #2c2c2e;
 }
 
-.modified-item:hover {
-    border-bottom: 2px solid transparent !important;
-    color:  #2c2c2e !important;
+
+.ant-menu-horizontal > .ant-menu-item-active {
+    border-bottom: 2px solid #2c2c2e !important;
 }
+
+.ant-menu-horizontal > .ant-menu-item:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+
+
+/* .ant-menu-item-selected {
+    border-bottom: 0px
+} */
 
 

@@ -30,16 +30,16 @@ export default class Header extends React.Component {
           <img className='logo' src={logo} height={50} width={35} />
           </NavLink>
           <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
-            <Menu.Item key="keybaord">
+            <Menu.Item key="keybaord" className="modifiedItem">
               <NavLink to="/keybaord" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键盘</NavLink>
             </Menu.Item>
-            <Menu.Item key="keycap" className="modified-item">
+            <Menu.Item key="keycap" className="modifiedItem">
               <NavLink to="/keycap" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键帽</NavLink>
             </Menu.Item>
             {/* <Menu.Item key="problem">
               <NavLink to="/problem">键圈吐槽</NavLink>
             </Menu.Item> */}
-            <Menu.Item key="readme" className="modified-item">
+            <Menu.Item key="readme" className="modifiedItem">
               <NavLink to="/readme" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>说明</NavLink>
             </Menu.Item>
           </Menu>
