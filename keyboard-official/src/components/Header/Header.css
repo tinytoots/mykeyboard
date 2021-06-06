@@ -14,10 +14,15 @@
     background: #2c2c2e;
 }
 
-.ant-menu-item-selected {
+/* .ant-menu-item-selected {
     border-bottom: 0px !important;
     border-bottom-style: none !important;
 }
+
+.ant-menu-item {
+    border-bottom: 0px !important;
+    border-bottom-style: none !important;
+} */
 
 .inner{
     height: 50px;
