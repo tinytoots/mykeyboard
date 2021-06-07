@@ -97,7 +97,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$360',
+      priceInt: 360,
       time: '2021-04-08',
+      progressInt: thermal_seq2,
       progress: <Progress percent={thermal_seq2} />,
     },
     {
@@ -106,7 +108,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$160',
+      priceInt: 160,
       time: '2021-12-31',
+      progressInt: 100,
       progress: <Progress percent={100} />,
     },
     {
@@ -115,7 +119,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$400',
+      priceInt: 400,
       time: '2020-10-31',
+      progressInt: u80a_seq2,
       progress: <Progress percent={u80a_seq2} />,
       // progress: <Progress strokeColor="orange" percent={u80a_seq2} />,
     },
@@ -125,7 +131,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$400',
+      priceInt: 400,
       time: '2020-04-15',
+      progressInt: foundary_jules,
       progress: <Progress percent={foundary_jules} />,
     },
     {
@@ -134,7 +142,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$300',
+      priceInt: 300,
       time: '2020-05-31',
+      progressInt: 100 + m50a,
       progress: <Progress strokeColor="orange" percent={m50a} />,
     },
     {
@@ -143,7 +153,9 @@ const data = [
       brand: 'Smith + Rune',
       type: '锁区限量 亚洲500 全球1250',
       price: '$424',
+      priceInt: 424,
       time: '2021-02-27',
+      progressInt: iron165_r2,
       progress: <Progress percent={iron165_r2} />,
     },
     {
@@ -152,7 +164,9 @@ const data = [
       brand: 'Smith + Rune',
       type: '锁区限量 亚洲300 全球600',
       price: '$585',
+      priceInt: 585,
       time: '2020-11-14',
+      progressInt: iron180,
       progress: <Progress percent={iron180} />,
     },
     {
@@ -161,7 +175,9 @@ const data = [
       brand: 'Matrix Lab',
       type: '分段总限时15分钟',
       price: '¥2599',
+      priceInt: 2599 / 6.5,
       time: '2020-09-01',
+      progressInt: im,
       progress: <Progress percent={im} />,
     },
     {
@@ -170,7 +186,9 @@ const data = [
       brand: 'Matrix Lab',
       type: '分段总限时15分钟',
       price: '¥2699',
+      priceInt: 2699 / 6.5,
       time: '2021-01-06',
+      progressInt: matrix65,
       progress: <Progress percent={matrix65} />,
     },
     {
@@ -179,7 +197,9 @@ const data = [
       brand: 'Gray Studio',
       type: '不限量',
       price: '¥2699',
+      priceInt: 2699 / 6.5,
       time: '2021-05-10',
+      progressInt: space80,
       progress: <Progress percent={space80} />,
     },
     {
@@ -187,8 +207,10 @@ const data = [
       name: 'BOX75',
       brand: 'Lin Design Studio',
       type: '不限量',
-      price: '¥3499 | $550',
+      price: '$550',
+      priceInt: 550,
       time: '2021-02-19',
+      progressInt: box75,
       progress: <Progress percent={box75} />,
     },
     {
@@ -197,7 +219,9 @@ const data = [
       brand: 'ai03',
       type: '限量100',
       price: '¥4999',
+      priceInt: 4999 / 6.5,
       time: '2020-10-31',
+      progressInt: Andromeda,
       progress: <Progress percent={Andromeda} />,
     },
     {
@@ -206,7 +230,9 @@ const data = [
       brand: 'MelGeek',
       type: '限时4小时',
       price: '¥3299',
+      priceInt: 3299 / 6.5,
       time: '2021-04-30',
+      progressInt: mach80,
       progress: <Progress percent={mach80} />,
     },
     {
@@ -215,7 +241,9 @@ const data = [
       brand: 'Fox Lab',
       type: '不限量',
       price: '¥2551',
+      priceInt: 2551 / 6.5,
       time: '2021-01-02',
+      progressInt: leaf65,
       progress: <Progress percent={leaf65} />,
     },
     {
@@ -224,7 +252,9 @@ const data = [
       brand: 'Xikii',
       type: '不限量',
       price: '¥2499',
+      priceInt: 2499 / 6.5,
       time: '2021-05-10',
+      progressInt: mini1800,
       progress: <Progress percent={mini1800} />,
     },
     {
@@ -233,7 +263,9 @@ const data = [
       brand: 'Xikii',
       type: '不限量',
       price: '¥3670',
+      priceInt: 3670 / 6.5,
       time: '2021-05-10',
+      progressInt: master98,
       progress: <Progress percent={master98} />,
     },
     {
@@ -242,7 +274,9 @@ const data = [
       brand: 'Xikii',
       type: '准现货80套',
       price: '¥2980',
+      priceInt: 2980 / 6.5,
       time: '2021-05-15开团，售完为止',
+      progressInt: i104,
       progress: <Progress percent={i104} />,
     },
     {
@@ -251,7 +285,9 @@ const data = [
       brand: 'WILBA.TECH X Salvun',
       type: '不限量',
       price: '¥2285',
+      priceInt: 2285 / 6.5,
       time: '2021-05-07',
+      progressInt: salvation,
       progress: <Progress percent={salvation} />,
     },
     {
@@ -260,7 +296,9 @@ const data = [
       brand: 'Angry Miao',
       type: '未知',
       price: '¥3700',
+      priceInt: 3700 / 6.5,
       time: '2021-05-28',
+      progressInt: cyberboard_r2,
       progress: <Progress percent={cyberboard_r2} />,
     },
     {
@@ -269,7 +307,9 @@ const data = [
       brand: 'Angry Miao',
       type: '不限量',
       price: '$1600',
+      priceInt: 1600,
       time: '2021-07-29',
+      progressInt: am_hatsu,
       progress: <Progress percent={am_hatsu} />,
     },
     {
@@ -278,7 +318,9 @@ const data = [
       brand: 'Sakura Studio',
       type: '不限量',
       price: '$285',
+      priceInt: 285,
       time: '2021-03-16',
+      progressInt: fuji65,
       progress: <Progress percent={fuji65} />,
     },
     {
@@ -287,7 +329,9 @@ const data = [
       brand: 'MONOKEI x Thesiscamper',
       type: '不限量',
       price: '$419',
+      priceInt: 419,
       time: '2021-04-30',
+      progressInt: hidari,
       progress: <Progress percent={hidari} />,
     },
     {
@@ -296,7 +340,9 @@ const data = [
       brand: 'Jacky Lab',
       type: '不限量',
       price: '$428',
+      priceInt: 428,
       time: '2021-05-25',
+      progressInt: piggy60,
       progress: <Progress percent={piggy60} />,
     },
     {
@@ -305,7 +351,9 @@ const data = [
       brand: 'RAMA WORKS',
       type: '不限量',
       price: '$450',
+      priceInt: 450,
       time: '2020-07-30',
+      progressInt: 100 + ZENITH,
       progress: <Progress strokeColor="orange" percent={ZENITH} />,
     },
     // {
@@ -519,8 +567,8 @@ export default class KbGbInfo extends React.Component {
         title: '起售价',
         key: 'price',
         dataIndex: 'price',
-        // sortDirections: ['ascend', 'descend', 'ascend'],
-        // sorter: (a, b) =>{return a.price.localeCompare(b.price)},
+        sortDirections: ['ascend', 'descend', 'ascend'],
+        sorter: (a, b) =>{return a.priceInt - b.priceInt},
         width: '12%',
         responsive: ['sm']
       },
@@ -528,6 +576,7 @@ export default class KbGbInfo extends React.Component {
         title: '截团时间',
         key: 'time',
         dataIndex: 'time',
+        sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.time.localeCompare(b.time)},
         width: '20%',
         responsive: ['sm']
@@ -538,6 +587,7 @@ export default class KbGbInfo extends React.Component {
         key: 'progress',
         width: '20%',
         sortDirections: ['ascend', 'descend', 'ascend'],
+        sorter: (a, b) =>{return a.progressInt - b.progressInt},
         responsive: ['sm', 'xs']
       },
     ];

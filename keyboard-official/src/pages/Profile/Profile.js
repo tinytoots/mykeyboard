@@ -57,19 +57,19 @@ export default function Profile() {
                 </Paragraph> */}
 
                 {/* <Divider /> */}
-                <Text type="secondary">由于尺寸限制，手机端仅显示名称与进度，更多信息请使用电脑或iPad浏览</Text>
+                <Text type="secondary">由于尺寸限制，手机端竖屏仅显示名称与进度，如需更多信息请将手机横置或使用电脑，iPad等大屏设备浏览</Text>
                 <Title>介绍</Title>
                 <Paragraph>
-                大家好，我叫小恐龙，是一名机械键盘玩家。平时在键盘群里和大家聊天发现，目前还没有工具可以直观的显示当前键盘团购的进度，所以决定自己写一个，便于大家一起使用，也算为我们的键盘社区贡献一点自己的力量。这个网站的数据都是我一条一条查询添加的，为了尽可能保证数据准确性，我会找到对应的官方团购贴进行核对，但即使这样，<Text mark>由于我个人所能投入的精力有限，难免会出现数据不准确的情况，请大家谅解。如果大家发现以上问题欢迎随时给我<a href={`mailto:${customerEmail}?subject=数据纠正`} >发邮件</a>，我会尽快更新</Text>。同时如果大家对网站有什么建议或者需求也欢迎<a href={`mailto:${customerEmail}?subject=键盘网站建议`} >发邮件</a>联系我。后续我会开发新功能，希望这个网站能成为我们玩家群体共同的客制化网站！
+                大家好，我叫小恐龙，是一名机械键盘玩家。平时在键盘群里和大家聊天发现，目前还没有工具可以直观的显示当前键盘团购的进度，所以决定自己写一个，这样大家正好能一起用，也算为我们的键盘社区贡献一点自己的力量。这个网站的每一条数据都是我逐个查询添加的，为了尽可能保证数据准确性，我会找到对应的官方团购贴进行核对，但即使这样，<Text mark>由于我个人所能投入的精力有限，难免会出现数据不准确的情况，请大家谅解。如果大家发现以上问题欢迎随时给我<a href={`mailto:${customerEmail}?subject=数据纠正`} >发邮件</a>，我会尽快更新</Text>。同时如果大家对网站有什么建议或者有趣的功能也欢迎<a href={`mailto:${customerEmail}?subject=键盘网站建议`} >发邮件</a>联系我。后续我会根据大家的需求逐步开发迭代，希望这个网站能成为我们玩家群体共同的客制化网站！
                 </Paragraph>
                 <Paragraph>
                 <Text st>如果你想要查询的套件或者键帽在网站中没有显示，欢迎<a href={`mailto:${customerEmail}?subject=数据添加`} >发邮件</a>告知我，我会尽快添加</Text>。请在邮件中标明正确且完整的套件或键帽名称，如果能附带官方团购贴的链接或截图更好，这样可以帮助我大大节省确认信息的工作量，感谢！
                 </Paragraph>
                 <Paragraph>
-                关于网站域名，在买之前我并不知道有mykeyboard.eu这个网站。买的早不如买的巧，头脑一热一口气买了10年...由于域名和云服务均为自费，所以暂时就不更换了。如果mykeyboard.eu的所有者有所介意的话可以发邮件联系我，谢谢理解！
+                关于网站域名，俗话说买的早不如买的巧，在买之前我并不知道有mykeyboard.eu这个网站，直到往网站里录数据时才发现这个vendor。。。由于域名和云服务均为自费，所以暂时就不更换了(主要是头脑一热域名一口气买了10年...)。如果mykeyboard.eu的所有者有所介意的话可以发邮件联系我，谢谢理解！
                 </Paragraph>
                 特别感谢 <Link href="https://matrixzj.github.io/docs/sa-keycaps" target="_blank">
-                https://matrixzj.github.io/docs/sa-keycaps</Link> 这个网站的作者，在我统计键帽数据中提供了非常大的帮助，欢迎大家访问。<br/><br/>
+                https://matrixzj.github.io/docs/sa-keycaps</Link> 这个网站的作者，在我统计键帽数据中提供了非常大的帮助，欢迎大家访问！<br/><br/>
                 <Paragraph>Email: mykeyboardforfun@gmail.com</Paragraph>
                 <a href={`mailto:${customerEmail}`} >Send me an email and let's get in touch!</a> 
                 <Divider />
@@ -83,7 +83,7 @@ export default function Profile() {
                 <Progress className={'point'} strokeColor="red" percent={100} status="exception"/> &nbsp;&nbsp;&nbsp; 流团 <br/><br/>
                 <Title level={2}>关于内容</Title>
                 <Paragraph>
-                所有的套件和键帽只有截团才会添加并开始追踪进度，键帽部分目前只录入了<Text code>GMK</Text>和<Text code>SP SA</Text>，之后会陆续添加其他品牌键帽。我已经添加了我能找到的所有尚未发货的GMK和SP SA键帽，如果你的套件或键帽尚未发货且此网站没有记录，请<a href={`mailto:${customerEmail}?subject=数据添加`} >发邮件</a>联系我，我会尽快补充。
+                所有的套件和键帽只有截团才会添加并开始追踪进度，键帽部分目前只录入了<Text code>GMK</Text>和<Text code>SP SA</Text>，之后会陆续添加其他品牌键帽。我已经添加了我能找到的所有已截团且尚未发货的GMK和SP SA键帽，如果你发现有所遗漏，请<a href={`mailto:${customerEmail}?subject=数据添加`} >发邮件</a>联系我，我会尽快补充。
                 </Paragraph>
                 <Paragraph>
                 由于表格空间有限，GMK的价格仅显示Base价格，数量为Base数量。SP SA的价格仅为基础TKL的价格，数量为Alpha Kit的销售量。如果你想查看更详细的数据，可以在 <Link href="https://matrixzj.github.io/docs/sa-keycaps" target="_blank">
@@ -91,8 +91,9 @@ export default function Profile() {
                 </Paragraph>
                 <Divider />
                 <Paragraph>
-                希望这个网站能对你有所帮助，祝大家玩得开心！:)
+                希望这个网站能成为你的好帮手，祝大家玩得开心！:)
                 </Paragraph>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
             </Typography>
         </div>
     )
