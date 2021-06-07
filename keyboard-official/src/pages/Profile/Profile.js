@@ -93,7 +93,7 @@ export default function Profile() {
                 <Paragraph>
                 希望这个网站能成为你的好帮手，祝大家玩得开心！:)
                 </Paragraph>
-                <br/><br/><br/><br/><br/><br/><br/><br/>
+                <br/><br/><br/><br/>
             </Typography>
         </div>
     )
