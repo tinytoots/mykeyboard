@@ -549,7 +549,7 @@ export default class KbGbInfo extends React.Component {
         title: '品牌',
         dataIndex: 'brand',
         key: 'brand',
-        // defaultSortOrder: 'descend',
+        // defaultSortOrder: 'escend',
         ...this.getColumnSearchProps('brand'),
         sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.brand.localeCompare(b.brand)},
