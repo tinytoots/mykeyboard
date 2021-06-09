@@ -13,3 +13,35 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    position: relative;
+    padding: 16px 10px;
+    overflow-wrap: break-word;
+}
+
+.ant-table-row-expand-icon {
+    color: #1890ff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    position: relative;
+    display: inline-flex;
+    float: left;
+    box-sizing: border-box;
+    width: 17px;
+    height: 17px;
+    padding: 0;
+    color: inherit;
+    line-height: 17px;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    transform: scale(0.94117647);
+    transition: all 0.3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

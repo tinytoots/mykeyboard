@@ -594,11 +594,11 @@ export default class KbGbInfo extends React.Component {
     return (
         <div>
             <h2 className="keyboardTitle">键盘团购信息</h2>
-            {/* <Progress className={'point'} percent={99} showInfo={false}/> 进度 <br/>
-            <Progress className={'point'} strokeColor="orange" percent={99} showInfo={false}/> 延期 <br/>
-            <Progress className={'point'} percent={100} showInfo={false}/> 发货 <br/>
-            <Progress className={'point'} strokeColor="red" percent={99} showInfo={false}/> 流团 <br/> */}
             <Table className={'table'} columns={columns} dataSource={data} 
+            expandable={{
+              expandedRowRender: record => <p style={{ margin: 0 }}>品牌： {record.brand}<br/>团购类别： {record.type}<br/>起售价： {record.price}<br/>截团时间： {record.time}<br/>{record.progress} </p>,
+              rowExpandable: record => record.name !== 'Not Expandable',
+            }}
             pagination={{ defaultPageSize: 30}} />
         </div>
     )
