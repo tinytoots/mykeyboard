@@ -5,8 +5,7 @@ import appConstants from '../Constant/constant'
 import { Menu, Image } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom'
-import logo from './logo.svg';
-import logo2 from './logo2.svg';
+import logo3 from './logo3.svg';
 import headersolve from './headersolve.svg';
 
 
@@ -28,7 +27,7 @@ export default class Header extends React.Component {
       <div className='inner'>
         <div className='header-root'>
           <NavLink to="/keybaord">
-          <img className='logo' src={logo} height={50} width={35} />
+          <img className='logo' src={logo3} height={50} width={35} />
           </NavLink>
           <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
             <Menu.Item key="keybaord" className='navModify'>

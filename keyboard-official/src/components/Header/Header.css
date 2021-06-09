@@ -25,6 +25,14 @@
     border-bottom-color: #2c2c2e !important;
 }
 
+
+.ant-menu-horizontal {
+    line-height: 46px;
+    border: 0;
+    border-bottom: 0px solid #2c2c2e !important;
+    box-shadow: none;
+}
+
 /* .ant-menu-item-selected {
   border-color: green !important;
 }
