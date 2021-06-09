@@ -1,0 +1,78 @@
+.inner-footer2{
+    height: 160px;
+    background: #2c2c2e;
+}
+
+.header-root2{
+    margin-right:  10%;
+    margin-left: 10%;
+    background-color: #2c2c2e;
+} 
+
+.logo222 {
+    margin-top: 25px;
+    float: left;
+    margin-left: 40%;
+}
+
+.ant-menu{
+    background: #2c2c2e;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected {
+    color: #2c2c2e !important;
+    border-bottom: 0px solid #2c2c2e !important;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item:hover:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-active:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-open:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu-selected:after, .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-submenu:hover:after {
+    border-bottom: 0px solid #2c2c2e !important;
+    border-bottom-width: 0px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: #2c2c2e !important;
+}
+
+.ant-menu-horizontal {
+    line-height: 46px;
+    border: 0;
+    border-bottom: 0px solid #2c2c2e !important;
+    box-shadow: none;
+}
+
+
+
+.footer-copyright {
+    float: center;
+    margin-top: 10px;
+    color: #8e8e93;
+    font-size: 13px;
+}
+
+.gray-lane {
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1px;
+    background-color: #3a3a3c;
+    width: 80%
+}
+
+.contactInfo {
+    color: red;
+}
+
+.footer-contact {
+    margin-right: 13%;
+    text-align: right;
+}
+
+.footer-contact h5 {
+    margin-right: 109px;
+    margin-top: 20px;
+    color: #d1d1d6;
+}
+
+.footer-contact p {
+    margin-right: 4px;
+    color: #d1d1d6;
+    
+}

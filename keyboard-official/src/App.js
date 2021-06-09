@@ -6,6 +6,7 @@ import Profile from './pages/Profile/Profile'
 import Price from './pages/Price/Price'
 import Problem from './pages/Problem/Problem'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/" component={Home} /> 
           <Redirect to="/" />
         </Switch>
+        <Footer />
       </div>
     </div>
   );
