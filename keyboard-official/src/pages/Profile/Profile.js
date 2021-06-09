@@ -69,7 +69,8 @@ export default function Profile() {
                 关于网站域名，俗话说买的早不如买的巧，在买之前我并不知道有mykeyboard.eu这个网站，直到往网站里录数据时才发现这个vendor。。。由于域名和云服务均为自费，所以暂时就不更换了(主要是头脑一热域名一口气买了10年...)。如果mykeyboard.eu的所有者有所介意的话可以发邮件联系我，谢谢理解！
                 </Paragraph>
                 特别感谢 <Link href="https://matrixzj.github.io/docs/sa-keycaps" target="_blank">
-                https://matrixzj.github.io/docs/sa-keycaps</Link> 这个网站的作者，在我统计键帽数据中提供了非常大的帮助，欢迎大家访问！<br/><br/>
+                https://matrixzj.github.io/docs/sa-keycaps</Link> 这个网站的作者狗子哥，在我统计键帽数据中提供了非常大的帮助，欢迎大家访问！<br/><br/>感谢KeyboardDaily的作者 @苍云暮雪 将我的网站纳入客制化网站大全，苍老师的网站几乎囊括了你可能需要的所有客制化网站信息资源。他的网站在这里 <Link href="http://www.keyboarddaily.cn/mechaddress.html" target="_blank">
+                http://www.keyboarddaily.cn/mechaddress.html</Link><br/><br/>
                 <Paragraph>Email: mykeyboardforfun@gmail.com</Paragraph>
                 <a href={`mailto:${customerEmail}`} >Send me an email and let's get in touch!</a> 
                 <Divider />
