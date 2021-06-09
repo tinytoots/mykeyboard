@@ -27,7 +27,7 @@ export default class Header extends React.Component {
       <div className='inner'>
         <div className='header-root'>
           <NavLink to="/keybaord">
-          <img className='logo' src={logo3} height={50} width={35} />
+          <img className='logo' src={logo3} width={35} />
           </NavLink>
           <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
             <Menu.Item key="keybaord" className='navModify'>
