@@ -596,7 +596,17 @@ export default class KbGbInfo extends React.Component {
             <h2 className="keyboardTitle">键盘团购信息</h2>
             <Table className={'table'} columns={columns} dataSource={data} 
             expandable={{
-              expandedRowRender: record => <p style={{ margin: 0 }}>品牌： {record.brand}<br/>团购类别： {record.type}<br/>起售价： {record.price}<br/>截团时间： {record.time}<br/>{record.progress} </p>,
+              expandedRowRender: record => <p style={{ margin: 0 }}>
+                品牌： {record.brand}<br/>
+                团购类别： {record.type}<br/>
+                起售价： {record.price}<br/>
+                截团时间： {record.time}<br/>
+                {record.progress} 
+                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> 进度 &nbsp;
+                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> 延期 &nbsp;
+                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#52C41A"/> 发货 &nbsp;
+                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FF4D4F"/> 流团
+                </p>,
               rowExpandable: record => record.name !== 'Not Expandable',
               responsive: ['sm', 'xs'],
             }}
