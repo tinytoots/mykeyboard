@@ -14,10 +14,12 @@
     margin-bottom: 20px;
 }
 
+
 .ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
     position: relative;
-    padding: 16px 10px;
+    padding: 16px 16px;
     overflow-wrap: break-word;
+    margin-left: 10px;
 }
 
 .ant-table-row-expand-icon {
@@ -35,7 +37,7 @@
     color: inherit;
     line-height: 17px;
     background: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #f0f0f0;
     border-radius: 2px;
     outline: none;
     transform: scale(0.94117647);
@@ -44,4 +46,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+.ant-table-row-expand-icon-cell {
+    text-align: center;
+    /* background-color: red; */
+    width: 1%;
 }

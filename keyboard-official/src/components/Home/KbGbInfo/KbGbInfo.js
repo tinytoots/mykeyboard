@@ -585,7 +585,7 @@ export default class KbGbInfo extends React.Component {
         title: '进度',
         dataIndex: 'progress',
         key: 'progress',
-        width: '20%',
+        width: '35%',
         sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.progressInt - b.progressInt},
         responsive: ['sm', 'xs']
@@ -598,6 +598,7 @@ export default class KbGbInfo extends React.Component {
             expandable={{
               expandedRowRender: record => <p style={{ margin: 0 }}>品牌： {record.brand}<br/>团购类别： {record.type}<br/>起售价： {record.price}<br/>截团时间： {record.time}<br/>{record.progress} </p>,
               rowExpandable: record => record.name !== 'Not Expandable',
+              responsive: ['sm', 'xs'],
             }}
             pagination={{ defaultPageSize: 30}} />
         </div>

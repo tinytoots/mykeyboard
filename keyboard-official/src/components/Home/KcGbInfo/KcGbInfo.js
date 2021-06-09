@@ -1712,7 +1712,7 @@ export default class KbGbInfo extends React.Component {
         title: '进度',
         dataIndex: 'progress',
         key: 'progress',
-        width: '20%',
+        width: '35%',
         sortDirections: ['ascend', 'descend', 'ascend'],
         sorter: (a, b) =>{return a.progressInt - b.progressInt},
         responsive: ['sm', 'xs']
