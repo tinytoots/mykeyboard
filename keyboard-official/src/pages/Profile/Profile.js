@@ -57,6 +57,7 @@ export default function Profile() {
                 </Paragraph> */}
 
                 {/* <Divider /> */}
+                {/* <h2 className="keycapTitle">键帽团购信息</h2> */}
                 <Text type="secondary">手机横置或使用电脑，iPad等大屏设备浏览可对更多内容进行排序或搜索</Text>
                 <Title>介绍</Title>
                 <Paragraph>
