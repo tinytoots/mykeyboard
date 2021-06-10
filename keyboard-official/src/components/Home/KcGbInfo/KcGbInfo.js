@@ -480,6 +480,8 @@ const data = [
       time: '2021-04-02',
       progress: <Progress percent={WOB_Shinethrough} />,
       progressInt: WOB_Shinethrough,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/WOB-Shinethrough/" target="_blank">
+      https://shinethrough</Link>,
     },
     {
       key: '22',
@@ -491,6 +493,8 @@ const data = [
       time: '2021-04-09',
       progress: <Progress percent={Red_Alert_R2} />,
       progressInt: Red_Alert_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Alert-R2/" target="_blank">
+      https://red-alert-r2</Link>,
     },
     {
       key: '23',
@@ -502,6 +506,8 @@ const data = [
       time: '2021-03-26',
       progress: <Progress percent={Colorchrome} />,
       progressInt: Colorchrome,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Colorchrome/" target="_blank">
+      https://colorchrome</Link>,
     },
     {
       key: '24',
@@ -513,6 +519,8 @@ const data = [
       time: '2021-04-05',
       progress: <Progress percent={Astral_Light} />,
       progressInt: Astral_Light,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Astral-Light/" target="_blank">
+      https://astral</Link>,
     },
     {
       key: '25',
@@ -524,6 +532,8 @@ const data = [
       time: '2021-04-03',
       progress: <Progress percent={Nightshade} />,
       progressInt: Nightshade,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Nightshade/" target="_blank">
+      https://nightshade</Link>,
     },
     {
       key: '26',
@@ -535,6 +545,8 @@ const data = [
       time: '2021-04-06',
       progress: <Progress percent={Striker_R2} />,
       progressInt: Striker_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Striker-R2/" target="_blank">
+      https://striker-r2</Link>,
     },
     {
       key: '27',
@@ -546,6 +558,8 @@ const data = [
       time: '2021-04-02',
       progress: <Progress percent={Yeeti} />,
       progressInt: Yeeti,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Yeeti/" target="_blank">
+      https://yeeti</Link>,
     },
     {
       key: '28',
@@ -557,6 +571,8 @@ const data = [
       time: '2021-03-30',
       progress: <Progress percent={Norse} />,
       progressInt: Norse,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/norse/" target="_blank">
+      https://norse</Link>,
     },
     {
       key: '29',
@@ -568,6 +584,8 @@ const data = [
       time: '2021-03-31',
       progress: <Progress percent={Cobalt} />,
       progressInt: Cobalt,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Cobalt/" target="_blank">
+      https://cobalt</Link>,
     },
     {
       key: '30',
@@ -579,6 +597,8 @@ const data = [
       time: '2021-03-31',
       progress: <Progress percent={Start} />,
       progressInt: Start,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Star/" target="_blank">
+      https://star</Link>,
     },
     {
       key: '31',
@@ -590,6 +610,8 @@ const data = [
       time: '2021-03-15',
       progress: <Progress percent={Inukuma} />,
       progressInt: Inukuma,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Inukuma/" target="_blank">
+      https://inukuma</Link>,
     },
     {
       key: '32',
@@ -601,6 +623,8 @@ const data = [
       time: '2021-03-15',
       progress: <Progress percent={Iceberg} />,
       progressInt: Iceberg,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Iceberg/" target="_blank">
+      https://iceberg</Link>,
     },
     {
       key: '33',
@@ -612,6 +636,8 @@ const data = [
       time: '2021-03-12',
       progress: <Progress percent={Devoted} />,
       progressInt: Devoted,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Devoted/" target="_blank">
+      https://devoted</Link>,
     },
     {
       key: '34',
@@ -623,6 +649,8 @@ const data = [
       time: '2021-03-14',
       progress: <Progress percent={Maestro} />,
       progressInt: Maestro,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Maestro/" target="_blank">
+      https://maestro</Link>,
     },
     {
       key: '35',
@@ -634,6 +662,8 @@ const data = [
       time: '2021-02-28',
       progress: <Progress percent={Umka} />,
       progressInt: Umka,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Umka/" target="_blank">
+      https://umka</Link>,
     },
     {
       key: '36',
@@ -645,6 +675,8 @@ const data = [
       time: '2021-02-26',
       progress: <Progress percent={Dots_R2} />,
       progressInt: Dots_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dots-R2/" target="_blank">
+      https://dots-r2</Link>,
     },
     {
       key: '37',
@@ -656,6 +688,8 @@ const data = [
       time: '2021-03-03',
       progress: <Progress percent={Dandy} />,
       progressInt: Dandy,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dandy/" target="_blank">
+      https://dandy</Link>,
     },
     {
       key: '38',
@@ -667,6 +701,8 @@ const data = [
       time: '2021-02-28',
       progress: <Progress percent={Tuzi} />,
       progressInt: Tuzi,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Tuzi/" target="_blank">
+      https://tuzi</Link>,
     },
     {
       key: '39',
@@ -678,6 +714,8 @@ const data = [
       time: '2021-02-26',
       progress: <Progress percent={Sleeves_R2} />,
       progressInt: Sleeves_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mr-Sleeves-R2/" target="_blank">
+      https://mr-sleeves-r2</Link>,
     },
     {
       key: '40',
@@ -689,6 +727,8 @@ const data = [
       time: '2021-02-28',
       progress: <Progress percent={Birch} />,
       progressInt: Birch,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Birch/" target="_blank">
+      https://birch</Link>,
     },
     {
       key: '41',
@@ -1628,7 +1668,7 @@ const data = [
       progress: <Progress percent={Sparta} />,
       progressInt: Sparta,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+      https://sparta</Link> 
     },
     {
       key: '126',
@@ -1642,7 +1682,7 @@ const data = [
       progress: <Progress percent={Deepwell} />,
       progressInt: Deepwell,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Deepwell/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Deepwell/</Link> 
+      https://deepwell</Link> 
     },
     {
       key: '127',
@@ -1656,7 +1696,7 @@ const data = [
       progress: <Progress percent={Moai} />,
       progressInt: Moai,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Moai/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Moai/</Link> 
+      https://moai</Link> 
     },
     {
       key: '128',
@@ -1670,7 +1710,7 @@ const data = [
       progress: <Progress percent={Handarbeit_Nachtarbeit} />,
       progressInt: Handarbeit_Nachtarbeit,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Handarbeit-R2-%26-Nachtarbeit/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Handarbeit-R2-%26-Nachtarbeit/</Link> 
+      https://handarbeit</Link> 
     },
     {
       key: '129',
@@ -1684,7 +1724,7 @@ const data = [
       progress: <Progress percent={Dualshot_R2} />,
       progressInt: Dualshot_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dualshot-R2/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Dualshot-R2/</Link> 
+      https://dualshot-r2/</Link> 
     }, 
     {
       key: '130',
@@ -1698,7 +1738,7 @@ const data = [
       progress: <Progress percent={Lazurite} />,
       progressInt: Lazurite,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lazurite/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Lazurite/</Link> 
+      https://lazurite</Link> 
     },
     {
       key: '131',
@@ -1712,7 +1752,7 @@ const data = [
       progress: <Progress strokeColor="orange" percent={Apollo} />,
       progressInt: Apollo,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Apollo/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Apollo/</Link> 
+      https://apollo</Link> 
     }, 
     {
       key: '132',
@@ -1726,7 +1766,7 @@ const data = [
       progress: <Progress percent={Lunar} />,
       progressInt: Lunar,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lunar/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Lunar/</Link> 
+      https://lunar</Link> 
     },
     {
       key: '133',
@@ -1740,7 +1780,7 @@ const data = [
       progress: <Progress percent={Wild} />,
       progressInt: Wild,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Wild/</Link> 
+      https://wild</Link> 
     }, 
     // {
     //   key: '125',

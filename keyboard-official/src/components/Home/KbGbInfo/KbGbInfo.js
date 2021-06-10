@@ -256,7 +256,7 @@ const data = [
       progressInt: Andromeda,
       progress: <Progress strokeColor="orange" percent={Andromeda} />,
       detail: <Link href="https://cannonkeys.com/products/gb-andromeda-keyboard-by-ai03-reference" target="_blank">
-      https://cannonkeys.com/products/gb-andromeda-keyboard</Link> 
+      https://andromeda</Link> 
     },
     {
       key: '13',
