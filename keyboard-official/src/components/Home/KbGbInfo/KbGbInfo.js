@@ -174,7 +174,7 @@ const data = [
       progressInt: iron165_r2,
       progress: <Progress percent={iron165_r2} />,
       detail: <Link href="https://geekhack.org/index.php?topic=110985.0" target="_blank">
-      https://iron165</Link> 
+      https://iron165-r2</Link> 
     },
     {
       key: '7',
@@ -505,14 +505,7 @@ const data = [
 
 
 
-
-
-
-
-
-
-
-
+  
 
 
 

@@ -36,5 +36,11 @@
 .inner{
     height: 50px;
     background: #2c2c2e;
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+    right: 0;
+    z-index: 1000;
 }
 
