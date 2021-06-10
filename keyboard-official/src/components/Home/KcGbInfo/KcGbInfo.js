@@ -1692,7 +1692,7 @@ const data = [
       brand: 'GMK',
       quantity: '未知',
       price: '¥1488',
-      priceInt: 1488 / 7.04,
+      priceInt: 1488 / 6.5,
       time: '2020-05-06',
       shipping: 'June 2021完成生产',
       progress: <Progress percent={Wild} />,
@@ -1700,48 +1700,48 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
       https://matrixzj.github.io/docs/gmk-keycaps/Wild/</Link> 
     }, 
-    {
-      key: '125',
-      name: 'Sparta',
-      brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      priceInt: 120,
-      time: '2021-06-04',
-      shipping: 'Q2 2022',
-      progress: <Progress percent={Sparta} />,
-      progressInt: Sparta,
-      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    },
-    {
-      key: '125',
-      name: 'Sparta',
-      brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      priceInt: 120,
-      time: '2021-06-05',
-      shipping: 'March 2022',
-      progress: <Progress percent={Sparta} />,
-      progressInt: Sparta,
-      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    }, 
-    {
-      key: '125',
-      name: 'Sparta',
-      brand: 'GMK',
-      quantity: '未知',
-      price: '$120',
-      priceInt: 120,
-      time: '2021-06-04',
-      shipping: 'Q2 2022',
-      progress: <Progress percent={Sparta} />,
-      progressInt: Sparta,
-      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: '未知',
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: '未知',
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-05',
+    //   shipping: 'March 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // }, 
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: '未知',
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
   ];
 
 

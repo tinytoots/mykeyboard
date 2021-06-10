@@ -44,7 +44,7 @@ export default class Header extends React.Component {
         
         <div className='gray-lane' />
         <Paragraph>
-        <p className='footer-copyright'>Made with ❤️ By Chen</p>
+        <p className='footer-copyright'>Made with 🤪 By Chen</p>
         </Paragraph>
       </div>
     );

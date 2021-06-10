@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './KbGbInfo.css';
-import { Table, Input, Button, Space } from 'antd';
+import { Table, Input, Button, Space, Typography, Progress } from 'antd';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import { Progress } from 'antd';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
+
+const { Title, Paragraph, Text, Link } = Typography;
 
 function progressCal(start, end) {
   var startDate = new Date(start); 
@@ -61,7 +62,7 @@ function delayCal(start, end) {
 var thermal_seq2 = progressCal("4/8/2021", "9/1/2022").toFixed(1);
 var kara = progressCal("12/31/2020", "6/1/2021").toFixed(1);
 var u80a_seq2 = progressCal("10/31/2020", "6/30/2021").toFixed(1);
-var foundary_jules = progressCal("4/15/2020", "6/23/2021").toFixed(1);
+var foundary_jules = progressCal("4/15/2020", "6/30/2021").toFixed(1);
 var m50a = delayCal("5/31/2020", "12/31/2020").toFixed(1);
 var iron165_r2 = progressCal("2/27/2021", "3/1/2022").toFixed(1);
 var iron180 = progressCal("11/14/2020", "10/1/2021").toFixed(1);
@@ -69,7 +70,7 @@ var im = progressCal("9/1/2020", "9/1/2021").toFixed(1);
 var matrix65 = progressCal("1/6/2021", "7/1/2021").toFixed(1);
 var space80 = progressCal("5/10/2021", "11/31/2021").toFixed(1);
 var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
-var Andromeda = progressCal("10/31/2020", "6/30/2021").toFixed(1);
+var Andromeda = delayCal("10/31/2020", "5/31/2021").toFixed(1);
 var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
 var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
@@ -81,7 +82,7 @@ var cyberboard_r2 = progressCal("5/28/2021", "7/31/2021").toFixed(1);
 var am_hatsu = progressCal("4/29/2021", "10/29/2021").toFixed(1);
 var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
 var piggy60 = progressCal("5/25/2021", "9/30/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2021").toFixed(1);
 var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
@@ -99,8 +100,11 @@ const data = [
       price: '$360',
       priceInt: 360,
       time: '2021-04-08',
+      shipping: 'Q3 2022',
       progressInt: thermal_seq2,
       progress: <Progress percent={thermal_seq2} />,
+      detail: <Link href="https://ramaworks.store/products/thermal-seq2?variant=32876632735822" target="_blank">
+      https://ramaworks.store/products/thermal-seq2</Link> 
     },
     {
       key: '2',
@@ -110,8 +114,11 @@ const data = [
       price: '$160',
       priceInt: 160,
       time: '2021-12-31',
+      shipping: '已发货',
       progressInt: 100,
       progress: <Progress percent={100} />,
+      detail: <Link href="https://ramaworks.store/products/kara" target="_blank">
+      https://ramaworks.store/products/kara</Link> 
     },
     {
       key: '3',
@@ -121,9 +128,11 @@ const data = [
       price: '$400',
       priceInt: 400,
       time: '2020-10-31',
+      shipping: 'Q2 2021',
       progressInt: u80a_seq2,
       progress: <Progress percent={u80a_seq2} />,
-      // progress: <Progress strokeColor="orange" percent={u80a_seq2} />,
+      detail: <Link href="https://ramaworks.store/products/u80-a-seq2" target="_blank">
+      https://ramaworks.store/products/u80-a-seq2</Link> 
     },
     {
       key: '4',
@@ -133,8 +142,11 @@ const data = [
       price: '$400',
       priceInt: 400,
       time: '2020-04-15',
+      shipping: 'Q2 2021',
       progressInt: foundary_jules,
       progress: <Progress percent={foundary_jules} />,
+      detail: <Link href="https://ramaworks.store/products/jules" target="_blank">
+      https://ramaworks.store/products/jules</Link> 
     },
     {
       key: '5',
@@ -144,8 +156,11 @@ const data = [
       price: '$300',
       priceInt: 300,
       time: '2020-05-31',
+      shipping: 'Dec 2020',
       progressInt: 100 + m50a,
       progress: <Progress strokeColor="orange" percent={m50a} />,
+      detail: <Link href="http://www.mechgroupbuys.com/keyboards/RAMA%20M50-A%20GRID" target="_blank">
+      http://www.mechgroupbuys.com/keyboards/RAMA%20M50-A%20GRID</Link> 
     },
     {
       key: '6',
@@ -155,8 +170,11 @@ const data = [
       price: '$424',
       priceInt: 424,
       time: '2021-02-27',
+      shipping: 'Mar 2022',
       progressInt: iron165_r2,
       progress: <Progress percent={iron165_r2} />,
+      detail: <Link href="https://geekhack.org/index.php?topic=110985.0" target="_blank">
+      https://geekhack.org/index.php?topic=110985.0</Link> 
     },
     {
       key: '7',
@@ -166,8 +184,11 @@ const data = [
       price: '$585',
       priceInt: 585,
       time: '2020-11-14',
+      shipping: 'Q3 2021',
       progressInt: iron180,
       progress: <Progress percent={iron180} />,
+      detail: <Link href="https://geekhack.org/index.php?topic=105245.0" target="_blank">
+      https://geekhack.org/index.php?topic=105245.0</Link> 
     },
     {
       key: '8',
@@ -177,8 +198,10 @@ const data = [
       price: '¥2599',
       priceInt: 2599 / 6.5,
       time: '2020-09-01',
+      shipping: 'Q3 2021',
       progressInt: im,
       progress: <Progress percent={im} />,
+      detail: '请访问Matrix Lab QQ群'
     },
     {
       key: '9',
@@ -188,8 +211,10 @@ const data = [
       price: '¥2699',
       priceInt: 2699 / 6.5,
       time: '2021-01-06',
+      shipping: 'Q2 2021',
       progressInt: matrix65,
       progress: <Progress percent={matrix65} />,
+      detail: '请访问Matrix Lab QQ群'
     },
     {
       key: '10',
@@ -199,8 +224,11 @@ const data = [
       price: '¥2699',
       priceInt: 2699 / 6.5,
       time: '2021-05-10',
+      shipping: '2021-11-15',
       progressInt: space80,
       progress: <Progress percent={space80} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/4KoRoAg8Qdd5" target="_blank">
+      https://www.zfrontier.com/app/flow/4KoRoAg8Qdd5</Link> 
     },
     {
       key: '11',
@@ -210,8 +238,11 @@ const data = [
       price: '$550',
       priceInt: 550,
       time: '2021-02-19',
+      shipping: '2021年底',
       progressInt: box75,
       progress: <Progress percent={box75} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/4bJOWrJoYrRo" target="_blank">
+      https://www.zfrontier.com/app/flow/4bJOWrJoYrRo</Link> 
     },
     {
       key: '12',
@@ -221,8 +252,11 @@ const data = [
       price: '¥4999',
       priceInt: 4999 / 6.5,
       time: '2020-10-31',
+      shipping: 'May 2021',
       progressInt: Andromeda,
-      progress: <Progress percent={Andromeda} />,
+      progress: <Progress strokeColor="orange" percent={Andromeda} />,
+      detail: <Link href="https://cannonkeys.com/products/gb-andromeda-keyboard-by-ai03-reference" target="_blank">
+      https://cannonkeys.com/products/gb-andromeda-keyboard</Link> 
     },
     {
       key: '13',
@@ -232,8 +266,11 @@ const data = [
       price: '¥3299',
       priceInt: 3299 / 6.5,
       time: '2021-04-30',
+      shipping: '4个月',
       progressInt: mach80,
       progress: <Progress percent={mach80} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/D6MNdX0Ep0K5" target="_blank">
+      https://www.zfrontier.com/app/flow/D6MNdX0Ep0K5</Link> 
     },
     {
       key: '14',
@@ -243,8 +280,11 @@ const data = [
       price: '¥2551',
       priceInt: 2551 / 6.5,
       time: '2021-01-02',
+      shipping: 'Q3 2021',
       progressInt: leaf65,
       progress: <Progress percent={leaf65} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/45aqZ63Yn85J" target="_blank">
+      https://www.zfrontier.com/app/flow/45aqZ63Yn85J</Link> 
     },
     {
       key: '15',
@@ -254,8 +294,11 @@ const data = [
       price: '¥2499',
       priceInt: 2499 / 6.5,
       time: '2021-05-10',
+      shipping: '三个月',
       progressInt: mini1800,
       progress: <Progress percent={mini1800} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
+      https://www.zfrontier.com/app/flow/2aVbAwVW8r8d</Link> 
     },
     {
       key: '16',
@@ -265,8 +308,11 @@ const data = [
       price: '¥3670',
       priceInt: 3670 / 6.5,
       time: '2021-05-10',
+      shipping: '三个月',
       progressInt: master98,
       progress: <Progress percent={master98} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
+      https://www.zfrontier.com/app/flow/2aVbAwVW8r8d</Link> 
     },
     {
       key: '17',
@@ -276,8 +322,11 @@ const data = [
       price: '¥2980',
       priceInt: 2980 / 6.5,
       time: '2021-05-15开团，售完为止',
+      shipping: '一个月',
       progressInt: i104,
       progress: <Progress percent={i104} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2JKxrvL3YlyO" target="_blank">
+      https://www.zfrontier.com/app/flow/2JKxrvL3YlyO</Link> 
     },
     {
       key: '18',
@@ -287,8 +336,11 @@ const data = [
       price: '¥2285',
       priceInt: 2285 / 6.5,
       time: '2021-05-07',
+      shipping: '2021年底',
       progressInt: salvation,
       progress: <Progress percent={salvation} />,
+      detail: <Link href="https://www.zfrontier.com/app/mch/1kwQEapmnrM1" target="_blank">
+      https://www.zfrontier.com/app/mch/1kwQEapmnrM1</Link> 
     },
     {
       key: '19',
@@ -298,8 +350,11 @@ const data = [
       price: '¥3700',
       priceInt: 3700 / 6.5,
       time: '2021-05-28',
+      shipping: '2021 7月底',
       progressInt: cyberboard_r2,
       progress: <Progress percent={cyberboard_r2} />,
+      detail: <Link href="https://www.angrymiao.com/cyberboard-r2/" target="_blank">
+      https://www.angrymiao.com/cyberboard-r2/</Link> 
     },
     {
       key: '20',
@@ -309,19 +364,25 @@ const data = [
       price: '$1600',
       priceInt: 1600,
       time: '2021-07-29',
+      shipping: '2021-10-29',
       progressInt: am_hatsu,
       progress: <Progress percent={am_hatsu} />,
+      detail: <Link href="https://www.angrymiao.com/am-hatsu/" target="_blank">
+      https://www.angrymiao.com/am-hatsu/</Link> 
     },
     {
       key: '21',
       name: 'Fuji65',
       brand: 'Sakura Studio',
       type: '不限量',
-      price: '$285',
-      priceInt: 285,
-      time: '2021-03-16',
+      price: '¥1399',
+      priceInt: 1399 / 6.5,
+      time: '2020-10-20',
+      shipping: '已发货',
       progressInt: fuji65,
-      progress: <Progress percent={fuji65} />,
+      progress: <Progress percent={100} />,
+      detail: <Link href="https://www.zfrontier.com/app/flow/epZ0136PqQmE" target="_blank">
+      https://www.zfrontier.com/app/flow/epZ0136PqQmE</Link> 
     },
     {
       key: '22',
@@ -331,8 +392,11 @@ const data = [
       price: '$419',
       priceInt: 419,
       time: '2021-04-30',
+      shipping: 'Q4 2021',
       progressInt: hidari,
       progress: <Progress percent={hidari} />,
+      detail: <Link href="https://monokei.co/products/hidari" target="_blank">
+      https://monokei.co/products/hidari</Link> 
     },
     {
       key: '23',
@@ -342,8 +406,11 @@ const data = [
       price: '$428',
       priceInt: 428,
       time: '2021-05-25',
+      shipping: 'Sept 2021',
       progressInt: piggy60,
       progress: <Progress percent={piggy60} />,
+      detail: <Link href="https://jackylab.com/collections/piggy-60-gb" target="_blank">
+      https://jackylab.com/collections/piggy-60-gb</Link> 
     },
     {
       key: '24',
@@ -353,8 +420,11 @@ const data = [
       price: '$450',
       priceInt: 450,
       time: '2020-07-30',
+      shipping: 'Q1 2021',
       progressInt: 100 + ZENITH,
       progress: <Progress strokeColor="orange" percent={ZENITH} />,
+      detail: <Link href="https://ramaworks.store/products/zenith-keyboard?_pos=2%26_sid=3de98b01f%26_ss=r" target="_blank">
+      https://ramaworks.store/products/zenith-keyboard</Link> 
     },
     // {
     //   key: '23',
@@ -601,6 +671,8 @@ export default class KbGbInfo extends React.Component {
                 团购类别： {record.type}<br/>
                 起售价： {record.price}<br/>
                 截团时间： {record.time}<br/>
+                预计发货： {record.shipping}<br/>
+                详情： {record.detail}<br/>
                 {record.progress} 
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> 进度 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> 延期 &nbsp;
