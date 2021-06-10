@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Table, Input, Button, Space } from 'antd';
+import { Table, Input, Button, Space, Typography, Progress } from 'antd';
 import './KcGbInfo.css';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import { Progress } from 'antd';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
+
+const { Title, Paragraph, Text, Link } = Typography;
 
 function progressCal(start, end) {
   var startDate = new Date(start); 
@@ -181,12 +182,29 @@ var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Espresso = progressCal("5/14/2021", "6/14/2022").toFixed(1);
 var Ramses = progressCal("5/14/2021", "9/30/2022").toFixed(1);
 var Tang = progressCal("5/27/2021", "8/31/2022").toFixed(1);
-// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-// var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-
+var Sparta = progressCal("6/5/2021", "3/31/2022").toFixed(1);
+var Deepwell = progressCal("6/4/2021", "6/30/2022").toFixed(1);
+var Moai = progressCal("6/4/2021", "6/30/2022").toFixed(1);
+var Handarbeit_Nachtarbeit = progressCal("6/3/2021", "5/31/2022").toFixed(1);
+var Dualshot_R2 = progressCal("6/4/2021", "6/30/2022").toFixed(1);
+var Lazurite = progressCal("6/5/2021", "6/30/2022").toFixed(1);
+var Apollo = delayCal("3/25/2020", "5/31/2021").toFixed(1);
+var Lunar = progressCal("4/3/2020", "7/31/2021").toFixed(1);
+var Wild = progressCal("5/6/2020", "6/30/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 
 
 // document.write("<br><br>进度" + u80a_seq2);
@@ -1556,12 +1574,179 @@ const data = [
       progress: <Progress percent={Tang} />,
       progressInt: Tang,
     },
-    
+    {
+      key: '125',
+      name: 'Sparta',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-05',
+      shipping: 'March 2022',
+      progress: <Progress percent={Sparta} />,
+      progressInt: Sparta,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    },
+    {
+      key: '126',
+      name: 'Deepwell',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$125',
+      priceInt: 125,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Deepwell} />,
+      progressInt: Deepwell,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Deepwell/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Deepwell/</Link> 
+    },
+    {
+      key: '127',
+      name: 'Moai',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Moai} />,
+      progressInt: Moai,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Moai/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Moai/</Link> 
+    },
+    {
+      key: '128',
+      name: 'Handarbeit R2 & Nachtarbeit',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-03',
+      shipping: '2022-05-31',
+      progress: <Progress percent={Handarbeit_Nachtarbeit} />,
+      progressInt: Handarbeit_Nachtarbeit,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Handarbeit-R2-%26-Nachtarbeit/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Handarbeit-R2-%26-Nachtarbeit/</Link> 
+    },
+    {
+      key: '129',
+      name: 'Dualshot R2',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$119.99',
+      priceInt: 119.99,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Dualshot_R2} />,
+      progressInt: Dualshot_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dualshot-R2/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Dualshot-R2/</Link> 
+    }, 
+    {
+      key: '130',
+      name: 'Lazurite',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$126',
+      priceInt: 126,
+      time: '2021-06-05',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Lazurite} />,
+      progressInt: Lazurite,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lazurite/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Lazurite/</Link> 
+    },
+    {
+      key: '131',
+      name: 'Apollo',
+      brand: 'GMK',
+      quantity: '1313',
+      price: '$120',
+      priceInt: 120,
+      time: '2020-03-25',
+      shipping: 'May 2021',
+      progress: <Progress strokeColor="orange" percent={Apollo} />,
+      progressInt: Apollo,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Apollo/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Apollo/</Link> 
+    }, 
+    {
+      key: '132',
+      name: 'Lunar',
+      brand: 'GMK',
+      quantity: '380',
+      price: '$160',
+      priceInt: 160,
+      time: '2020-04-03',
+      shipping: 'Jul 2021',
+      progress: <Progress percent={Lunar} />,
+      progressInt: Lunar,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lunar/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Lunar/</Link> 
+    },
+    {
+      key: '133',
+      name: 'Wild',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '¥1488',
+      priceInt: 1488 / 7.04,
+      time: '2020-05-06',
+      shipping: 'June 2021完成生产',
+      progress: <Progress percent={Wild} />,
+      progressInt: Wild,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Wild/</Link> 
+    }, 
+    {
+      key: '125',
+      name: 'Sparta',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Sparta} />,
+      progressInt: Sparta,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    },
+    {
+      key: '125',
+      name: 'Sparta',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-05',
+      shipping: 'March 2022',
+      progress: <Progress percent={Sparta} />,
+      progressInt: Sparta,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    }, 
+    {
+      key: '125',
+      name: 'Sparta',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Sparta} />,
+      progressInt: Sparta,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+      https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    },
   ];
 
 
 
-
+  // 'https://matrixzj.github.io/docs/gmk-keycaps/Sparta/'
 
 
 
@@ -1728,11 +1913,13 @@ export default class KbGbInfo extends React.Component {
                 数量： {record.quantity}<br/>
                 起售价： {record.price}<br/>
                 截团时间： {record.time}<br/>
+                预计发货： {record.shipping}<br/>
+                详情： {record.detail}<br/>
                 {record.progress} 
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> 进度 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> 延期 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#52C41A"/> 发货 &nbsp;
-                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FF4D4F"/> 流团
+                <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FF4D4F"/> 流团 
                 </p>,
               rowExpandable: record => record.name !== 'Not Expandable',
             }}
