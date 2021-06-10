@@ -104,7 +104,7 @@ const data = [
       progressInt: thermal_seq2,
       progress: <Progress percent={thermal_seq2} />,
       detail: <Link href="https://ramaworks.store/products/thermal-seq2?variant=32876632735822" target="_blank">
-      https://ramaworks.store/products/thermal-seq2</Link> 
+      https://thermal-seq2</Link> 
     },
     {
       key: '2',
@@ -118,7 +118,7 @@ const data = [
       progressInt: 100,
       progress: <Progress percent={100} />,
       detail: <Link href="https://ramaworks.store/products/kara" target="_blank">
-      https://ramaworks.store/products/kara</Link> 
+      https://kara</Link> 
     },
     {
       key: '3',
@@ -132,7 +132,7 @@ const data = [
       progressInt: u80a_seq2,
       progress: <Progress percent={u80a_seq2} />,
       detail: <Link href="https://ramaworks.store/products/u80-a-seq2" target="_blank">
-      https://ramaworks.store/products/u80-a-seq2</Link> 
+      https://u80-a-seq2</Link> 
     },
     {
       key: '4',
@@ -146,7 +146,7 @@ const data = [
       progressInt: foundary_jules,
       progress: <Progress percent={foundary_jules} />,
       detail: <Link href="https://ramaworks.store/products/jules" target="_blank">
-      https://ramaworks.store/products/jules</Link> 
+      https://jules</Link> 
     },
     {
       key: '5',
@@ -160,7 +160,7 @@ const data = [
       progressInt: 100 + m50a,
       progress: <Progress strokeColor="orange" percent={m50a} />,
       detail: <Link href="http://www.mechgroupbuys.com/keyboards/RAMA%20M50-A%20GRID" target="_blank">
-      http://www.mechgroupbuys.com/keyboards/RAMA%20M50-A%20GRID</Link> 
+      http://m50</Link> 
     },
     {
       key: '6',
@@ -174,7 +174,7 @@ const data = [
       progressInt: iron165_r2,
       progress: <Progress percent={iron165_r2} />,
       detail: <Link href="https://geekhack.org/index.php?topic=110985.0" target="_blank">
-      https://geekhack.org/index.php?topic=110985.0</Link> 
+      https://iron165</Link> 
     },
     {
       key: '7',
@@ -188,7 +188,7 @@ const data = [
       progressInt: iron180,
       progress: <Progress percent={iron180} />,
       detail: <Link href="https://geekhack.org/index.php?topic=105245.0" target="_blank">
-      https://geekhack.org/index.php?topic=105245.0</Link> 
+      https://iron180</Link> 
     },
     {
       key: '8',
@@ -228,7 +228,7 @@ const data = [
       progressInt: space80,
       progress: <Progress percent={space80} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/4KoRoAg8Qdd5" target="_blank">
-      https://www.zfrontier.com/app/flow/4KoRoAg8Qdd5</Link> 
+      https://space80</Link> 
     },
     {
       key: '11',
@@ -242,7 +242,7 @@ const data = [
       progressInt: box75,
       progress: <Progress percent={box75} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/4bJOWrJoYrRo" target="_blank">
-      https://www.zfrontier.com/app/flow/4bJOWrJoYrRo</Link> 
+      https://box75</Link> 
     },
     {
       key: '12',
@@ -270,7 +270,7 @@ const data = [
       progressInt: mach80,
       progress: <Progress percent={mach80} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/D6MNdX0Ep0K5" target="_blank">
-      https://www.zfrontier.com/app/flow/D6MNdX0Ep0K5</Link> 
+      https://mach80</Link> 
     },
     {
       key: '14',
@@ -284,7 +284,7 @@ const data = [
       progressInt: leaf65,
       progress: <Progress percent={leaf65} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/45aqZ63Yn85J" target="_blank">
-      https://www.zfrontier.com/app/flow/45aqZ63Yn85J</Link> 
+      https://leaf65</Link> 
     },
     {
       key: '15',
@@ -298,7 +298,7 @@ const data = [
       progressInt: mini1800,
       progress: <Progress percent={mini1800} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
-      https://www.zfrontier.com/app/flow/2aVbAwVW8r8d</Link> 
+      https://1800mini</Link> 
     },
     {
       key: '16',
@@ -312,7 +312,7 @@ const data = [
       progressInt: master98,
       progress: <Progress percent={master98} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
-      https://www.zfrontier.com/app/flow/2aVbAwVW8r8d</Link> 
+      https://master98</Link> 
     },
     {
       key: '17',
@@ -326,7 +326,7 @@ const data = [
       progressInt: i104,
       progress: <Progress percent={i104} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2JKxrvL3YlyO" target="_blank">
-      https://www.zfrontier.com/app/flow/2JKxrvL3YlyO</Link> 
+      https://i104</Link> 
     },
     {
       key: '18',
@@ -340,7 +340,7 @@ const data = [
       progressInt: salvation,
       progress: <Progress percent={salvation} />,
       detail: <Link href="https://www.zfrontier.com/app/mch/1kwQEapmnrM1" target="_blank">
-      https://www.zfrontier.com/app/mch/1kwQEapmnrM1</Link> 
+      https://salvation</Link> 
     },
     {
       key: '19',
@@ -354,7 +354,7 @@ const data = [
       progressInt: cyberboard_r2,
       progress: <Progress percent={cyberboard_r2} />,
       detail: <Link href="https://www.angrymiao.com/cyberboard-r2/" target="_blank">
-      https://www.angrymiao.com/cyberboard-r2/</Link> 
+      https://cyberboard-r2/</Link> 
     },
     {
       key: '20',
@@ -368,7 +368,7 @@ const data = [
       progressInt: am_hatsu,
       progress: <Progress percent={am_hatsu} />,
       detail: <Link href="https://www.angrymiao.com/am-hatsu/" target="_blank">
-      https://www.angrymiao.com/am-hatsu/</Link> 
+      https://am-hatsu</Link> 
     },
     {
       key: '21',
@@ -382,7 +382,7 @@ const data = [
       progressInt: fuji65,
       progress: <Progress percent={100} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/epZ0136PqQmE" target="_blank">
-      https://www.zfrontier.com/app/flow/epZ0136PqQmE</Link> 
+      https://fuji65</Link> 
     },
     {
       key: '22',
@@ -396,7 +396,7 @@ const data = [
       progressInt: hidari,
       progress: <Progress percent={hidari} />,
       detail: <Link href="https://monokei.co/products/hidari" target="_blank">
-      https://monokei.co/products/hidari</Link> 
+      https://hidari</Link> 
     },
     {
       key: '23',
@@ -410,7 +410,7 @@ const data = [
       progressInt: piggy60,
       progress: <Progress percent={piggy60} />,
       detail: <Link href="https://jackylab.com/collections/piggy-60-gb" target="_blank">
-      https://jackylab.com/collections/piggy-60-gb</Link> 
+      https://piggy</Link> 
     },
     {
       key: '24',
@@ -424,7 +424,7 @@ const data = [
       progressInt: 100 + ZENITH,
       progress: <Progress strokeColor="orange" percent={ZENITH} />,
       detail: <Link href="https://ramaworks.store/products/zenith-keyboard?_pos=2%26_sid=3de98b01f%26_ss=r" target="_blank">
-      https://ramaworks.store/products/zenith-keyboard</Link> 
+      https://zenith</Link> 
     },
     // {
     //   key: '23',
