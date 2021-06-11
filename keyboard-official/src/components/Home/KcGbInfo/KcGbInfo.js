@@ -144,11 +144,11 @@ var Yuru = progressCal("10/1/2020", "8/31/2021").toFixed(1);
 var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = progressCal("9/21/2020", "6/30/2021").toFixed(1);
 var Shoko_R2 = progressCal("9/15/2020", "7/30/2021").toFixed(1);
-var HammerHead = progressCal("7/31/2020", "9/30/2021").toFixed(1);
-var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
-var Bento_R2 = progressCal("8/31/2020", "7/31/2021").toFixed(1);
-var Minimal_R2 = progressCal("9/2/2020", "7/31/2021").toFixed(1);
-var Dolch_R5 = progressCal("9/4/2020", "7/31/2021").toFixed(1);
+var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
+var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
+var Bento_R2 = progressCal("8/31/2020", "7/30/2021").toFixed(1);
+var Minimal_R2 = progressCal("9/2/2020", "7/30/2021").toFixed(1);
+var Dolch_R5 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
 var Ishtar = progressCal("8/28/2020", "6/30/2021").toFixed(1);
 var Evil_Dolch = progressCal("8/28/2020", "6/30/2021").toFixed(1);
 var Pono = progressCal("8/14/2020", "6/30/2021").toFixed(1);
@@ -178,7 +178,7 @@ var Tatooine = progressCal("4/16/2021", "6/30/2022").toFixed(1);
 var X_mas_Gift = progressCal("4/11/2021", "6/15/2022").toFixed(1);
 var sp_Handarbeit = progressCal("5/1/2021", "6/24/2022").toFixed(1);
 var Prism = progressCal("4/30/2021", "6/30/2022").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "7/30/2021").toFixed(1);
 var Espresso = progressCal("5/14/2021", "6/14/2022").toFixed(1);
 var Ramses = progressCal("5/14/2021", "9/30/2022").toFixed(1);
 var Tang = progressCal("5/27/2021", "8/31/2022").toFixed(1);
@@ -189,7 +189,7 @@ var Handarbeit_Nachtarbeit = progressCal("6/3/2021", "5/31/2022").toFixed(1);
 var Dualshot_R2 = progressCal("6/4/2021", "6/30/2022").toFixed(1);
 var Lazurite = progressCal("6/5/2021", "6/30/2022").toFixed(1);
 var Apollo = delayCal("3/25/2020", "5/31/2021").toFixed(1);
-var Lunar = progressCal("4/3/2020", "7/31/2021").toFixed(1);
+var Lunar = progressCal("4/3/2020", "7/30/2021").toFixed(1);
 var Wild = progressCal("5/6/2020", "6/30/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
@@ -218,6 +218,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-05-31',
+      shipping: 'Q2 2022',
       progress: <Progress percent={parcel} />,
       progressInt: parcel,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Parcel/" target="_blank">
@@ -231,6 +232,7 @@ const data = [
       price: '$128',
       priceInt: 128,
       time: '2021-05-30',
+      shipping: 'Q2 2022',
       progress: <Progress percent={arch} />,
       progressInt: arch,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Arch/" target="_blank">
@@ -244,6 +246,7 @@ const data = [
       price: '$149.99',
       priceInt: 149.99,
       time: '2021-05-28',
+      shipping: 'Apr. 2022',
       progress: <Progress percent={sunset} />,
       progressInt: sunset,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sunset-Surfing/" target="_blank">
@@ -257,6 +260,7 @@ const data = [
       price: '$145',
       priceInt: 145,
       time: '2021-05-28',
+      shipping: 'Q2 2022',
       progress: <Progress percent={jelly} />,
       progressInt: jelly,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Jelly-Delights/" target="_blank">
@@ -270,6 +274,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-05-23',
+      shipping: 'Q2 2022',
       progress: <Progress percent={zooted} />,
       progressInt: zooted,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Zooted/" target="_blank">
@@ -283,6 +288,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-05-19',
+      shipping: 'Q2 2022',
       progress: <Progress percent={desko} />,
       progressInt: desko,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Modern-Japanese-Desko/" target="_blank">
@@ -296,6 +302,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2021-05-16',
+      shipping: '12个月',
       progress: <Progress percent={seafarer} />,
       progressInt: seafarer,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Seafarer/" target="_blank">
@@ -309,6 +316,7 @@ const data = [
       price: '$110',
       priceInt: 110,
       time: '2021-05-15',
+      shipping: 'Q2 2022',
       progress: <Progress percent={peaches} />,
       progressInt: peaches,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Peaches-n-Create-Lite/" target="_blank">
@@ -322,6 +330,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-05-09',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Kouhai} />,
       progressInt: Kouhai,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Kouhai/" target="_blank">
@@ -335,6 +344,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-05-09',
+      shipping: 'Q2 2022',
       progress: <Progress percent={agent} />,
       progressInt: agent,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Agent-01/" target="_blank">
@@ -348,6 +358,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2021-05-04',
+      shipping: 'Q1 2022',
       progress: <Progress percent={WasabiR2} />,
       progressInt: WasabiR2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wasabi-R2/" target="_blank">
@@ -361,6 +372,7 @@ const data = [
       price: '$141.99',
       priceInt: 141.99,
       time: '2021-05-03',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Boulder} />,
       progressInt: Boulder,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Boulder/" target="_blank">
@@ -374,6 +386,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-04-30',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Metropolis_R2} />,
       progressInt: Metropolis_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Metropolis-R2/" target="_blank">
@@ -387,6 +400,7 @@ const data = [
       price: '$139.99',
       priceInt: 139.99,
       time: '2021-04-30',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Fox} />,
       progressInt: Fox,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Fox/" target="_blank">
@@ -400,6 +414,7 @@ const data = [
       price: '$119.99',
       priceInt: 119.99,
       time: '2021-04-30',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Blueple} />,
       progressInt: Blueple,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Blueple/" target="_blank">
@@ -413,6 +428,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-04-23',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Monarch} />,
       progressInt: Monarch,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Monarch/" target="_blank">
@@ -426,6 +442,7 @@ const data = [
       price: '$129.99',
       priceInt: 129.99,
       time: '2021-04-15',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Fuji} />,
       progressInt: Fuji,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Fuji/" target="_blank">
@@ -439,6 +456,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-04-11',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Watermelon} />,
       progressInt: Watermelon,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Watermelon/" target="_blank">
@@ -452,6 +470,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-04-11',
+      shipping: 'Nov. 2022',
       progress: <Progress percent={Serenity} />,
       progressInt: Serenity,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Serenity/" target="_blank">
@@ -465,6 +484,7 @@ const data = [
       price: '$149.99',
       priceInt: 149.99,
       time: '2021-04-09',
+      shipping: 'Jan. 2022',
       progress: <Progress percent={Hinokoku} />,
       progressInt: Hinokoku,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Hinokoku/" target="_blank">
@@ -478,6 +498,7 @@ const data = [
       price: '$35',
       priceInt: 35,
       time: '2021-04-02',
+      shipping: 'Q1 2022',
       progress: <Progress percent={WOB_Shinethrough} />,
       progressInt: WOB_Shinethrough,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/WOB-Shinethrough/" target="_blank">
@@ -491,6 +512,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-04-09',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Red_Alert_R2} />,
       progressInt: Red_Alert_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Alert-R2/" target="_blank">
@@ -504,6 +526,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-03-26',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Colorchrome} />,
       progressInt: Colorchrome,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Colorchrome/" target="_blank">
@@ -517,6 +540,7 @@ const data = [
       price: '$129',
       priceInt: 129,
       time: '2021-04-05',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Astral_Light} />,
       progressInt: Astral_Light,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Astral-Light/" target="_blank">
@@ -530,6 +554,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2021-04-03',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Nightshade} />,
       progressInt: Nightshade,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Nightshade/" target="_blank">
@@ -543,6 +568,7 @@ const data = [
       price: '$110',
       priceInt: 110,
       time: '2021-04-06',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Striker_R2} />,
       progressInt: Striker_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Striker-R2/" target="_blank">
@@ -556,6 +582,7 @@ const data = [
       price: '$139.99',
       priceInt: 139.99,
       time: '2021-04-02',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Yeeti} />,
       progressInt: Yeeti,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Yeeti/" target="_blank">
@@ -569,6 +596,7 @@ const data = [
       price: '$119.99',
       priceInt: 119.99,
       time: '2021-03-30',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Norse} />,
       progressInt: Norse,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/norse/" target="_blank">
@@ -582,6 +610,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2021-03-31',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Cobalt} />,
       progressInt: Cobalt,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Cobalt/" target="_blank">
@@ -595,6 +624,7 @@ const data = [
       price: '$145',
       priceInt: 145,
       time: '2021-03-31',
+      shipping: 'Feb. 2022',
       progress: <Progress percent={Start} />,
       progressInt: Start,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Star/" target="_blank">
@@ -608,6 +638,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-03-15',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Inukuma} />,
       progressInt: Inukuma,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Inukuma/" target="_blank">
@@ -621,6 +652,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-03-15',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Iceberg} />,
       progressInt: Iceberg,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Iceberg/" target="_blank">
@@ -634,6 +666,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-03-12',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Devoted} />,
       progressInt: Devoted,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Devoted/" target="_blank">
@@ -647,6 +680,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-03-14',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Maestro} />,
       progressInt: Maestro,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Maestro/" target="_blank">
@@ -660,6 +694,7 @@ const data = [
       price: '$129',
       priceInt: 129,
       time: '2021-02-28',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Umka} />,
       progressInt: Umka,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Umka/" target="_blank">
@@ -673,6 +708,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2021-02-26',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Dots_R2} />,
       progressInt: Dots_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dots-R2/" target="_blank">
@@ -686,6 +722,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2021-03-03',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Dandy} />,
       progressInt: Dandy,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dandy/" target="_blank">
@@ -699,6 +736,7 @@ const data = [
       price: '$119.99',
       priceInt: 119.99,
       time: '2021-02-28',
+      shipping: 'Jan. 2022',
       progress: <Progress percent={Tuzi} />,
       progressInt: Tuzi,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Tuzi/" target="_blank">
@@ -712,6 +750,7 @@ const data = [
       price: '$70',
       priceInt: 70,
       time: '2021-02-26',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Sleeves_R2} />,
       progressInt: Sleeves_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mr-Sleeves-R2/" target="_blank">
@@ -725,6 +764,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-02-28',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Birch} />,
       progressInt: Birch,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Birch/" target="_blank">
@@ -738,6 +778,7 @@ const data = [
       price: '$144.99',
       priceInt: 144.99,
       time: '2021-02-28',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Gateway} />,
       progressInt: Gateway,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Gateway/" target="_blank">
@@ -751,6 +792,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2021-02-28',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Civilizations} />,
       progressInt: Civilizations,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Civilizations/" target="_blank">
@@ -764,6 +806,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2021-02-12',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Muted_R2} />,
       progressInt: Muted_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Muted-R2/" target="_blank">
@@ -777,6 +820,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-02-16',
+      shipping: '2021-10-18',
       progress: <Progress percent={KATAKANA} />,
       progressInt: KATAKANA,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/WoB-KATAKANA/" target="_blank">
@@ -790,6 +834,7 @@ const data = [
       price: '$154.99',
       priceInt: 154.99,
       time: '2021-02-12',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Storm} />,
       progressInt: Storm,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Storm/" target="_blank">
@@ -803,6 +848,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-02-03',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Baltic} />,
       progressInt: Baltic,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Baltic/" target="_blank">
@@ -816,6 +862,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-02-03',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Polybius} />,
       progressInt: Polybius,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Polybius/" target="_blank">
@@ -829,6 +876,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-01-31',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Shanshui} />,
       progressInt: Shanshui,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shanshui/" target="_blank">
@@ -842,6 +890,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-01-31',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Cojiro} />,
       progressInt: Cojiro,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Cojiro/" target="_blank">
@@ -855,6 +904,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-01-31',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Awaken} />,
       progressInt: Awaken,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Awaken/" target="_blank">
@@ -868,6 +918,7 @@ const data = [
       price: '$100',
       priceInt: 100,
       time: '2021-01-16',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Stealth} />,
       progressInt: Stealth,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Stealth/" target="_blank">
@@ -881,6 +932,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-01-15',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Avanguardia} />,
       progressInt: Avanguardia,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Avanguardia/" target="_blank">
@@ -894,6 +946,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-01-18',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Gregory} />,
       progressInt: Gregory,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Gregory/" target="_blank">
@@ -907,6 +960,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-01-26',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={Hanami_Dango} />,
       progressInt: Hanami_Dango,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Hanami-Dango/" target="_blank">
@@ -920,6 +974,7 @@ const data = [
       price: '$99.99',
       priceInt: 99.99,
       time: '2020-12-31',
+      shipping: 'Q4 2021',
       progress: <Progress percent={gh80082} />,
       progressInt: gh80082,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/80082/" target="_blank">
@@ -933,6 +988,7 @@ const data = [
       price: '$110',
       priceInt: 110,
       time: '2021-01-07',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Serika_R2} />,
       progressInt: Serika_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Serika-R2/" target="_blank">
@@ -946,6 +1002,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2021-01-01',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Pink_on_Navy} />,
       progressInt: Pink_on_Navy,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pink-on-Navy/" target="_blank">
@@ -959,6 +1016,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-12-31',
+      shipping: 'Oct. 2021',
       progress: <Progress percent={Aurora_Polaris} />,
       progressInt: Aurora_Polaris,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Aurora-Polaris/" target="_blank">
@@ -972,6 +1030,7 @@ const data = [
       price: '$139.99',
       priceInt: 134.99,
       time: '2021-01-12',
+      shipping: 'Oct. 2021',
       progress: <Progress percent={Alpine} />,
       progressInt: Alpine,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Alpine/" target="_blank">
@@ -985,6 +1044,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-01-04',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Thai_Tea} />,
       progressInt: Thai_Tea,detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Thai-Tea/" target="_blank">
       https://thai-tea</Link>,
@@ -997,6 +1057,7 @@ const data = [
       price: '$110',
       priceInt: 110,
       time: '2020-12-31',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={ThinkCaps} />,
       progressInt: ThinkCaps,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/ThinkCaps/" target="_blank">
@@ -1010,6 +1071,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-12-12',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Pixel} />,
       progressInt: Pixel,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pixel/" target="_blank">
@@ -1023,6 +1085,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-12-14',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={Yuri_R2} />,
       progressInt: Yuri_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Yuri-R2/" target="_blank">
@@ -1036,6 +1099,7 @@ const data = [
       price: '$139.99',
       priceInt: 139.99,
       time: '2020-12-13',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={Amethyst} />,
       progressInt: Amethyst,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Amethyst/" target="_blank">
@@ -1049,6 +1113,7 @@ const data = [
       price: '$115',
       priceInt: 115,
       time: '2020-12-04',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Fundamentals} />,
       progressInt: Fundamentals,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Fundamentals/" target="_blank">
@@ -1062,6 +1127,7 @@ const data = [
       price: '$142.99',
       priceInt: 142.99,
       time: '2020-12-04',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Pride} />,
       progressInt: Pride,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pride/" target="_blank">
@@ -1075,6 +1141,7 @@ const data = [
       price: '$95',
       priceInt: 95,
       time: '2020-11-30',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Honor} />,
       progressInt: Honor,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Honor/" target="_blank">
@@ -1088,6 +1155,7 @@ const data = [
       price: '$129.99',
       priceInt: 129.99,
       time: '2020-12-01',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Hallyu} />,
       progressInt: Hallyu,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Hallyu/" target="_blank">
@@ -1101,6 +1169,7 @@ const data = [
       price: '$142.99',
       priceInt: 142.99,
       time: '2020-11-20',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Taegeukgi} />,
       progressInt: Taegeukgi,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Taegeukgi/" target="_blank">
@@ -1114,6 +1183,7 @@ const data = [
       price: '$104.99',
       priceInt: 104.99,
       time: '2020-11-13',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Red_Line} />,
       progressInt: Red_Line,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Line/" target="_blank">
@@ -1127,6 +1197,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-10-30',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Grand_Prix} />,
       progressInt: Grand_Prix,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Grand-Prix/" target="_blank">
@@ -1140,6 +1211,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-10-30',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Mudbeam} />,
       progressInt: Mudbeam,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mudbeam/" target="_blank">
@@ -1153,6 +1225,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-11-06',
+      shipping: 'Oct. 2021',
       progress: <Progress percent={Retrocast} />,
       progressInt: Retrocast,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Retrocast/" target="_blank">
@@ -1166,6 +1239,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-11-16',
+      shipping: 'Oct. 2021',
       progress: <Progress percent={Rainy_Day} />,
       progressInt: Rainy_Day,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Rainy-Day/" target="_blank">
@@ -1179,6 +1253,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2020-11-04',
+      shipping: 'Oct. 2021',
       progress: <Progress percent={Noire} />,
       progressInt: Noire,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Noire/" target="_blank">
@@ -1192,6 +1267,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-10-30',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Space_Cadet_R2} />,
       progressInt: Space_Cadet_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Space-Cadet-R2/" target="_blank">
@@ -1205,6 +1281,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-11-01',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Red_Dragon} />,
       progressInt: Red_Dragon,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Dragon/" target="_blank">
@@ -1218,6 +1295,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-10-31',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Demon_Sword} />,
       progressInt: Demon_Sword,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Demon-Sword/" target="_blank">
@@ -1231,6 +1309,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-10-02',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Sloth} />,
       progressInt: Sloth,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sloth/" target="_blank">
@@ -1244,6 +1323,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-10-04',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Monokai_Material} />,
       progressInt: Monokai_Material,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Monokai-Material/" target="_blank">
@@ -1257,6 +1337,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2020-10-04',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Shorebound} />,
       progressInt: Shorebound,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shorebound/" target="_blank">
@@ -1270,6 +1351,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-09-30',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Red_Devils} />,
       progressInt: Red_Devils,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Devils/" target="_blank">
@@ -1283,6 +1365,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-10-01',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Yuru} />,
       progressInt: Yuru,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Yuru/" target="_blank">
@@ -1296,6 +1379,7 @@ const data = [
       price: '$139.99',
       priceInt: 139.99,
       time: '2020-10-02',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Posh} />,
       progressInt: Posh,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Posh/" target="_blank">
@@ -1309,6 +1393,7 @@ const data = [
       price: '$138',
       priceInt: 138,
       time: '2020-09-21',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Beta} />,
       progressInt: Beta,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Beta/" target="_blank">
@@ -1322,6 +1407,7 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-09-15',
+      shipping: 'July 2021',
       progress: <Progress percent={Shoko_R2} />,
       progressInt: Shoko_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shoko-R2/" target="_blank">
@@ -1335,6 +1421,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-07-31',
+      shipping: 'Q3 2021',
       progress: <Progress percent={HammerHead} />,
       progressInt: HammerHead,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/HammerHead/" target="_blank">
@@ -1348,6 +1435,7 @@ const data = [
       price: '$25',
       priceInt: 25,
       time: '2020-09-04',
+      shipping: 'July 2021',
       progress: <Progress percent={OG_Spacekeys_R2} />,
       progressInt: OG_Spacekeys_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/OG-Spacekeys-R2/" target="_blank">
@@ -1361,6 +1449,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-09-01',
+      shipping: 'July 2021',
       progress: <Progress percent={Oni} />,
       progressInt: Oni,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Oni/" target="_blank">
@@ -1374,6 +1463,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-08-31',
+      shipping: 'July 2021',
       progress: <Progress percent={Bento_R2} />,
       progressInt: Bento_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Bento-R2/" target="_blank">
@@ -1387,6 +1477,7 @@ const data = [
       price: '$99.99',
       priceInt: 99.99,
       time: '2020-09-02',
+      shipping: 'July 2021',
       progress: <Progress percent={Minimal_R2} />,
       progressInt: Minimal_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Minimal-R2/" target="_blank">
@@ -1400,6 +1491,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-09-04',
+      shipping: 'July 2021',
       progress: <Progress percent={Dolch_R5} />,
       progressInt: Dolch_R5,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dolch-R5/" target="_blank">
@@ -1413,6 +1505,7 @@ const data = [
       price: '$144.99',
       priceInt: 144.99,
       time: '2020-08-28',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Ishtar} />,
       progressInt: Ishtar,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Ishtar/" target="_blank">
@@ -1426,6 +1519,7 @@ const data = [
       price: '$129.99',
       priceInt: 129.99,
       time: '2020-08-28',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Evil_Dolch} />,
       progressInt: Evil_Dolch,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Evil-Dolch/" target="_blank">
@@ -1439,6 +1533,7 @@ const data = [
       price: '$124.99',
       priceInt: 124.99,
       time: '2020-08-14',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Pono} />,
       progressInt: Pono,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pono/" target="_blank">
@@ -1452,6 +1547,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-08-15',
+      shipping: 'Apr. 2021',
       progress: <Progress strokeColor="orange" percent={Sumi} />,
       progressInt: 100 + Sumi,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sumi/" target="_blank">
@@ -1465,6 +1561,7 @@ const data = [
       price: '$149.99',
       priceInt: 149.99,
       time: '2020-08-28',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Prepress} />,
       progressInt: Prepress,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Prepress/" target="_blank">
@@ -1478,6 +1575,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-08-07',
+      shipping: 'May 2021',
       progress: <Progress strokeColor="orange" percent={Mecha_01} />,
       progressInt: 100 + Mecha_01,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mecha-01/" target="_blank">
@@ -1491,6 +1589,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-07-10',
+      shipping: 'Apr. 2021',
       progress: <Progress strokeColor="orange" percent={Nord} />,
       progressInt: 100 + Nord,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Nord/" target="_blank">
@@ -1504,6 +1603,7 @@ const data = [
       price: '$99.99',
       priceInt: 99.99,
       time: '2020-07-02',
+      shipping: '2021-07-11',
       progress: <Progress percent={Modern_Dolch_R2} />,
       progressInt: Modern_Dolch_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Modern-Dolch-R2/" target="_blank">
@@ -1517,6 +1617,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-06-01',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Cyrillic_WoB_Beige} />,
       progressInt: Cyrillic_WoB_Beige,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Cyrillic-WoB-Beige/" target="_blank">
@@ -1530,6 +1631,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2021-06-01',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Hazakura} />,
       progressInt: Hazakura,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Hazakura/" target="_blank">
@@ -1543,6 +1645,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2020-08-28',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Skyriter} />,
       progressInt: Skyriter,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Skyriter/" target="_blank">
@@ -1556,6 +1659,7 @@ const data = [
       price: '$105',
       priceInt: 105,
       time: '2020-08-26',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Rocket} />,
       progressInt: Rocket,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Rocket/" target="_blank">
@@ -1569,6 +1673,7 @@ const data = [
       price: '¥823',
       priceInt: 823 / 6.5,
       time: '2020-09-30',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Daisy} />,
       progressInt: Daisy,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Daisy/" target="_blank">
@@ -1582,6 +1687,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-10-11',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Dual_Shot} />,
       progressInt: Dual_Shot,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Dual-Shot/" target="_blank">
@@ -1595,6 +1701,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-10-16',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Jadeite} />,
       progressInt: Jadeite,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Jadeite/" target="_blank">
@@ -1608,6 +1715,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2020-10-15',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Bliss_R2} />,
       progressInt: Bliss_R2,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Bliss-R2/" target="_blank">
@@ -1621,6 +1729,7 @@ const data = [
       price: '$90',
       priceInt: 90,
       time: '2020-10-30',
+      shipping: 'Q3 2021',
       progress: <Progress percent={Nightlight} />,
       progressInt: Nightlight,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Nightlight/" target="_blank">
@@ -1634,6 +1743,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2020-10-30',
+      shipping: '2021-09-17',
       progress: <Progress percent={Carbon_R3} />,
       progressInt: Carbon_R3,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Carbon-R3/" target="_blank">
@@ -1647,6 +1757,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2020-10-31',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Biso} />,
       progressInt: Biso,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Biso/" target="_blank">
@@ -1660,6 +1771,7 @@ const data = [
       price: '¥1098', 
       priceInt: 1098 / 6.5,
       time: '2020-11-15',
+      shipping: 'Q2 2021',
       progress: <Progress percent={Angel_Devil_Daisy} />,
       progressInt: Angel_Devil_Daisy,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Angel-Devil-Daisy/" target="_blank">
@@ -1673,6 +1785,7 @@ const data = [
       price: '¥912',
       priceInt: 912 / 6.5,
       time: '2020-12-23',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={Silent_Assassin} />,
       progressInt: Silent_Assassin,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Silent-Assassin/" target="_blank">
@@ -1686,6 +1799,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2021-01-15',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Recall} />,
       progressInt: Recall,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Recall/" target="_blank">
@@ -1699,6 +1813,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2021-03-02',
+      shipping: '2022-04-11',
       progress: <Progress percent={Laser_R2} />,
       progressInt: Laser_R2,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Laser-R2/" target="_blank">
@@ -1712,6 +1827,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2021-03-20',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Strong_Spirit_R2} />,
       progressInt: Strong_Spirit_R2,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Strong-Spirit-R2/" target="_blank">
@@ -1725,6 +1841,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2021-04-03',
+      shipping: 'Q3 2022',
       progress: <Progress percent={sp_8010} />,
       progressInt: sp_8010,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/8010/" target="_blank">
@@ -1738,6 +1855,7 @@ const data = [
       price: '$250',
       priceInt: 250,
       time: '2021-04-16',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Tatooine} />,
       progressInt: Tatooine,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Tatooine/" target="_blank">
@@ -1751,6 +1869,7 @@ const data = [
       price: '¥699',
       priceInt: 699/6.5,
       time: '2021-04-11',
+      shipping: 'June 2022',
       progress: <Progress percent={X_mas_Gift} />,
       progressInt: X_mas_Gift,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/X-mas-Gift/" target="_blank">
@@ -1764,6 +1883,7 @@ const data = [
       price: '$130',
       priceInt: 130,
       time: '2021-05-01',
+      shipping: '2022-06-24',
       progress: <Progress percent={sp_Handarbeit} />,
       progressInt: sp_Handarbeit,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Handarbeit/" target="_blank">
@@ -1777,6 +1897,7 @@ const data = [
       price: '¥1190',
       priceInt: 1190 / 6.5,
       time: '2021-04-30',
+      shipping: 'Q2 2022',
       progress: <Progress percent={Prism} />,
       progressInt: Prism,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Prism/" target="_blank">
@@ -1790,6 +1911,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-05-14',
+      shipping: 'June 2022',
       progress: <Progress percent={Espresso} />,
       progressInt: Espresso,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Espresso/" target="_blank">
@@ -1803,6 +1925,7 @@ const data = [
       price: '$140',
       priceInt: 140,
       time: '2021-05-14',
+      shipping: 'Q3 2022',
       progress: <Progress percent={Ramses} />,
       progressInt: Ramses,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Ramses/" target="_blank">
@@ -1816,6 +1939,7 @@ const data = [
       price: '¥1380',
       priceInt: 1380 / 6.5,
       time: '2021-05-27',
+      shipping: 'Aug. 2022',
       progress: <Progress percent={Tang} />,
       progressInt: Tang,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Tang/" target="_blank">
@@ -1829,7 +1953,7 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2021-06-05',
-      shipping: 'March 2022',
+      shipping: 'Mar. 2022',
       progress: <Progress percent={Sparta} />,
       progressInt: Sparta,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
