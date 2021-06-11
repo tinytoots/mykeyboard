@@ -71,8 +71,10 @@ export default function Profile() {
                 </Paragraph>
                 特别感谢 <Link href="https://matrixzj.github.io/docs/sa-keycaps" target="_blank">
                 https://matrixzj.github.io/docs/sa-keycaps</Link> 这个网站的作者狗子哥，在我统计键帽数据中提供了非常大的帮助，欢迎大家访问！<br/><br/>感谢KeyboardDaily的作者 @苍云暮雪 将我的网站纳入客制化网站大全，苍老师的网站几乎囊括了你可能需要的所有客制化网站信息资源。他的网站在这里 <Link href="http://www.keyboarddaily.cn/mechaddress.html" target="_blank">
-                http://www.keyboarddaily.cn/mechaddress.html</Link><br/><br/>
-                <Paragraph>Email: mykeyboardforfun@gmail.com</Paragraph>
+                http://www.keyboarddaily.cn/mechaddress.html</Link><br/><br/> 感谢 <Link href="https://www.zfrontier.com/app/user/3dZ8eEZZPdeM" target="_blank">
+                @Xikii</Link> 为此网站提出很多宝贵的建议。<br/><br/>   
+
+                {/* <Paragraph>Email: mykeyboardforfun@gmail.com</Paragraph> */}
                 <a href={`mailto:${customerEmail}`} >Send me an email and let's get in touch!</a> 
                 <Divider />
                 <Title level={2}>关于进度</Title>

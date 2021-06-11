@@ -70,7 +70,7 @@ var im = progressCal("9/1/2020", "9/1/2021").toFixed(1);
 var matrix65 = progressCal("1/6/2021", "7/1/2021").toFixed(1);
 var space80 = progressCal("5/10/2021", "11/31/2021").toFixed(1);
 var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
-var Andromeda = delayCal("10/31/2020", "5/31/2021").toFixed(1);
+var Andromeda = progressCal("10/31/2020", "6/30/2021").toFixed(1);
 var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
 var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
@@ -84,7 +84,7 @@ var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
 var piggy60 = progressCal("5/25/2021", "9/30/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2021").toFixed(1);
 var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var vega = progressCal("11/29/2020", "6/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
@@ -252,9 +252,9 @@ const data = [
       price: '¥4999',
       priceInt: 4999 / 6.5,
       time: '2020-10-31',
-      shipping: 'May 2021',
+      shipping: 'June 2021',
       progressInt: Andromeda,
-      progress: <Progress strokeColor="orange" percent={Andromeda} />,
+      progress: <Progress percent={Andromeda} />,
       detail: <Link href="https://cannonkeys.com/products/gb-andromeda-keyboard-by-ai03-reference" target="_blank">
       https://andromeda</Link> 
     },
@@ -426,15 +426,19 @@ const data = [
       detail: <Link href="https://ramaworks.store/products/zenith-keyboard?_pos=2%26_sid=3de98b01f%26_ss=r" target="_blank">
       https://zenith</Link> 
     },
-    // {
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },
+    {
+      key: '25',
+      name: 'Vega',
+      brand: 'ai03',
+      type: '不限量',
+      price: '¥2299',
+      time: '2020-11-29开团',
+      shipping: 'June 2021',
+      progress: <Progress percent={vega} />,
+      progressInt: vega,
+      detail: <Link href="https://geekhack.org/index.php?topic=106983.0&fbclid=IwAR10CxE9FGg4f_GluCTE6TgCxML9_P0thWUZ7_vd5wHJlEz6IJmD6-uTwoA" target="_blank">
+      https://vega</Link> 
+    },
     // {
     //   key: '23',
     //   name: 'Piggy60',
