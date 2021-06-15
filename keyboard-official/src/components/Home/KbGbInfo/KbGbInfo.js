@@ -84,7 +84,7 @@ var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
 var piggy60 = progressCal("5/25/2021", "9/30/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2021").toFixed(1);
 var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
-var vega = progressCal("12/6/2020", "6/30/2021").toFixed(1);
+var vega = progressCal("12/6/2020", "9/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
@@ -433,7 +433,7 @@ const data = [
       type: '不限量',
       price: '¥2299',
       time: '2020-12-06',
-      shipping: 'June 2021',
+      shipping: 'Sept. 2021',
       progress: <Progress percent={vega} />,
       progressInt: vega,
       detail: <Link href="https://geekhack.org/index.php?topic=106983.0&fbclid=IwAR10CxE9FGg4f_GluCTE6TgCxML9_P0thWUZ7_vd5wHJlEz6IJmD6-uTwoA" target="_blank">
