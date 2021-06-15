@@ -84,7 +84,7 @@ var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
 var piggy60 = progressCal("5/25/2021", "9/30/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2021").toFixed(1);
 var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
-var vega = progressCal("11/29/2020", "6/30/2021").toFixed(1);
+var vega = progressCal("12/6/2020", "6/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
@@ -379,7 +379,7 @@ const data = [
       priceInt: 1399 / 6.5,
       time: '2020-10-20',
       shipping: '已发货',
-      progressInt: fuji65,
+      progressInt: 100,
       progress: <Progress percent={100} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/epZ0136PqQmE" target="_blank">
       https://fuji65</Link> 
@@ -432,7 +432,7 @@ const data = [
       brand: 'ai03',
       type: '不限量',
       price: '¥2299',
-      time: '2020-11-29开团',
+      time: '2020-12-06',
       shipping: 'June 2021',
       progress: <Progress percent={vega} />,
       progressInt: vega,
