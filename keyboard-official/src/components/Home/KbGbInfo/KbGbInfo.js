@@ -86,7 +86,19 @@ var hidari = progressCal("4/30/2021", "12/31/2021").toFixed(1);
 var ZENITH= delayCal("7/30/2020", "3/31/2021").toFixed(1);
 var vega = progressCal("12/6/2020", "9/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-
+var Angle_Vertex = progressCal("6/6/2021", "7/31/2021").toFixed(1);
+var Duo_S = progressCal("6/5/2021", "3/31/2022").toFixed(1);
+var KANSAS = progressCal("4/16/2021", "7/31/2021").toFixed(1);
+var BUFF67 = progressCal("6/13/2021", "8/31/2021").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
 // document.write("<br><br>进度" + u80a_seq2);
@@ -432,6 +444,7 @@ const data = [
       brand: 'ai03',
       type: '不限量',
       price: '¥2299',
+      priceInt: 2299 / 6.5,
       time: '2020-12-06',
       shipping: 'Sept. 2021',
       progress: <Progress percent={vega} />,
@@ -439,63 +452,113 @@ const data = [
       detail: <Link href="https://geekhack.org/index.php?topic=106983.0&fbclid=IwAR10CxE9FGg4f_GluCTE6TgCxML9_P0thWUZ7_vd5wHJlEz6IJmD6-uTwoA" target="_blank">
       https://vega</Link> 
     },
+    {
+      key: '26',
+      name: 'Angle-Vertex',
+      brand: 'AvalonKeyboardStudio',
+      type: '限量170',
+      price: '¥2850',
+      priceInt: 2850 / 6.5,
+      time: '2021-06-06开团',
+      shipping: 'July 2021',
+      progress: <Progress percent={Angle_Vertex} />,
+      progressInt: Angle_Vertex,
+      detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+      https://angle-vertex</Link> 
+    },
+    {
+      key: '27',
+      name: 'Duo-S',
+      brand: 'Duo Foundry',
+      type: '<=300',
+      price: '¥2450',
+      priceInt: 2450 / 6.5,
+      time: '2021-06-05',
+      shipping: 'Q1 2021',
+      progress: <Progress percent={Duo_S} />,
+      progressInt: Duo_S,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2agrqXpyqQ6m" target="_blank">
+      https://duo-s</Link> 
+    },
+    {
+      key: '28',
+      name: 'KANSAS 65',
+      brand: 'Jerry studio',
+      type: '不限量',
+      price: '¥1999',
+      priceInt: 1999 / 6.5,
+      time: '2021-04-16',
+      shipping: 'July 2021',
+      progress: <Progress percent={KANSAS} />,
+      progressInt: KANSAS,
+      detail: <Link href="https://www.zfrontier.com/app/flow/296WzdolNV98" target="_blank">
+      https://kansas</Link> 
+    },
+    {
+      key: '29',
+      name: 'BUFF67 V2',
+      brand: 'BUFF67 LAB',
+      type: '限量100',
+      price: '¥998',
+      priceInt: 998 / 6.5,
+      time: '2021-06-13',
+      shipping: 'Aug. 2021',
+      progress: <Progress percent={BUFF67} />,
+      progressInt: BUFF67,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2E8BJAjZgV1L" target="_blank">
+      https://buffer67-v2</Link> 
+    },
     // {
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
     // },
     // {
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },{
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },{
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },{
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },{
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
-    // },{
-    //   key: '23',
-    //   name: 'Piggy60',
-    //   brand: 'Jacky Lab',
-    //   type: '不限量',
-    //   price: '$428',
-    //   time: '2021-05-25',
-    //   progress: <Progress percent={piggy60} />,
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
     // },
  
 
