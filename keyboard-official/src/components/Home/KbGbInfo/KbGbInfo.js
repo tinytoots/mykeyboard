@@ -155,8 +155,8 @@ const data = [
       priceInt: 400,
       time: '2020-04-15',
       shipping: 'Q2 2021',
-      progressInt: foundary_jules,
-      progress: <Progress percent={foundary_jules} />,
+      progressInt: 100,
+      progress: <Progress percent={100} />,
       detail: <Link href="https://ramaworks.store/products/jules" target="_blank">
       https://jules</Link> 
     },
