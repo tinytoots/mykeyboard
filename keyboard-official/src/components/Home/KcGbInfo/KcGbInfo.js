@@ -2286,7 +2286,7 @@ export default class KbGbInfo extends React.Component {
                 截团时间： {record.time}<br/>
                 预计发货： {record.shipping}<br/>
                 详情： {record.detail}<br/>
-                {record.progress} 
+                {record.progress} <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> 进度 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> 延期 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#52C41A"/> 发货 &nbsp;
