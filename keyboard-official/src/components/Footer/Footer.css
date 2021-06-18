@@ -1,6 +1,12 @@
+.root-bg {
+    background-color: #2c2c2e;
+    height: 185px;
+}
+
 .inner-footer2{
-    height: 160px;
     background: #2c2c2e;
+    margin-right:  10%;
+    margin-left: 10%;
 }
 
 .header-root2{
@@ -12,7 +18,7 @@
 .logo222 {
     margin-top: 25px;
     float: left;
-    margin-left: 40%;
+    /* margin-left: -33px; */
 }
 
 .ant-menu{
@@ -49,30 +55,47 @@
 
 .gray-lane {
     margin-top: 0px;
-    margin-left: 10%;
-    margin-right: 10%;
     height: 1px;
     background-color: #3a3a3c;
-    width: 80%
+    width: 100%
 }
 
-.contactInfo {
-    color: red;
+.contact-title {
+    margin-top: 20px;
+    margin-right: 114px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1d1d6;
 }
 
 .footer-contact {
-    margin-right: 13%;
     text-align: right;
 }
 
-.footer-contact h5 {
-    margin-right: 109px;
-    margin-top: 20px;
-    color: #d1d1d6;
-}
-
 .footer-contact p {
-    margin-right: 4px;
+    font-size: 14px;
     color: #d1d1d6;
     
+}
+
+.p2 {
+    font-size: 14px;
+    color: #000;
+}
+
+.col1 {
+    /* background-color: grey; */
+}
+
+.col2 {
+    /* background-color: red; */
+}
+
+.col3 {
+    /* background-color: green; */
+}
+
+.col4 {
+    /* background-color: black; */
 }
