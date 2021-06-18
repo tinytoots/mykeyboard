@@ -53,6 +53,13 @@
     font-size: 13px;
 }
 
+.footer-copyright2 {
+    float: center;
+    margin-top: 10px;
+    color: #8e8e93;
+    font-size: 13px;
+}
+
 .gray-lane {
     margin-top: 0px;
     height: 1px;

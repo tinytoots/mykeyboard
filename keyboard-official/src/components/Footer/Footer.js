@@ -63,11 +63,12 @@ export default class Header extends React.Component {
               <div className='gray-lane' />
               <Paragraph>
                 <p className='footer-copyright'>Made with 🤪 By Chen</p>
+                {/* <p className='footer-copyright2'>Copyright &copy; 2021 Chen. All rights reserved.</p> */}
               </Paragraph>
             </div>
         </div>
     );
     // &nbsp;&nbsp;       Made with ❤ By Chen
-    // <p className='footer-copyright'>Copyright &copy; 2021 MyKeyboardForFun. All rights reserved.</p>
+    // <p className='footer-copyright'>Copyright &copy; 2021 Chen. All rights reserved.</p>
   }
 }

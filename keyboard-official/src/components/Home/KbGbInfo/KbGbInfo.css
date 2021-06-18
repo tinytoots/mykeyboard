@@ -48,3 +48,16 @@
     /* background-color: red; */
     width: 1%;
 }
+
+.ant-progress-line {
+    position: relative;
+    width: 90%;
+    font-size: 14px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    position: relative;
+    padding: 16px 12px;
+    overflow-wrap: break-word;
+    margin-left: 10px;
+}
