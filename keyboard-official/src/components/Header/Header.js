@@ -36,9 +36,9 @@ export default class Header extends React.Component {
             <Menu.Item key="keycap" className='navModify2'>
               <NavLink to="/keycap" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键帽</NavLink>
             </Menu.Item>
-            {/* <Menu.Item key="problem">
-              <NavLink to="/problem">键圈吐槽</NavLink>
-            </Menu.Item> */}
+            <Menu.Item key="portfolio">
+              <NavLink to="/portfolio" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>我的账户</NavLink>
+            </Menu.Item>
             <Menu.Item key="readme">
               <NavLink to="/readme" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>说明</NavLink>
             </Menu.Item>

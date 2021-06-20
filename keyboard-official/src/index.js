@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import './stat.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const { Header, Content, Footer, Sider } = Layout;
 
