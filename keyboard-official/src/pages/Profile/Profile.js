@@ -79,9 +79,9 @@ export default function Profile() {
                 <Divider />
                 <Title level={2}>关于进度</Title>
                 <Paragraph>
-                一个产品的进度是从截团那一天开始计算的，由于团购的具体发货时间即使是开团的作者本人也很难确定，所以网站中关于团购发货的默认值是优先取官方团购贴中预计发货时间的最晚时间计算。比如预计7月发货则默认为7月的最后一天发货。Q3发货则默认为9月的最后一天发货。预计6月或7月发货则默认为7月最后一天发货。这样计算的原因是想尽可能降低大家对于延期产生的负面情绪。另外，由于很多作者在团购贴中并未注明预计发货时间，所以我只能在不同的vendors里找，而<Text mark>不同的vendors在对同一个团购的截团时间和预计发货时间可能会出现不统一的情况</Text>，所以网站中的信息有可能与你所掌握的有些许出入，但总体来看对进度的影响不算大。(AM HATSU由于特殊的团购模式，键盘进度是从开团日期计算的)
+                一个产品的进度是从截团那一天开始计算的，由于团购的具体发货时间即使是开团的作者本人也很难确定，所以网站中关于团购发货的默认值是优先取官方团购贴中预计发货时间的最晚时间计算。比如预计7月发货则默认为7月的最后一天发货。Q3发货则默认为9月的最后一天发货。预计6月或7月发货则默认为7月最后一天发货。这样计算的原因是想尽可能降低大家对于延期产生的负面情绪。另外，由于很多作者在团购贴中并未注明预计发货时间，所以我只能在不同的vendors里找，而<Text mark>不同的vendors在对同一个团购的截团时间和预计发货时间可能会出现不统一的情况</Text>，所以网站中的信息有可能与你所掌握的有些许出入，但总体来看对进度的影响不算大。<Text mark>当团购进度到达100%但没发货时，如果官方更新了延期进度，则进度条会进行相应更新，如果官方没有宣布延期进度，则进度条会从蓝色变为橙色，计算延期进度</Text>(AM HATSU由于特殊的团购模式，键盘进度是从开团日期计算的)
                 </Paragraph>
-                <Progress className={'point'} percent={19} /> &nbsp;&nbsp;&nbsp; 进度: 当前时间距离截团时间在从截团到预计发货总时间中所占比例 <br/>
+                <Progress className={'point'} percent={19} /> &nbsp;&nbsp;&nbsp; 进度: 当前时间距离截团时间在从截团到预计发货总时间中所占比例。比如从截团到发货一共需要十天，今天是截团后的第二天，那么在今天结束后，进度为20%。(由于服务器原因，一天的结束以美国东部时间为准)<br/>
                 <Progress className={'point'} strokeColor="orange" percent={69} /> &nbsp;&nbsp;&nbsp; 延期: 当前时间距离原计划发货时间在从截团到预计发货总时间中所占比例 <br/>
                 <Progress className={'point'} percent={100} /> &nbsp;&nbsp;&nbsp; 发货 <br/>
                 <Progress className={'point'} strokeColor="red" percent={100} status="exception"/> &nbsp;&nbsp;&nbsp; 流团 <br/><br/>
@@ -92,6 +92,10 @@ export default function Profile() {
                 <Paragraph>
                 由于表格空间有限，GMK的价格仅显示Base价格，数量为Base数量。SP SA的价格仅为基础TKL的价格，数量为Alpha Kit的销售量。如果你想查看更详细的数据，可以在 <Link href="https://matrixzj.github.io/docs/sa-keycaps" target="_blank">
                 https://matrixzj.github.io/docs/sa-keycaps</Link> 找到。
+                </Paragraph>
+                <Title level={2}>关于价格</Title>
+                <Paragraph>
+                价格排序中美元兑换人民币的比例均为1 : 6.5
                 </Paragraph>
                 <Divider />
                 <Paragraph>

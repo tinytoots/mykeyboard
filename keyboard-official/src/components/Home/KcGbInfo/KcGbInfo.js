@@ -191,14 +191,14 @@ var Lazurite = progressCal("6/5/2021", "6/30/2022").toFixed(1);
 var Apollo = delayCal("3/25/2020", "5/31/2021").toFixed(1);
 var Lunar = progressCal("4/3/2020", "7/30/2021").toFixed(1);
 var Wild = progressCal("5/6/2020", "6/30/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Yu = progressCal("4/20/2021", "10/31/2021").toFixed(1);
+var Salmon = progressCal("7/5/2021", "1/5/2022").toFixed(1);
+var Girl_Hood = progressCal("6/10/2021", "10/31/2022").toFixed(1);
+var Spectra = progressCal("6/25/2021", "12/31/2022").toFixed(1);
+var Copper = progressCal("6/28/2021", "12/31/2022").toFixed(1);
+var UwU = progressCal("6/15/2021", "3/31/2022").toFixed(1);
+var Patisserie = progressCal("6/13/2021", "6/30/2022").toFixed(1);
+var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
@@ -1646,8 +1646,8 @@ const data = [
       priceInt: 130,
       time: '2020-08-28',
       shipping: 'Q2 2021',
-      progress: <Progress percent={Skyriter} />,
-      progressInt: Skyriter,
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Skyriter/" target="_blank">
       https://skyriter</Link>,
     },
@@ -2071,6 +2071,118 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
       https://wild</Link> 
     }, 
+    {
+      key: '136',
+      name: '渔',
+      brand: 'MelGeek',
+      quantity: '未知',
+      price: '¥599',
+      priceInt: 599 / 6.5,
+      time: '2021-04-20',
+      shipping: '六个月',
+      progress: <Progress percent={Yu} />,
+      progressInt: Yu,
+      detail: <Link href="https://www.zfrontier.com/app/flow/2dA7RZB9aRqE" target="_blank">
+      https://yu</Link> 
+    },
+    // {
+    //   key: '137',
+    //   name: 'Salmon',
+    //   brand: 'MelGeek',
+    //   quantity: '未知',
+    //   price: '¥599',
+    //   priceInt: 599 / 6.5,
+    //   time: '2021-07-05',
+    //   shipping: '六个月',
+    //   progress: <Progress percent={Salmon} />,
+    //   progressInt: Salmon,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/2Edlpabjz8Qw" target="_blank">
+    //   https://salmon</Link> 
+    // }, 
+    {
+      key: '138',
+      name: 'Girl Hood 粉蜜',
+      brand: 'Signature Plastics',
+      quantity: '未知',
+      price: '¥699',
+      priceInt: 699 / 6.5,
+      time: '2021-06-10',
+      shipping: 'Oct. 2022',
+      progress: <Progress percent={Girl_Hood} />,
+      progressInt: Girl_Hood,
+      detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Girl-Hood/" target="_blank">
+      https://girl-hood</Link> 
+    },
+    // {
+    //   key: '139',
+    //   name: 'Spectra',
+    //   brand: 'Signature Plastics',
+    //   quantity: '未知',
+    //   price: '$142',
+    //   priceInt: 142,
+    //   time: '2021-06-25',
+    //   shipping: 'Q4 2022',
+    //   progress: <Progress percent={Spectra} />,
+    //   progressInt: Spectra,
+    //   detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Spectra/" target="_blank">
+    //   https://spectra</Link> 
+    // },
+    // {
+    //   key: '140',
+    //   name: 'Copper',
+    //   brand: 'Signature Plastics',
+    //   quantity: '未知',
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-28',
+    //   shipping: 'Q4 2022',
+    //   progress: <Progress percent={Copper} />,
+    //   progressInt: Copper,
+    //   detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Copper/" target="_blank">
+    //   https://copper</Link> 
+    // },
+    {
+      key: '141',
+      name: 'Beige WoB uwu Add-on',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$36.99',
+      priceInt: 36.99,
+      time: '2021-06-15',
+      shipping: 'Q1 2022',
+      progress: <Progress percent={UwU} />,
+      progressInt: UwU,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Beige-WoB-uwu-Add-on/" target="_blank">
+      https://uwu</Link> 
+    },
+    {
+      key: '142',
+      name: 'Patisserie',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$134.99',
+      priceInt: 134.99,
+      time: '2021-06-13',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Patisserie} />,
+      progressInt: Patisserie,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Patisserie/" target="_blank">
+      https://patisserie</Link> 
+    },
+    {
+      key: '143',
+      name: 'Haku',
+      brand: 'GMK',
+      quantity: '未知',
+      price: '$129.99',
+      priceInt: 129.99,
+      time: '2021-06-18',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Haku} />,
+      progressInt: Haku,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Haku/" target="_blank">
+      https://haku</Link> 
+    },
     // {
     //   key: '125',
     //   name: 'Sparta',
@@ -2092,13 +2204,27 @@ const data = [
     //   quantity: '未知',
     //   price: '$120',
     //   priceInt: 120,
-    //   time: '2021-06-05',
-    //   shipping: 'March 2022',
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
     //   progress: <Progress percent={Sparta} />,
     //   progressInt: Sparta,
     //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
     //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // }, 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: '未知',
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
     // {
     //   key: '125',
     //   name: 'Sparta',

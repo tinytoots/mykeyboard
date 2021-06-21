@@ -54,7 +54,7 @@ export default class Header extends React.Component {
                           <div className="contact-title">Contact Info</div>
                           <Space direction="vertical">
                               <p className='p1'><MailFilled />&nbsp;  mykeyboardforfun@gmail.com</p>
-                              <p style={{marginTop: "-15px", marginRight: "120px"}}><QqOutlined />&nbsp;  386950054</p>
+                              <p style={{marginTop: "-15px", marginRight: "119.5px"}}><QqOutlined />&nbsp; 386950054</p>
                           </Space>
                       </Paragraph>
                   </Col>

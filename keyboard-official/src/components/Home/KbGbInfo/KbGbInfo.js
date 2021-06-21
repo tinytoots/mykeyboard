@@ -90,7 +90,7 @@ var Angle_Vertex = progressCal("6/6/2021", "7/31/2021").toFixed(1);
 var Duo_S = progressCal("6/5/2021", "3/31/2022").toFixed(1);
 var KANSAS = progressCal("4/16/2021", "7/31/2021").toFixed(1);
 var BUFF67 = progressCal("6/13/2021", "8/31/2021").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var BLADE = progressCal("6/20/2021", "7/31/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
@@ -508,19 +508,20 @@ const data = [
       detail: <Link href="https://www.zfrontier.com/app/flow/2E8BJAjZgV1L" target="_blank">
       https://buffer67-v2</Link> 
     },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
+    {
+      key: '30',
+      name: 'BLADE',
+      brand: 'KBDfans',
+      type: '不限量',
+      price: '¥529',
+      priceInt: 529 / 6.5,
+      time: '2021-06-20',
+      shipping: 'July 2021',
+      progress: <Progress percent={BLADE} />,
+      progressInt: BLADE,
+      detail: <Link href="https://kbdfans.com/products/icblade-aluminum-60-keyboard-case" target="_blank">
+      https://blade</Link> 
+    },
     // {
     //   key: '26',
     //   name: 'Angle-Vertex',
