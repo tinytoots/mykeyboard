@@ -1,17 +1,25 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Header.css';
 import 'antd/dist/antd.css';
 import appConstants from '../Constant/constant'
-import { Menu, Image } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+import { Menu, Image, Button, Tooltip, Switch } from 'antd';
+import { MailOutlined, AppstoreOutlined, SettingOutlined, TranslationOutlined, SearchOutlined } from '@ant-design/icons';
 import { NavLink } from 'react-router-dom'
 import logo3 from './logo3.svg';
 import headersolve from './headersolve.svg';
+import { FormattedMessage } from 'react-intl'
+import { useContext } from 'react';
+import { LOCALES } from '../i18n/constants';
+import { AppContext } from '../Context';
 
 
 const { SubMenu } = Menu;
 
+
+// setLanguage(LOCALES.ENGLISH)}
+
 export default class Header extends React.Component {
+  
   state = {
     current: 'mail',
   };
@@ -21,8 +29,29 @@ export default class Header extends React.Component {
     this.setState({ current: e.key });
   };
 
+  static contextType = AppContext;
+
   render() {
-    const { current } = this.state;
+    const { current, isHot, wind, isEN, isCN } = this.state;
+    const {state, dispatch} = this.context;
+    const setLanguage = (locale) => {
+      dispatch({
+        type: 'setLocale',
+        locale
+      })
+    }
+
+    function onChange(checked) {
+      if (checked == true) {
+        setLanguage(LOCALES.ENGLISH);
+      } else {
+        setLanguage(LOCALES.CHINESE);
+      }
+    }
+
+    // const [toggled, setToggled] = useState(false);
+
+
     return (
       <div className='inner'>
         <div className='header-root'>
@@ -31,17 +60,23 @@ export default class Header extends React.Component {
           </NavLink>
           <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal" >
             <Menu.Item key="keybaord" className='navModify'>
-              <NavLink to="/keybaord" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键盘</NavLink>
+              <NavLink to="/keybaord" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}><FormattedMessage id="keyboard"/></NavLink>
             </Menu.Item>
             <Menu.Item key="keycap" className='navModify2'>
-              <NavLink to="/keycap" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>键帽</NavLink>
+              <NavLink to="/keycap" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}><FormattedMessage id="keycap"/></NavLink>
             </Menu.Item>
             {/* <Menu.Item key="problem">
               <NavLink to="/problem">键圈吐槽</NavLink>
             </Menu.Item> */}
             <Menu.Item key="readme">
-              <NavLink to="/readme" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}>说明</NavLink>
+              <NavLink to="/readme" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}><FormattedMessage id="readme"/></NavLink>
             </Menu.Item>
+            <Switch checkedChildren="中文" 
+                    unCheckedChildren="English" 
+                    defaultunChecked 
+                    style={{float: 'right', marginTop: 12}} 
+                    onChange={onChange} 
+            />
           </Menu>
         </div>
       </div>

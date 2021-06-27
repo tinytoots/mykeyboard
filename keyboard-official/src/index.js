@@ -6,12 +6,19 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import './stat.js';
+import Provider from './components/Provider';
+import { AppContextProvider } from './components/Context';
+
 
 const { Header, Content, Footer, Sider } = Layout;
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <AppContextProvider>
+      <Provider>
+        <App />
+      </Provider>
+    </AppContextProvider>
   </BrowserRouter>
   ,
   document.getElementById('root')
