@@ -2,8 +2,8 @@ import {LOCALES} from '../constants';
 
 export default {
     [LOCALES.ENGLISH]: {
-        keyboard: 'Keyboard',
-        keycap: 'Keycap',
+        keyboard: 'Keyboards',
+        keycap: 'Keycaps',
         readme: 'About',
         kbTitle: 'Keyboard GB Info',
         kcTitle: 'Keycap GB Info',
@@ -32,7 +32,8 @@ export default {
         hint: 'Place your mobile phone horizontally or browse with a computer, iPad or other large-screen devices to sort or search more content.',
         gbDelay: 'Delay',
         gbShipping: 'Shipping',
-        gbFailure: 'Not reached the MOQ',
+        gbFailure: 'MOQ not reached',
+        havefun: 'I hope this website will be helpful to you. Stay safe and have fun! :)',
     }
 }
 

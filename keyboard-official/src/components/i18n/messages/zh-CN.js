@@ -33,5 +33,6 @@ export default {
         gbDelay: '延期',
         gbShipping: '发货',
         gbFailure: '流团',
+        havefun: '希望这个网站能成为你的好帮手，祝大家玩得开心！:)',
     }
 }
