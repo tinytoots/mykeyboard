@@ -6,6 +6,7 @@ import 'antd/dist/antd.css';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import { Row, Col } from 'antd';
+import { FormattedMessage } from 'react-intl'
 
 const { Title, Paragraph, Text, Link } = Typography;
 
@@ -108,7 +109,7 @@ const data = [
       key: '1',
       name: 'THERMAL SEQ2',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$360',
       priceInt: 360,
       time: '2021-04-08',
@@ -122,7 +123,7 @@ const data = [
       key: '2',
       name: 'KARA',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$160',
       priceInt: 160,
       time: '2021-12-31',
@@ -136,7 +137,7 @@ const data = [
       key: '3',
       name: 'U80-A SEQ2',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$400',
       priceInt: 400,
       time: '2020-10-31',
@@ -150,7 +151,7 @@ const data = [
       key: '4',
       name: 'FOUNDRY JULES',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$400',
       priceInt: 400,
       time: '2020-04-15',
@@ -164,7 +165,7 @@ const data = [
       key: '5',
       name: 'M50-A GRID',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$300',
       priceInt: 300,
       time: '2020-05-31',
@@ -178,7 +179,7 @@ const data = [
       key: '6',
       name: 'IRON165 R2',
       brand: 'Smith + Rune',
-      type: '锁区限量 亚洲500 全球1250',
+      type: <FormattedMessage id="ironType"/>,
       price: '$424',
       priceInt: 424,
       time: '2021-02-27',
@@ -192,7 +193,7 @@ const data = [
       key: '7',
       name: 'IRON180',
       brand: 'Smith + Rune',
-      type: '锁区限量 亚洲300 全球600',
+      type: <FormattedMessage id="ironType2"/>,
       price: '$585',
       priceInt: 585,
       time: '2020-11-14',
@@ -206,7 +207,7 @@ const data = [
       key: '8',
       name: 'IM+',
       brand: 'Matrix Lab',
-      type: '分段总限时15分钟',
+      type: <FormattedMessage id="matrix"/>,
       price: '¥2599',
       priceInt: 2599 / 6.5,
       time: '2020-09-01',
@@ -219,7 +220,7 @@ const data = [
       key: '9',
       name: 'Matrix Lab 65%',
       brand: 'Matrix Lab',
-      type: '分段总限时15分钟',
+      type: <FormattedMessage id="matrix"/>,
       price: '¥2699',
       priceInt: 2699 / 6.5,
       time: '2021-01-06',
@@ -232,7 +233,7 @@ const data = [
       key: '10',
       name: 'Space80: Apollo',
       brand: 'Gray Studio',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥2699',
       priceInt: 2699 / 6.5,
       time: '2021-05-10',
@@ -246,7 +247,7 @@ const data = [
       key: '11',
       name: 'BOX75',
       brand: 'Lin Design Studio',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$550',
       priceInt: 550,
       time: '2021-02-19',
@@ -260,7 +261,7 @@ const data = [
       key: '12',
       name: 'Andromeda 仙女座',
       brand: 'ai03',
-      type: '限量100',
+      type: <FormattedMessage id="limi100"/>,
       price: '¥4999',
       priceInt: 4999 / 6.5,
       time: '2020-10-31',
@@ -274,7 +275,7 @@ const data = [
       key: '13',
       name: 'Mach80',
       brand: 'MelGeek',
-      type: '限时4小时',
+      type: <FormattedMessage id="limi4h"/>,
       price: '¥3299',
       priceInt: 3299 / 6.5,
       time: '2021-04-30',
@@ -288,7 +289,7 @@ const data = [
       key: '14',
       name: 'Leaf 65',
       brand: 'Fox Lab',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥2551',
       priceInt: 2551 / 6.5,
       time: '2021-01-02',
@@ -302,7 +303,7 @@ const data = [
       key: '15',
       name: '1800mini',
       brand: 'Xikii',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥2499',
       priceInt: 2499 / 6.5,
       time: '2021-05-10',
@@ -316,7 +317,7 @@ const data = [
       key: '16',
       name: 'Master98',
       brand: 'Xikii',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥3670',
       priceInt: 3670 / 6.5,
       time: '2021-05-10',
@@ -330,7 +331,7 @@ const data = [
       key: '17',
       name: 'i104 大爽',
       brand: 'Xikii',
-      type: '准现货80套',
+      type: <FormattedMessage id="limit80"/>,
       price: '¥2980',
       priceInt: 2980 / 6.5,
       time: '2021-05-15开团，售完为止',
@@ -344,7 +345,7 @@ const data = [
       key: '18',
       name: 'WILBA.TECH SALVATION',
       brand: 'WILBA.TECH X Salvun',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥2285',
       priceInt: 2285 / 6.5,
       time: '2021-05-07',
@@ -358,7 +359,7 @@ const data = [
       key: '19',
       name: 'CYBERBOARD R2',
       brand: 'Angry Miao',
-      type: '未知',
+      type: <FormattedMessage id="unknown"/>,
       price: '¥3700',
       priceInt: 3700 / 6.5,
       time: '2021-05-28',
@@ -372,7 +373,7 @@ const data = [
       key: '20',
       name: 'AM HATSU',
       brand: 'Angry Miao',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$1600',
       priceInt: 1600,
       time: '2021-07-29',
@@ -386,7 +387,7 @@ const data = [
       key: '21',
       name: 'Fuji65',
       brand: 'Sakura Studio',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥1399',
       priceInt: 1399 / 6.5,
       time: '2020-10-20',
@@ -400,7 +401,7 @@ const data = [
       key: '22',
       name: 'Hidari',
       brand: 'MONOKEI x Thesiscamper',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$419',
       priceInt: 419,
       time: '2021-04-30',
@@ -414,7 +415,7 @@ const data = [
       key: '23',
       name: 'Piggy60',
       brand: 'Jacky Lab',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$428',
       priceInt: 428,
       time: '2021-05-25',
@@ -428,7 +429,7 @@ const data = [
       key: '24',
       name: 'FOUNDRY ZENITH KEYBOARD',
       brand: 'RAMA WORKS',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '$450',
       priceInt: 450,
       time: '2020-07-30',
@@ -442,7 +443,7 @@ const data = [
       key: '25',
       name: 'Vega',
       brand: 'ai03',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥2299',
       priceInt: 2299 / 6.5,
       time: '2020-12-06',
@@ -456,7 +457,7 @@ const data = [
       key: '26',
       name: 'Angle-Vertex',
       brand: 'AvalonKeyboardStudio',
-      type: '限量170',
+      type: <FormattedMessage id="limit170"/>,
       price: '¥2850',
       priceInt: 2850 / 6.5,
       time: '2021-06-06开团',
@@ -484,7 +485,7 @@ const data = [
       key: '28',
       name: 'KANSAS 65',
       brand: 'Jerry studio',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥1999',
       priceInt: 1999 / 6.5,
       time: '2021-04-16',
@@ -498,7 +499,7 @@ const data = [
       key: '29',
       name: 'BUFF67 V2',
       brand: 'BUFF67 LAB',
-      type: '限量100',
+      type: <FormattedMessage id="limi100"/>,
       price: '¥998',
       priceInt: 998 / 6.5,
       time: '2021-06-13',
@@ -512,7 +513,7 @@ const data = [
       key: '30',
       name: 'BLADE',
       brand: 'KBDfans',
-      type: '不限量',
+      type: <FormattedMessage id="unlimited"/>,
       price: '¥529',
       priceInt: 529 / 6.5,
       time: '2021-06-20',
@@ -667,7 +668,7 @@ export default class KbGbInfo extends React.Component {
   render() {
     const columns = [
       {
-        title: '名称',
+        title: <FormattedMessage id="kbName"/>,
         dataIndex: 'name',
         key: 'name',
         ...this.getColumnSearchProps('name'),
@@ -677,7 +678,7 @@ export default class KbGbInfo extends React.Component {
         responsive: ['sm', 'xs']
       },
       {
-        title: '品牌',
+        title: <FormattedMessage id="kbBrand"/>,
         dataIndex: 'brand',
         key: 'brand',
         // defaultSortOrder: 'escend',
@@ -688,14 +689,14 @@ export default class KbGbInfo extends React.Component {
         responsive: ['sm']
       },
       {
-        title: '团购类别',
+        title: <FormattedMessage id="gbType"/>,
         dataIndex: 'type',
         key: 'type',
         width: '16%',
         responsive: ['sm']
       },
       {
-        title: '起售价',
+        title: <FormattedMessage id="gbPrice"/>,
         key: 'price',
         dataIndex: 'price',
         sortDirections: ['ascend', 'descend', 'ascend'],
@@ -704,7 +705,7 @@ export default class KbGbInfo extends React.Component {
         responsive: ['sm']
       },
       {
-        title: '截团时间',
+        title: <FormattedMessage id="gbEnd"/>,
         key: 'time',
         dataIndex: 'time',
         sortDirections: ['ascend', 'descend', 'ascend'],
@@ -713,7 +714,7 @@ export default class KbGbInfo extends React.Component {
         responsive: ['sm']
       },
       {
-        title: '进度',
+        title: <FormattedMessage id="gbProgress"/>,
         dataIndex: 'progress',
         key: 'progress',
         width: '35%',
@@ -724,16 +725,16 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h2 className="keyboardTitle">键盘团购信息</h2>
+            <h2 className="keyboardTitle"><FormattedMessage id="kcTitle"/></h2> 
             <Table className={'table'} columns={columns} dataSource={data} 
             expandable={{
               expandedRowRender: record => <p style={{ margin: 0 }}>
-                品牌： {record.brand}<br/>
-                团购类别： {record.type}<br/>
-                起售价： {record.price}<br/>
-                截团时间： {record.time}<br/>
-                预计发货： {record.shipping}<br/>
-                详情： {record.detail}<br/>
+                <FormattedMessage id="kbBrand"/>： {record.brand}<br/>
+                <FormattedMessage id="gbType"/>： {record.type}<br/>
+                <FormattedMessage id="gbPrice"/>： {record.price}<br/>
+                <FormattedMessage id="gbEnd"/>： {record.time}<br/>
+                <FormattedMessage id="shipping"/>： {record.shipping}<br/>
+                <FormattedMessage id="detail"/>： {record.detail}<br/>
                 {record.progress} <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> 进度 &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> 延期 &nbsp;
