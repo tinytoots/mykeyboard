@@ -725,7 +725,7 @@ export default class KbGbInfo extends React.Component {
     ];
     return (
         <div>
-            <h2 className="keyboardTitle"><FormattedMessage id="kcTitle"/></h2> 
+            <h2 className="keyboardTitle"><FormattedMessage id="kbTitle"/></h2> 
             <Table className={'table'} columns={columns} dataSource={data} 
             expandable={{
               expandedRowRender: record => <p style={{ margin: 0 }}>

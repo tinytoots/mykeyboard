@@ -5,7 +5,7 @@ export default {
         keyboard: '键盘',
         keycap: '键帽',
         readme: '说明',
-        kcTitle: '键盘团购信息',
+        kbTitle: '键盘团购信息',
         kcTitle: '键帽团购信息',
         kbName: '名称',
         kbBrand: '品牌',
