@@ -127,7 +127,7 @@ const data = [
       price: '$160',
       priceInt: 160,
       time: '2021-12-31',
-      shipping: '已发货',
+      shipping: 'Q2 2021',
       progressInt: 100,
       progress: <Progress percent={100} />,
       detail: <Link href="https://ramaworks.store/products/kara" target="_blank">
@@ -225,8 +225,8 @@ const data = [
       priceInt: 2699 / 6.5,
       time: '2021-01-06',
       shipping: 'Q2 2021',
-      progressInt: matrix65,
-      progress: <Progress percent={matrix65} />,
+      progressInt: 100,
+      progress: <Progress percent={100} />,
       detail: '请访问Matrix Lab QQ群'
     },
     {
@@ -335,7 +335,7 @@ const data = [
       price: '¥2980',
       priceInt: 2980 / 6.5,
       time: '2021-05-15开团，售完为止',
-      shipping: '2021 六月底',
+      shipping: 'June 2021',
       progressInt: i104,
       progress: <Progress percent={i104} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2JKxrvL3YlyO" target="_blank">
@@ -349,7 +349,7 @@ const data = [
       price: '¥2285',
       priceInt: 2285 / 6.5,
       time: '2021-05-07',
-      shipping: '2021年底',
+      shipping: 'Dec. 2021',
       progressInt: salvation,
       progress: <Progress percent={salvation} />,
       detail: <Link href="https://www.zfrontier.com/app/mch/1kwQEapmnrM1" target="_blank">
@@ -363,7 +363,7 @@ const data = [
       price: '¥3700',
       priceInt: 3700 / 6.5,
       time: '2021-05-28',
-      shipping: '2021 7月底',
+      shipping: 'July 2021',
       progressInt: cyberboard_r2,
       progress: <Progress percent={cyberboard_r2} />,
       detail: <Link href="https://www.angrymiao.com/cyberboard-r2/" target="_blank">
