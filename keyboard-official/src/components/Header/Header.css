@@ -1,6 +1,6 @@
 .header-root {
-    margin-right:  5%;
-    margin-left: 6%;
+    margin-right:  3%;
+    margin-left: 3%;
     background-color: #2c2c2e;
 } 
 
@@ -54,8 +54,8 @@
 }
 
 .language-Btn {
-    float: right !important;
-    margin-top: 14px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 
