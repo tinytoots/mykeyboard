@@ -190,7 +190,7 @@ var Handarbeit_Nachtarbeit = progressCal("6/3/2021", "5/31/2022").toFixed(1);
 var Dualshot_R2 = progressCal("6/4/2021", "6/30/2022").toFixed(1);
 var Lazurite = progressCal("6/5/2021", "6/30/2022").toFixed(1);
 var Apollo = delayCal("3/25/2020", "5/31/2021").toFixed(1);
-var Lunar = progressCal("4/3/2020", "7/30/2021").toFixed(1);
+var Lunar = progressCal("4/3/2020", "7/31/2021").toFixed(1);
 var Wild = progressCal("5/6/2020", "6/30/2021").toFixed(1);
 var Yu = progressCal("4/20/2021", "10/31/2021").toFixed(1);
 var Salmon = progressCal("7/5/2021", "1/5/2022").toFixed(1);
@@ -200,7 +200,7 @@ var Copper = progressCal("6/28/2021", "12/31/2022").toFixed(1);
 var UwU = progressCal("6/15/2021", "3/31/2022").toFixed(1);
 var Patisserie = progressCal("6/13/2021", "6/30/2022").toFixed(1);
 var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Blue_Samurai = progressCal("6/30/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
@@ -2114,20 +2114,20 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Girl-Hood/" target="_blank">
       https://girl-hood</Link> 
     },
-    // {
-    //   key: '139',
-    //   name: 'Spectra',
-    //   brand: 'Signature Plastics',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$142',
-    //   priceInt: 142,
-    //   time: '2021-06-25',
-    //   shipping: 'Q4 2022',
-    //   progress: <Progress percent={Spectra} />,
-    //   progressInt: Spectra,
-    //   detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Spectra/" target="_blank">
-    //   https://spectra</Link> 
-    // },
+    {
+      key: '139',
+      name: 'Spectra',
+      brand: 'Signature Plastics',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$142',
+      priceInt: 142,
+      time: '2021-06-25',
+      shipping: 'Q4 2022',
+      progress: <Progress percent={Spectra} />,
+      progressInt: Spectra,
+      detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Spectra/" target="_blank">
+      https://spectra</Link> 
+    },
     // {
     //   key: '140',
     //   name: 'Copper',
@@ -2184,6 +2184,230 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Haku/" target="_blank">
       https://haku</Link> 
     },
+    {
+      key: '144',
+      name: 'Blue Samurai 蓝武士',
+      brand: 'GMK',
+      quantity: 1058,
+      price: '$125',
+      priceInt: 125,
+      time: '2020-06-30',
+      shipping: 'July 2021',
+      progress: <Progress percent={Blue_Samurai} />,
+      progressInt: Blue_Samurai,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Blue-Samurai/" target="_blank">
+      https://blue-samurai</Link> 
+    },
+    {
+      key: '145',
+      name: 'Red Samurai R2 红武士R2',
+      brand: 'GMK',
+      quantity: 648,
+      price: '$125',
+      priceInt: 125,
+      time: '2020-06-30',
+      shipping: 'July 2021',
+      progress: <Progress percent={Blue_Samurai} />,
+      progressInt: Sparta,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Samurai-R2/" target="_blank">
+      https://red-samurai-r2</Link> 
+    },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
+    // {
+    //   key: '125',
+    //   name: 'Sparta',
+    //   brand: 'GMK',
+    //   quantity: <FormattedMessage id="unknown"/>,
+    //   price: '$120',
+    //   priceInt: 120,
+    //   time: '2021-06-04',
+    //   shipping: 'Q2 2022',
+    //   progress: <Progress percent={Sparta} />,
+    //   progressInt: Sparta,
+    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
+    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
+    // },
     // {
     //   key: '125',
     //   name: 'Sparta',
