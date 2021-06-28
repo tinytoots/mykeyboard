@@ -71,13 +71,14 @@ export default class Header extends React.Component {
             <Menu.Item key="readme">
               <NavLink to="/readme" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}><FormattedMessage id="readme"/></NavLink>
             </Menu.Item>
-            <Menu.Item className='language-Btn'>
-            <Switch checkedChildren="中文" 
+           
+            <Switch className="language-Btn"
+                    checkedChildren="中文" 
                     unCheckedChildren="English" 
                     defaultunChecked 
                     onChange={onChange} 
             />
-            </Menu.Item>
+         
           </Menu>
         </div>
       </div>
