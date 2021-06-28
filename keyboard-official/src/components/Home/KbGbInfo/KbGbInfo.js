@@ -92,7 +92,7 @@ var Duo_S = progressCal("6/5/2021", "3/31/2022").toFixed(1);
 var KANSAS = progressCal("4/16/2021", "7/31/2021").toFixed(1);
 var BUFF67 = progressCal("6/13/2021", "8/31/2021").toFixed(1);
 var BLADE = progressCal("6/20/2021", "7/31/2021").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var Satisfaction75_R2 = progressCal("11/6/2020", "9/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
@@ -523,6 +523,124 @@ const data = [
       detail: <Link href="https://kbdfans.com/products/icblade-aluminum-60-keyboard-case" target="_blank">
       https://blade</Link> 
     },
+    {
+      key: '31',
+      name: 'Satisfaction75 Round 2',
+      brand: 'Cannonkeys',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '$480',
+      priceInt: 480,
+      time: '2020-11-06',
+      shipping: 'Q3 2021',
+      progress: <Progress percent={Satisfaction75_R2} />,
+      progressInt: Satisfaction75_R2,
+      detail: <Link href="https://cannonkeys.com/blogs/updates/satisfaction75-round-2?_pos=3&_sid=c7975ee1b&_ss=r" target="_blank">
+      https://satisfaction75-r2</Link> 
+    },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
+    // {
+    //   key: '26',
+    //   name: 'Angle-Vertex',
+    //   brand: 'AvalonKeyboardStudio',
+    //   type: '限量170',
+    //   price: '¥2850',
+    //   time: '2021-06-06开团',
+    //   shipping: 'July 2021',
+    //   progress: <Progress percent={Angle_Vertex} />,
+    //   progressInt: Angle_Vertex,
+    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
+    //   https://angle-vertex</Link> 
+    // },
     // {
     //   key: '26',
     //   name: 'Angle-Vertex',
