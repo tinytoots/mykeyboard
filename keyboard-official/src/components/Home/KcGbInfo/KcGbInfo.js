@@ -200,10 +200,10 @@ var Copper = progressCal("6/28/2021", "12/31/2022").toFixed(1);
 var UwU = progressCal("6/15/2021", "3/31/2022").toFixed(1);
 var Patisserie = progressCal("6/13/2021", "6/30/2022").toFixed(1);
 var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
-var Blue_Samurai = progressCal("6/30/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Blue_Samurai = progressCal("6/30/2020", "8/31/2021").toFixed(1);
+var Deku = delayCal("8/7/2020", "5/31/2021").toFixed(1);
+var Frost_Witch = delayCal("5/24/2020", "2/28/2021").toFixed(1);
+var Dracula = progressCal("10/31/2019", "8/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
 
@@ -2192,7 +2192,7 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-06-30',
-      shipping: 'July 2021',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Blue_Samurai} />,
       progressInt: Blue_Samurai,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Blue-Samurai/" target="_blank">
@@ -2206,54 +2206,54 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-06-30',
-      shipping: 'July 2021',
+      shipping: 'Aug. 2021',
       progress: <Progress percent={Blue_Samurai} />,
-      progressInt: Sparta,
+      progressInt: Blue_Samurai,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Samurai-R2/" target="_blank">
       https://red-samurai-r2</Link> 
     },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
+    {
+      key: '146',
+      name: 'Deku',
+      brand: 'GMK',
+      quantity: 1503,
+      price: '$120',
+      priceInt: 120,
+      time: '2020-08-07',
+      shipping: 'May 2021',
+      progress: <Progress strokeColor="orange" percent={Deku} />,
+      progressInt: 100 + Deku,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Deku/" target="_blank"> 
+      https://deku</Link> 
+    },
+    {
+      key: '147',
+      name: 'Frost Witch',
+      brand: 'GMK',
+      quantity: 1030,
+      price: '$115',
+      priceInt: 115,
+      time: '2020-05-24',
+      shipping: 'Feb. 2021',
+      progress: <Progress strokeColor="orange" percent={Frost_Witch} />,
+      progressInt: 100 + Frost_Witch,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Frost-Witch/" target="_blank">
+      https://frost-witch</Link> 
+    },
+    {
+      key: '148',
+      name: 'Dracula 德古拉',
+      brand: 'GMK',
+      quantity: 3006,
+      price: '$130',
+      priceInt: 130,
+      time: '2019-10-31',
+      shipping: 'Aug. 2021',
+      progress: <Progress percent={Dracula} />,
+      progressInt: Dracula,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dracula/" target="_blank">
+      https://dracula</Link> 
+    },
     // {
     //   key: '125',
     //   name: 'Sparta',
