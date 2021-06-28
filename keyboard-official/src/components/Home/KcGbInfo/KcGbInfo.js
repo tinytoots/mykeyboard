@@ -2040,7 +2040,7 @@ const data = [
       time: '2020-03-25',
       shipping: 'May 2021',
       progress: <Progress strokeColor="orange" percent={Apollo} />,
-      progressInt: Apollo,
+      progressInt: 100 + Apollo,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Apollo/" target="_blank">
       https://apollo</Link> 
     }, 
