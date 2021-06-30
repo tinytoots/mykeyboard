@@ -1270,7 +1270,7 @@ const data = [
       time: '2020-10-30',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Space_Cadet_R2} />,
-      progressInt: Space_Cadet_R2,
+      progressInt: 100 + Space_Cadet_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Space-Cadet-R2/" target="_blank">
       https://space-cadet-r2</Link>,
     },
@@ -1396,7 +1396,7 @@ const data = [
       time: '2020-09-21',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Beta} />,
-      progressInt: Beta,
+      progressInt: 100 + Beta,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Beta/" target="_blank">
       https://beta</Link>,
     },
@@ -1508,7 +1508,7 @@ const data = [
       time: '2020-08-28',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Ishtar} />,
-      progressInt: Ishtar,
+      progressInt: 100 + Ishtar,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Ishtar/" target="_blank">
       https://Ishtar</Link>,
     },
@@ -1522,7 +1522,7 @@ const data = [
       time: '2020-08-28',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Evil_Dolch} />,
-      progressInt: Evil_Dolch,
+      progressInt: 100 + Evil_Dolch,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Evil-Dolch/" target="_blank">
       https://evil-dolch</Link>,
     },
@@ -1536,7 +1536,7 @@ const data = [
       time: '2020-08-14',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Pono} />,
-      progressInt: Pono,
+      progressInt: 100 + Pono,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pono/" target="_blank">
       https://pono</Link>,
     },
@@ -1662,7 +1662,7 @@ const data = [
       time: '2020-08-26',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Rocket} />,
-      progressInt: Rocket,
+      progressInt: 100 + Rocket,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Rocket/" target="_blank">
       https://rocket</Link>,
     },
@@ -1676,7 +1676,7 @@ const data = [
       time: '2020-09-30',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Daisy} />,
-      progressInt: Daisy,
+      progressInt: 100 + Daisy,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Daisy/" target="_blank">
       https://daisy</Link>,
     },
@@ -1760,7 +1760,7 @@ const data = [
       time: '2020-10-31',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Biso} />,
-      progressInt: Biso,
+      progressInt: 100 + Biso,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Biso/" target="_blank">
       https://biso</Link>,
     },
@@ -1774,7 +1774,7 @@ const data = [
       time: '2020-11-15',
       shipping: 'Q2 2021',
       progress: <Progress strokeColor="orange" percent={Angel_Devil_Daisy} />,
-      progressInt: Angel_Devil_Daisy,
+      progressInt: 100 + Angel_Devil_Daisy,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Angel-Devil-Daisy/" target="_blank">
       https://angel-devil-daisy</Link>,
     },
@@ -2068,7 +2068,7 @@ const data = [
       time: '2020-05-06',
       shipping: 'June 2021完成生产',
       progress: <Progress strokeColor="orange" percent={Wild} />,
-      progressInt: Wild,
+      progressInt: 100 + Wild,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
       https://wild</Link> 
     }, 
