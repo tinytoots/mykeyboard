@@ -71,7 +71,7 @@ var im = progressCal("9/1/2020", "9/1/2021").toFixed(1);
 var matrix65 = progressCal("1/6/2021", "7/1/2021").toFixed(1);
 var space80 = progressCal("5/10/2021", "11/31/2021").toFixed(1);
 var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
-var Andromeda = progressCal("10/31/2020", "6/30/2021").toFixed(1);
+var Andromeda = progressCal("10/31/2020", "7/31/2021").toFixed(1);
 var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
 var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
@@ -218,7 +218,7 @@ const data = [
     },
     {
       key: '9',
-      name: 'Matrix Lab 65%',
+      name: 'Matrix Vita',
       brand: 'Matrix Lab',
       type: <FormattedMessage id="matrix"/>,
       price: '¥2699',
