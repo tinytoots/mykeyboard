@@ -24,7 +24,7 @@ export default {
         limi100: '100 units FCFS',
         limit170: '170 units FCFS',
         limit80: '80 units FCFS',
-        limi4h: '4 hours',
+        limi4h: '4 hours FCFS',
         intro: 'Introduction',
         aboutProgress: 'About progress',
         aboutContent: 'About content',

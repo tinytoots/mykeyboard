@@ -93,8 +93,8 @@ var KANSAS = progressCal("4/16/2021", "7/31/2021").toFixed(1);
 var BUFF67 = progressCal("6/13/2021", "8/31/2021").toFixed(1);
 var BLADE = progressCal("6/20/2021", "7/31/2021").toFixed(1);
 var Satisfaction75_R2 = progressCal("11/6/2020", "9/30/2021").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var i6X = progressCal("6/30/2021", "8/31/2021").toFixed(1);
+var Rose60 = progressCal("7/1/2021", "9/30/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
@@ -537,32 +537,34 @@ const data = [
       detail: <Link href="https://cannonkeys.com/blogs/updates/satisfaction75-round-2?_pos=3&_sid=c7975ee1b&_ss=r" target="_blank">
       https://satisfaction75-r2</Link> 
     },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
+    {
+      key: '32',
+      name: 'i6X小爽',
+      brand: 'Xikii',
+      type: <FormattedMessage id="limi4h"/>,
+      price: '¥1680',
+      priceInt: 1680 / 6.5,
+      time: '2021-06-30',
+      shipping: '2021-08-31',
+      progress: <Progress percent={i6X} />,
+      progressInt: i6X,
+      detail: <Link href="https://www.zfrontier.com/app/flow/DGWgVpnNZNva" target="_blank">
+      https://i6x</Link> 
+    },
+    {
+      key: '33',
+      name: 'Rose60',
+      brand: '鹿悦佳客制化',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '¥988',
+      priceInt: 988 / 6.5,
+      time: '2021-07-01',
+      shipping: 'Sept. 2021',
+      progress: <Progress percent={Rose60} />,
+      progressInt: Rose60,
+      detail: <Link href="https://www.zfrontier.com/app/flow/DAKAEoGMrVBK" target="_blank">
+      https://rose60</Link> 
+    },
     // {
     //   key: '26',
     //   name: 'Angle-Vertex',
