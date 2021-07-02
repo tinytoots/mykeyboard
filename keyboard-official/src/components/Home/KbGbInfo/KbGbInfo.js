@@ -76,7 +76,7 @@ var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
 var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
 var master98 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
-var i104 = progressCal("5/15/2021", "6/30/2021").toFixed(1);
+var i104 = delayCal("5/15/2021", "6/30/2021").toFixed(1);
 var salvation = progressCal("5/7/2021", "12/31/2021").toFixed(1);
 var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
 var cyberboard_r2 = progressCal("5/28/2021", "7/31/2021").toFixed(1);
@@ -337,7 +337,7 @@ const data = [
       time: '2021-05-15开团，售完为止',
       shipping: 'June 2021',
       progressInt: i104,
-      progress: <Progress percent={i104} />,
+      progress: <Progress strokeColor="orange" percent={i104} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2JKxrvL3YlyO" target="_blank">
       https://i104</Link> 
     },
