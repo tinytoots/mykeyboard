@@ -148,16 +148,16 @@ var Shoko_R2 = progressCal("9/15/2020", "7/30/2021").toFixed(1);
 var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
 var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
 var Bento_R2 = progressCal("8/31/2020", "7/30/2021").toFixed(1);
-var Minimal_R2 = progressCal("9/2/2020", "7/30/2021").toFixed(1);
+var Minimal_R2 = progressCal("9/2/2020", "1/31/2022").toFixed(1);
 var Dolch_R5 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
 var Ishtar = delayCal("8/28/2020", "6/30/2021").toFixed(1);
 var Evil_Dolch = delayCal("8/28/2020", "6/30/2021").toFixed(1);
-var Pono = delayCal("8/14/2020", "6/30/2021").toFixed(1);
+var Pono = progressCal("8/14/2020", "1/31/2022").toFixed(1);
 var Sumi = delayCal("8/15/2020", "4/30/2021").toFixed(1);
 var Prepress = progressCal("8/28/2020", "8/31/2021").toFixed(1);
-var Mecha_01 = delayCal("8/7/2020", "5/31/2021").toFixed(1);
-var Nord = delayCal("7/10/2020", "4/30/2021").toFixed(1);
-var Modern_Dolch_R2 = progressCal("7/2/2020", "7/11/2021").toFixed(1);
+var Mecha_01 = progressCal("8/7/2020", "11/30/2021").toFixed(1);
+var Nord = progressCal("7/10/2020", "8/31/2021").toFixed(1);
+var Modern_Dolch_R2 = progressCal("7/2/2020", "11/30/2021").toFixed(1);
 var Cyrillic_WoB_Beige = progressCal("6/1/2021", "6/30/2022").toFixed(1);
 var Hazakura = progressCal("6/1/2021", "6/30/2022").toFixed(1);
 var Skyriter = progressCal("8/28/2020", "6/31/2021").toFixed(1);
@@ -201,7 +201,7 @@ var UwU = progressCal("6/15/2021", "3/31/2022").toFixed(1);
 var Patisserie = progressCal("6/13/2021", "6/30/2022").toFixed(1);
 var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
 var Blue_Samurai = progressCal("6/30/2020", "8/31/2021").toFixed(1);
-var Deku = delayCal("8/7/2020", "5/31/2021").toFixed(1);
+var Deku = progressCal("8/7/2020", "8/31/2021").toFixed(1);
 var Frost_Witch = delayCal("5/24/2020", "2/28/2021").toFixed(1);
 var Dracula = progressCal("10/31/2019", "8/31/2021").toFixed(1);
 var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
@@ -1478,9 +1478,10 @@ const data = [
       price: '$99.99',
       priceInt: 99.99,
       time: '2020-09-02',
-      shipping: 'July 2021',
+      shipping: 'Jan, 2022',
       progress: <Progress percent={Minimal_R2} />,
       progressInt: Minimal_R2,
+      updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Minimal-R2/" target="_blank">
       https://minimal-r2</Link>,
     },
@@ -1534,9 +1535,10 @@ const data = [
       price: '$124.99',
       priceInt: 124.99,
       time: '2020-08-14',
-      shipping: 'Q2 2021',
-      progress: <Progress strokeColor="orange" percent={Pono} />,
-      progressInt: 100 + Pono,
+      shipping: 'Jan, 2022',
+      progress: <Progress percent={Pono} />,
+      progressInt: Pono,
+      updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pono/" target="_blank">
       https://pono</Link>,
     },
@@ -1576,9 +1578,10 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-08-07',
-      shipping: 'May 2021',
-      progress: <Progress strokeColor="orange" percent={Mecha_01} />,
-      progressInt: 100 + Mecha_01,
+      shipping: 'Nov. 2021',
+      progress: <Progress percent={Mecha_01} />,
+      progressInt: Mecha_01,
+      updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mecha-01/" target="_blank">
       https://mecha-01</Link>,
     },
@@ -1590,9 +1593,10 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-07-10',
-      shipping: 'Apr. 2021',
-      progress: <Progress strokeColor="orange" percent={Nord} />,
-      progressInt: 100 + Nord,
+      shipping: 'Aug. 2021',
+      progress: <Progress percent={Nord} />,
+      progressInt: Nord,
+      updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Nord/" target="_blank">
       https://nord</Link>,
     },
@@ -1604,9 +1608,10 @@ const data = [
       price: '$99.99',
       priceInt: 99.99,
       time: '2020-07-02',
-      shipping: '2021-07-11',
+      shipping: 'Nov. 2021',
       progress: <Progress percent={Modern_Dolch_R2} />,
       progressInt: Modern_Dolch_R2,
+      updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Modern-Dolch-R2/" target="_blank">
       https://modo2</Link>,
     },
@@ -2220,9 +2225,10 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-08-07',
-      shipping: 'May 2021',
-      progress: <Progress strokeColor="orange" percent={Deku} />,
-      progressInt: 100 + Deku,
+      shipping: 'Aug. 2021',
+      updateDate: '2021-07-03',
+      progress: <Progress percent={Deku} />,
+      progressInt: Deku,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Deku/" target="_blank"> 
       https://deku</Link> 
     },
@@ -2637,6 +2643,7 @@ export default class KbGbInfo extends React.Component {
                 <FormattedMessage id="gbEnd"/>： {record.time}<br/>
                 <FormattedMessage id="shipping"/>： {record.shipping}<br/>
                 <FormattedMessage id="detail"/>： {record.detail}<br/>
+                <FormattedMessage id="update"/>： {record.updateDate}<br/>
                 {record.progress} <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> <FormattedMessage id="gbProgress"/> &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> <FormattedMessage id="gbDelay"/> &nbsp;

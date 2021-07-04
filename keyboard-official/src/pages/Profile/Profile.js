@@ -35,7 +35,7 @@ export default function Profile() {
                 @Xikii</Link> 为此网站提出很多宝贵的建议。<br/><br/>   
 
                 <Paragraph>
-                Hello everyone, my name is Chen. I am a mechanical keyboard enthusiast. I found that there is no convenient tool to visually display the progress of the keyboard group-buying, so I decided to build one so that we can all use it together. I hope to contribute a little to our keyboard community. Every piece of data on this site is searched and added by me one by one. In order to ensure the accuracy of the data as much as possible, I will find the corresponding official group-buying post to double check. But even so, <Text mark>due to the limited time and energy I can personally devote, inevitably there will be inaccurate data, please understanding.  If you find any of the above problems, please feel free to <a href={`mailto:${customerEmail}?subject=Data correction`} >send me an email</a> and I will update it as soon as possible</Text>. Also, if you have any suggestions or interesting features for this website, please feel free to <a href={`mailto:${customerEmail}?subject=Keyboard website suggestions`} >contact me by email</a>. I will develop it step by step according to your needs if these features can help more people, and I hope this website will become our customized website!
+                Hi everyone, I'm Chen, a mechanical keyboard enthusiast. I found that there is no convenient tool to visually display the progress of the keyboard group-buying, so I decided to build one so that we can all use it together. I hope to contribute a little to our keyboard community. Every piece of data on this site is searched and added by me one by one. In order to ensure the accuracy of the data as much as possible, I will find the corresponding official group-buying post to double check. But even so, <Text mark>due to the limited time and energy I can personally devote, inevitably there will be inaccurate data, please understanding.  If you find any of the above problems, please feel free to <a href={`mailto:${customerEmail}?subject=Data correction`} >send me an email</a> and I will update it as soon as possible</Text>. Also, if you have any suggestions or interesting features for this website, please feel free to <a href={`mailto:${customerEmail}?subject=Keyboard website suggestions`} >contact me by email</a>. I will develop it step by step according to your needs if these features can help more people, and I hope this website will become our customized website!
                 </Paragraph>   
                 <Paragraph>
                 If the keyboard or keycap you want to search is not displayed on the website, please <a href={`mailto:${customerEmail}?subject=Data add`} >send an email</a> to let me know, and I will add it as soon as possible. Please indicate the correct and complete name of the keybaord or keycap in the email. It would be better if you can attach the link or screenshot of the official group-buying post. This can help me greatly save the workload of confirming the information, thanks!
@@ -58,7 +58,14 @@ export default function Profile() {
                 <Progress className={'point'} strokeColor="orange" percent={69} /> &nbsp;&nbsp;&nbsp; 延期: 当前时间距离原计划发货时间在从截团到预计发货总时间中所占比例 Delay: The percentage of the total days from the originally planned shipping date to today in the total days from the GB ended to the expected shipping date<br/>
                 <Progress className={'point'} percent={100} /> &nbsp;&nbsp;&nbsp; 发货 Shipping <br/>
                 <Progress className={'point'} strokeColor="red" percent={100} status="exception"/> &nbsp;&nbsp;&nbsp; 流团 The MOQ is not reached<br/><br/>
-               
+                <Title level={2}><FormattedMessage id="aboutDataUpdate"/></Title>
+                <Paragraph>
+                该项表示网站数据更新的时间，比如本网站之前显示GMK Modern dolch 2预计2021年7月11日发货，但是我在2021年7月3日发现官方将发货时间延期到2021年11月，那么网站的进度数据也将从2021年7月11日变成2021年11月，同时数据更新时间标为2021年7月3日
+                </Paragraph>
+                <Paragraph>
+                This data indicates the update time of the current product data on the website. For example, this website previously showed that GMK Modern dolch 2 is expected to be shipped on July 11, 2021, but I found out on July 3, 2021 that the official shipping time is postponed to November 2021, then the website progress data will also change from July 11, 2021 to November 2021, and also the data update time is marked as July 3, 2021
+                </Paragraph>
+
                 <Title level={2}><FormattedMessage id="aboutPrice"/></Title>
                 <Paragraph>
                 价格排序中美元兑换人民币的比例均为1 : 6.5

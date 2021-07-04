@@ -855,6 +855,7 @@ export default class KbGbInfo extends React.Component {
                 <FormattedMessage id="gbEnd"/>： {record.time}<br/>
                 <FormattedMessage id="shipping"/>： {record.shipping}<br/>
                 <FormattedMessage id="detail"/>： {record.detail}<br/>
+                <FormattedMessage id="update"/>： {record.updateDate}<br/>
                 {record.progress} <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> <FormattedMessage id="gbProgress"/> &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> <FormattedMessage id="gbDelay"/> &nbsp;
