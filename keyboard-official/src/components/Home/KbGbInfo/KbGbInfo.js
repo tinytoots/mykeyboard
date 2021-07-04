@@ -62,7 +62,7 @@ function delayCal(start, end) {
 
 var thermal_seq2 = progressCal("4/8/2021", "9/1/2022").toFixed(1);
 var kara = progressCal("12/31/2020", "6/1/2021").toFixed(1);
-var u80a_seq2 = progressCal("10/31/2020", "6/30/2021").toFixed(1);
+var u80a_seq2 = delayCal("10/31/2020", "6/30/2021").toFixed(1);
 var foundary_jules = progressCal("4/15/2020", "6/30/2021").toFixed(1);
 var m50a = delayCal("5/31/2020", "12/31/2020").toFixed(1);
 var iron165_r2 = progressCal("2/27/2021", "3/1/2022").toFixed(1);
@@ -142,8 +142,8 @@ const data = [
       priceInt: 400,
       time: '2020-10-31',
       shipping: 'Q2 2021',
-      progressInt: u80a_seq2,
-      progress: <Progress percent={u80a_seq2} />,
+      progressInt: 100 + u80a_seq2,
+      progress: <Progress strokeColor='orange' percent={u80a_seq2} />,
       detail: <Link href="https://ramaworks.store/products/u80-a-seq2" target="_blank">
       https://u80-a-seq2</Link> 
     },
