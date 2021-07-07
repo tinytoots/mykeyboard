@@ -66,6 +66,14 @@ export default function Profile() {
                 This data indicates the update time of the current product data on the website. For example, this website previously showed that GMK Modern dolch 2 is expected to be shipped on July 11, 2021, but I found out on July 3, 2021 that the official shipping time is postponed to November 2021, then the website progress data will also change from July 11, 2021 to November 2021, and also the data update time is marked as July 3, 2021
                 </Paragraph>
 
+                <Title level={2}><FormattedMessage id="aboutDelayTotal"/></Title>
+                <Paragraph>
+                该项表示团购贴初次预计发货日期到实际发货日期的总天数，加这一项的主要目的是积累数据以后可以添加一个延期排行榜和守时排行榜，just for fun! :)
+                </Paragraph>
+                <Paragraph>
+                This data represents the total number of days from the initial estimated shipping date in the GB post to the actual shipping date    
+                </Paragraph>
+
                 <Title level={2}><FormattedMessage id="aboutPrice"/></Title>
                 <Paragraph>
                 价格排序中美元兑换人民币的比例均为1 : 6.5

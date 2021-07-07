@@ -2091,20 +2091,21 @@ const data = [
       detail: <Link href="https://www.zfrontier.com/app/flow/2dA7RZB9aRqE" target="_blank">
       https://yu</Link> 
     },
-    // {
-    //   key: '137',
-    //   name: 'Salmon',
-    //   brand: 'MelGeek',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '¥599',
-    //   priceInt: 599 / 6.5,
-    //   time: '2021-07-05',
-    //   shipping: '六个月',
-    //   progress: <Progress percent={Salmon} />,
-    //   progressInt: Salmon,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/2Edlpabjz8Qw" target="_blank">
-    //   https://salmon</Link> 
-    // }, 
+    {
+      key: '137',
+      name: 'Salmon',
+      brand: 'MelGeek',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '¥599',
+      priceInt: 599 / 6.5,
+      time: '2021-07-05',
+      shipping: '六个月',
+      progress: <Progress percent={Salmon} />,
+      progressInt: Salmon,
+      updateDate: '2021-07-06',
+      detail: <Link href="https://www.zfrontier.com/app/flow/2Edlpabjz8Qw" target="_blank">
+      https://salmon</Link> 
+    }, 
     {
       key: '138',
       name: 'Girl Hood 粉蜜',
@@ -2133,20 +2134,20 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Spectra/" target="_blank">
       https://spectra</Link> 
     },
-    // {
-    //   key: '140',
-    //   name: 'Copper',
-    //   brand: 'Signature Plastics',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-28',
-    //   shipping: 'Q4 2022',
-    //   progress: <Progress percent={Copper} />,
-    //   progressInt: Copper,
-    //   detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Copper/" target="_blank">
-    //   https://copper</Link> 
-    // },
+    {
+      key: '140',
+      name: 'Copper',
+      brand: 'Signature Plastics',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$120',
+      priceInt: 120,
+      time: '2021-06-28',
+      shipping: 'Q4 2022',
+      progress: <Progress percent={Copper} />,
+      progressInt: Copper,
+      detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Copper/" target="_blank">
+      https://copper</Link> 
+    },
     {
       key: '141',
       name: 'Beige WoB uwu Add-on',
@@ -2644,6 +2645,7 @@ export default class KbGbInfo extends React.Component {
                 <FormattedMessage id="shipping"/>： {record.shipping}<br/>
                 <FormattedMessage id="detail"/>： {record.detail}<br/>
                 <FormattedMessage id="update"/>： {record.updateDate}<br/>
+                <FormattedMessage id="delayTotal"/>： {record.delayTotalDays}<br/>
                 {record.progress} <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> <FormattedMessage id="gbProgress"/> &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> <FormattedMessage id="gbDelay"/> &nbsp;
