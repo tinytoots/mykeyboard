@@ -156,7 +156,7 @@ var Pono = progressCal("8/14/2020", "1/31/2022").toFixed(1);
 var Sumi = delayCal("8/15/2020", "4/30/2021").toFixed(1);
 var Prepress = progressCal("8/28/2020", "8/31/2021").toFixed(1);
 var Mecha_01 = progressCal("8/7/2020", "11/30/2021").toFixed(1);
-var Nord = progressCal("7/10/2020", "8/31/2021").toFixed(1);
+var Nord = progressCal("7/10/2020", "3/31/2022").toFixed(1);
 var Modern_Dolch_R2 = progressCal("7/2/2020", "11/30/2021").toFixed(1);
 var Cyrillic_WoB_Beige = progressCal("6/1/2021", "6/30/2022").toFixed(1);
 var Hazakura = progressCal("6/1/2021", "6/30/2022").toFixed(1);
@@ -190,7 +190,7 @@ var Handarbeit_Nachtarbeit = progressCal("6/3/2021", "5/31/2022").toFixed(1);
 var Dualshot_R2 = progressCal("6/4/2021", "6/30/2022").toFixed(1);
 var Lazurite = progressCal("6/5/2021", "6/30/2022").toFixed(1);
 var Apollo = delayCal("3/25/2020", "5/31/2021").toFixed(1);
-var Lunar = progressCal("4/3/2020", "7/31/2021").toFixed(1);
+var Lunar = progressCal("4/3/2020", "12/31/2021").toFixed(1);
 var Wild = delayCal("5/6/2020", "6/30/2021").toFixed(1);
 var Yu = progressCal("4/20/2021", "10/31/2021").toFixed(1);
 var Salmon = progressCal("7/5/2021", "1/5/2022").toFixed(1);
@@ -1584,6 +1584,7 @@ const data = [
       updateDate: '2021-07-02',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mecha-01/" target="_blank">
       https://mecha-01</Link>,
+      // 延期
     },
     {
       key: '99',
@@ -1593,12 +1594,13 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-07-10',
-      shipping: 'Aug. 2021',
+      shipping: 'Q1 2022',
       progress: <Progress percent={Nord} />,
       progressInt: Nord,
-      updateDate: '2021-07-02',
+      updateDate: '2021-07-08',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Nord/" target="_blank">
       https://nord</Link>,
+      // 延期
     },
     {
       key: '100',
@@ -2057,11 +2059,13 @@ const data = [
       price: '$160',
       priceInt: 160,
       time: '2020-04-03',
-      shipping: 'Jul 2021',
+      shipping: 'Q4 2021',
       progress: <Progress percent={Lunar} />,
       progressInt: Lunar,
+      updateDate: '2021-07-08',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lunar/" target="_blank">
       https://lunar</Link> 
+      // 延期 Jul 2021 
     },
     {
       key: '133',
