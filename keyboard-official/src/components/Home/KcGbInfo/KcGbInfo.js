@@ -204,8 +204,26 @@ var Blue_Samurai = progressCal("6/30/2020", "8/31/2021").toFixed(1);
 var Deku = progressCal("8/7/2020", "8/31/2021").toFixed(1);
 var Frost_Witch = delayCal("5/24/2020", "2/28/2021").toFixed(1);
 var Dracula = progressCal("10/31/2019", "8/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/31/2021").toFixed(1);
+var Moonlight = progressCal("6/26/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var Lavender = progressCal("6/30/2021", "12/31/2022").toFixed(1);
+var Sixes = progressCal("6/30/2021", "5/31/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
 
 
 // document.write("<br><br>进度" + u80a_seq2);
@@ -2265,62 +2283,66 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dracula/" target="_blank">
       https://dracula</Link> 
     },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
+    {
+      key: '149',
+      name: 'Moonlight',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$135',
+      priceInt: 135,
+      time: '2021-06-26',
+      shipping: 'Q2 2022',
+      progress: <Progress percent={Moonlight} />,
+      progressInt: Moonlight,
+      updateDate: '2021-07-17',
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Moonlight/" target="_blank">
+      https://moonlight/</Link> 
+    },
+    {
+      key: '150',
+      name: 'British Racing Green',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$129.99',
+      priceInt: 129.99,
+      time: '2021-06-30',
+      shipping: 'Q2 2022',
+      updateDate: '2021-07-17',
+      progress: <Progress percent={British_Racing_Green} />,
+      progressInt: British_Racing_Green,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/British-Racing-Green/" target="_blank">
+      https://British_Racing_Green</Link> 
+    },
+    {
+      key: '151',
+      name: 'Lavender',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$110',
+      priceInt: 110,
+      time: '2021-06-30',
+      shipping: 'Q4 2022',
+      updateDate: '2021-07-17',
+      progress: <Progress percent={Lavender} />,
+      progressInt: Lavender,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lavender/" target="_blank">
+      https://lavender</Link> 
+    },
+    {
+      key: '152',
+      name: 'Sixes',
+      brand: 'GMK',
+      quantity: 500,
+      price: '$110',
+      priceInt: 110,
+      time: '2021-06-04',
+      shipping: 'Q2 2022',
+      updateDate: '2021-06-30',
+      progress: <Progress percent={Sixes} />,
+      progressInt: Sixes,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sixes/" target="_blank">
+      https://sixes</Link> 
+    },
     // {
     //   key: '125',
     //   name: 'Sparta',

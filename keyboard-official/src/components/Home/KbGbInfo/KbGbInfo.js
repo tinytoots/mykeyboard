@@ -95,10 +95,10 @@ var BLADE = progressCal("6/20/2021", "7/31/2021").toFixed(1);
 var Satisfaction75_R2 = progressCal("11/6/2020", "9/30/2021").toFixed(1);
 var i6X = progressCal("6/30/2021", "8/31/2021").toFixed(1);
 var Rose60 = progressCal("7/1/2021", "9/30/2021").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
-var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
+var Matrix_ME = progressCal("7/16/2021", "11/30/2021").toFixed(1);
+var Fuji75 = progressCal("8/1/2021", "11/30/2021").toFixed(1);
+var Stardust65 = progressCal("7/14/2021", "10/31/2021").toFixed(1);
+var Colossus75 = progressCal("7/6/2021", "10/31/2021").toFixed(1);
 var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 
 
@@ -565,58 +565,66 @@ const data = [
       detail: <Link href="https://www.zfrontier.com/app/flow/DAKAEoGMrVBK" target="_blank">
       https://rose60</Link> 
     },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
-    // {
-    //   key: '26',
-    //   name: 'Angle-Vertex',
-    //   brand: 'AvalonKeyboardStudio',
-    //   type: '限量170',
-    //   price: '¥2850',
-    //   time: '2021-06-06开团',
-    //   shipping: 'July 2021',
-    //   progress: <Progress percent={Angle_Vertex} />,
-    //   progressInt: Angle_Vertex,
-    //   detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
-    //   https://angle-vertex</Link> 
-    // },
+    {
+      key: '34',
+      name: 'Matrix ME',
+      brand: 'Matrix Lab',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '¥1699',
+      priceInt: 1699 / 6.5,
+      time: '2021-07-16',
+      shipping: 'Nov. 2021',
+      progress: <Progress percent={Matrix_ME} />,
+      progressInt: Matrix_ME,
+      updateDate: '2021-07-17',
+      detail: <Link href="https://www.zfrontier.com/app/flow/enqjKA8MVvNg" target="_blank">
+      https://matrix-me</Link> 
+    },
+    {
+      key: '35',
+      name: 'Fuji75',
+      brand: 'Sakura Studio',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '¥2299',
+      priceInt: 2299 / 6.5,
+      time: '2021-08-01',
+      shipping: 'Nov. 2021',
+      progress: <Progress percent={Fuji75} />,
+      progressInt: Fuji75,
+      updateDate: '2021-07-17',
+      detail: <Link href="https://www.zfrontier.com/app/flow/D6gq9AEGjO58" target="_blank">
+      https://fuji75</Link> 
+    },
+    {
+      key: '36',
+      name: 'Stardust 65',
+      brand: 'zz彩虹',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '1280',
+      progressInt: 1280 / 6.5,
+      time: '2021-07-14',
+      shipping: 'Oct. 2021',
+      progress: <Progress percent={Stardust65} />,
+      progressInt: Stardust65,
+      updateDate: '2021-07-17',
+      detail: <Link href="https://www.zfrontier.com/app/flow/DLAOrl88jpBa" target="_blank">
+      https://stardust65</Link> 
+    },
+    {
+      key: '37',
+      name: 'Colossus75%',
+      brand: 'Colossus75',
+      type: <FormattedMessage id="unlimited"/>,
+      price: '¥1501',
+      progressInt: 1501 / 6.5,
+      time: '2021-07-06',
+      shipping: 'Oct. 2021',
+      progress: <Progress percent={Colossus75} />,
+      progressInt: Colossus75,
+      updateDate: '2021-07-17',
+      detail: <Link href="https://www.zfrontier.com/app/flow/e117zO68W8bz" target="_blank">
+      https://colossus75</Link> 
+    },
     // {
     //   key: '26',
     //   name: 'Angle-Vertex',
