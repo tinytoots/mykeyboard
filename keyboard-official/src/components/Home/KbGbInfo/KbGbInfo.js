@@ -170,8 +170,10 @@ const data = [
       priceInt: 300,
       time: '2020-05-31',
       shipping: 'Dec 2020',
-      progressInt: 100 + m50a,
-      progress: <Progress strokeColor="orange" percent={m50a} />,
+      progressInt: 100,
+      updateDate: '2021-07-21',
+      delayTotalDays: '7 months',
+      progress: <Progress percent={100} />,
       detail: <Link href="http://www.mechgroupbuys.com/keyboards/RAMA%20M50-A%20GRID" target="_blank">
       http://m50</Link> 
     },
@@ -518,8 +520,10 @@ const data = [
       priceInt: 529 / 6.5,
       time: '2021-06-20',
       shipping: 'July 2021',
-      progress: <Progress percent={BLADE} />,
-      progressInt: BLADE,
+      progress: <Progress percent={100} />,
+      updateDate: '2021-07-20',
+      delayTotalDays: 0,
+      progressInt: 100,
       detail: <Link href="https://kbdfans.com/products/icblade-aluminum-60-keyboard-case" target="_blank">
       https://blade</Link> 
     },
