@@ -366,8 +366,10 @@ const data = [
       priceInt: 3700 / 6.5,
       time: '2021-05-28',
       shipping: 'July 2021',
-      progressInt: cyberboard_r2,
-      progress: <Progress percent={cyberboard_r2} />,
+      delayTotalDays: 'GB failure',
+      updateDate: '2021-07-25',
+      progressInt: -1000,
+      progress: <Progress strokeColor='red' percent={100} />,
       detail: <Link href="https://www.angrymiao.com/cyberboard-r2/" target="_blank">
       https://cyberboard-r2/</Link> 
     },
