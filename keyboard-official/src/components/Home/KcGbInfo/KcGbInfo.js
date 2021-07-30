@@ -144,10 +144,10 @@ var Red_Devils = progressCal("9/30/2020", "9/30/2021").toFixed(1);
 var Yuru = progressCal("10/1/2020", "8/31/2021").toFixed(1);
 var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = delayCal("9/21/2020", "6/30/2021").toFixed(1);
-var Shoko_R2 = progressCal("9/15/2020", "7/30/2021").toFixed(1);
+var Shoko_R2 = progressCal("9/15/2020", "9/30/2021").toFixed(1);
 var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
 var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
-var Bento_R2 = progressCal("8/31/2020", "7/30/2021").toFixed(1);
+var Bento_R2 = progressCal("8/31/2020", "12/31/2021").toFixed(1);
 var Minimal_R2 = progressCal("9/2/2020", "1/31/2022").toFixed(1);
 var Dolch_R5 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
 var Ishtar = delayCal("8/28/2020", "6/30/2021").toFixed(1);
@@ -179,7 +179,7 @@ var Tatooine = progressCal("4/16/2021", "6/30/2022").toFixed(1);
 var X_mas_Gift = progressCal("4/11/2021", "6/15/2022").toFixed(1);
 var sp_Handarbeit = progressCal("5/1/2021", "6/24/2022").toFixed(1);
 var Prism = progressCal("4/30/2021", "6/30/2022").toFixed(1);
-var Oni = progressCal("9/1/2020", "7/30/2021").toFixed(1);
+var Oni = progressCal("9/1/2020", "9/30/2021").toFixed(1);
 var Espresso = progressCal("5/14/2021", "6/14/2022").toFixed(1);
 var Ramses = progressCal("5/14/2021", "9/30/2022").toFixed(1);
 var Tang = progressCal("5/27/2021", "8/31/2022").toFixed(1);
@@ -208,12 +208,12 @@ var Moonlight = progressCal("6/26/2021", "6/30/2022").toFixed(1);
 var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
 var Lavender = progressCal("6/30/2021", "12/31/2022").toFixed(1);
 var Sixes = progressCal("6/30/2021", "5/31/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
-var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
+var Analog_Dreams_R2 = progressCal("6/25/2021", "6/30/2022").toFixed(1);
+var Boho = progressCal("7/9/2021", "9/30/2022").toFixed(1);
+var Lime_R2 = progressCal("7/9/2021", "4/29/2022").toFixed(1);
+var Symbiote = progressCal("7/9/2021", "9/30/2022").toFixed(1);
+var Twilight = progressCal("7/16/2021", "6/30/2022").toFixed(1);
+var Lychee = progressCal("7/17/2021", "9/30/2022").toFixed(1);
 var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
 var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
 var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
@@ -1426,7 +1426,9 @@ const data = [
       price: '$134.99',
       priceInt: 134.99,
       time: '2020-09-15',
-      shipping: 'July 2021',
+      // shipping: 'July 2021',
+      shipping: 'Q3 2021',
+      updateDate: '2021-07-29',
       progress: <Progress percent={Shoko_R2} />,
       progressInt: Shoko_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shoko-R2/" target="_blank">
@@ -1468,8 +1470,10 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-09-01',
-      shipping: 'July 2021',
+      shipping: 'Q3 2021',
+      // shipping: 'July 2021',
       progress: <Progress percent={Oni} />,
+      updateDate: '2021-07-29',
       progressInt: Oni,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Oni/" target="_blank">
       https://oni</Link>,
@@ -1482,8 +1486,9 @@ const data = [
       price: '$125',
       priceInt: 125,
       time: '2020-08-31',
-      shipping: 'July 2021',
+      shipping: 'Dec. 2021',
       progress: <Progress percent={Bento_R2} />,
+      updateDate: '2021-07-29',
       progressInt: Bento_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Bento-R2/" target="_blank">
       https://bento-r2</Link>,
@@ -1685,7 +1690,7 @@ const data = [
       price: '$105',
       priceInt: 105,
       time: '2020-08-26',
-      shipping: 'Apr. 2021',
+      shipping: 'Apr. 2021n',
       progress: <Progress percent={100} />,
       progressInt: 100,
       delayTotalDays: '3 months',
@@ -2345,90 +2350,96 @@ const data = [
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sixes/" target="_blank">
       https://sixes</Link> 
     },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
-    // {
-    //   key: '125',
-    //   name: 'Sparta',
-    //   brand: 'GMK',
-    //   quantity: <FormattedMessage id="unknown"/>,
-    //   price: '$120',
-    //   priceInt: 120,
-    //   time: '2021-06-04',
-    //   shipping: 'Q2 2022',
-    //   progress: <Progress percent={Sparta} />,
-    //   progressInt: Sparta,
-    //   detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sparta/" target="_blank">
-    //   https://matrixzj.github.io/docs/gmk-keycaps/Sparta/</Link> 
-    // },
+    {
+      key: '153',
+      name: 'Analog Dreams R2',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$125',
+      priceInt: 125,
+      time: '2021-06-25',
+      shipping: 'Q2 2022',
+      updateDate: '2021-07-29',
+      progress: <Progress percent={Analog_Dreams_R2} />,
+      progressInt: Analog_Dreams_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Analog-Dreams-R2/" target="_blank">
+      https://analog_dreams_r2</Link> 
+    },
+    {
+      key: '154',
+      name: 'Boho',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$124.99',
+      priceInt: 124.99,
+      time: '2021-07-09',
+      shipping: 'Q3 2022',
+      updateDate: '2021-07-29',
+      progress: <Progress percent={Boho} />,
+      progressInt: Boho,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Boho/" target="_blank">
+      https://boho</Link> 
+    },
+    {
+      key: '155',
+      name: 'Lime R2',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$120',
+      priceInt: 120,
+      time: '2021-07-09',
+      updateDate: '2021-07-29',
+      shipping: '2022-04-29',
+      progress: <Progress percent={Lime_R2} />,
+      progressInt: Lime_R2,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lime-R2/" target="_blank">
+      https://Lime_R2</Link> 
+    },
+    {
+      key: '156',
+      name: 'Symbiote',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$124.99',
+      priceInt: 124.99,
+      time: '2021-07-09',
+      updateDate: '2021-07-29',
+      shipping: 'Q3 2022',
+      progress: <Progress percent={Symbiote} />,
+      progressInt: Symbiote,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Symbiote/" target="_blank">
+      https://symbiote</Link> 
+    },
+    {
+      key: '157',
+      name: 'Twilight',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$149.99',
+      priceInt: 149.99,
+      time: '2021-07-16',
+      updateDate: '2021-07-29',
+      shipping: 'June 2022',
+      progress: <Progress percent={Twilight} />,
+      progressInt: Twilight,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Twilight/" target="_blank">
+      https://twilight</Link> 
+    },
+    {
+      key: '158',
+      name: 'Lychee 荔枝',
+      brand: 'GMK',
+      quantity: <FormattedMessage id="unknown"/>,
+      price: '$130',
+      priceInt: 130,
+      time: '2021-07-17',
+      updateDate: '2021-07-29',
+      shipping: 'Q3 2022',
+      progress: <Progress percent={Lychee} />,
+      progressInt: Lychee,
+      detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Lychee/" target="_blank">
+      https://lychee</Link> 
+    },
     // {
     //   key: '125',
     //   name: 'Sparta',
