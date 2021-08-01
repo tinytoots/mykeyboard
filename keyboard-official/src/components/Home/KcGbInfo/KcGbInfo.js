@@ -1459,6 +1459,7 @@ const data = [
       shipping: 'July 2021',
       progress: <Progress strokeColor="orange" percent={OG_Spacekeys_R2} />,
       progressInt: 100 + OG_Spacekeys_R2,
+      updateDate: '2021-07-31',
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/OG-Spacekeys-R2/" target="_blank">
       https://spacekeys-r2</Link>,
     },
@@ -1516,6 +1517,7 @@ const data = [
       price: '$135',
       priceInt: 135,
       time: '2020-09-04',
+      updateDate: '2021-07-31',
       shipping: 'July 2021',
       progress: <Progress strokeColor="orange" percent={Dolch_R5} />,
       progressInt: 100 + Dolch_R5,
