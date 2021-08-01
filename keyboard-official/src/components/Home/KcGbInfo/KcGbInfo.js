@@ -146,10 +146,10 @@ var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = delayCal("9/21/2020", "6/30/2021").toFixed(1);
 var Shoko_R2 = progressCal("9/15/2020", "9/30/2021").toFixed(1);
 var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
-var OG_Spacekeys_R2 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
+var OG_Spacekeys_R2 = delayCal("9/4/2020", "7/30/2021").toFixed(1);
 var Bento_R2 = progressCal("8/31/2020", "12/31/2021").toFixed(1);
 var Minimal_R2 = progressCal("9/2/2020", "1/31/2022").toFixed(1);
-var Dolch_R5 = progressCal("9/4/2020", "7/30/2021").toFixed(1);
+var Dolch_R5 = delayCal("9/4/2020", "7/30/2021").toFixed(1);
 var Ishtar = delayCal("8/28/2020", "6/30/2021").toFixed(1);
 var Evil_Dolch = delayCal("8/28/2020", "6/30/2021").toFixed(1);
 var Pono = progressCal("8/14/2020", "1/31/2022").toFixed(1);
@@ -1457,8 +1457,8 @@ const data = [
       priceInt: 25,
       time: '2020-09-04',
       shipping: 'July 2021',
-      progress: <Progress percent={OG_Spacekeys_R2} />,
-      progressInt: OG_Spacekeys_R2,
+      progress: <Progress strokeColor="orange" percent={OG_Spacekeys_R2} />,
+      progressInt: 100 + OG_Spacekeys_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/OG-Spacekeys-R2/" target="_blank">
       https://spacekeys-r2</Link>,
     },
@@ -1517,8 +1517,8 @@ const data = [
       priceInt: 135,
       time: '2020-09-04',
       shipping: 'July 2021',
-      progress: <Progress percent={Dolch_R5} />,
-      progressInt: Dolch_R5,
+      progress: <Progress strokeColor="orange" percent={Dolch_R5} />,
+      progressInt: 100 + Dolch_R5,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dolch-R5/" target="_blank">
       https://dolch-r5</Link>,
     },
