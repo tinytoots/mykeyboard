@@ -2230,8 +2230,10 @@ const data = [
       priceInt: 125,
       time: '2020-06-30',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Blue_Samurai} />,
-      progressInt: Blue_Samurai,
+      updateDate: '2021-08-09',
+      delayTotalDays: '0',
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Blue-Samurai/" target="_blank">
       https://blue-samurai</Link> 
     },
@@ -2244,8 +2246,10 @@ const data = [
       priceInt: 125,
       time: '2020-06-30',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Blue_Samurai} />,
-      progressInt: Blue_Samurai,
+      updateDate: '2021-08-09',
+      delayTotalDays: '0',
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Samurai-R2/" target="_blank">
       https://red-samurai-r2</Link> 
     },
