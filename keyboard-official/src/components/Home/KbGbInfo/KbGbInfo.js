@@ -74,11 +74,10 @@ var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
 var Andromeda = delayCal("10/31/2020", "7/31/2021").toFixed(1);
 var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
-var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
-var master98 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
+var mini1800 = delayCal("5/10/2021", "8/10/2021").toFixed(1);
+var master98 = delayCal("5/10/2021", "8/10/2021").toFixed(1);
 var i104 = delayCal("5/15/2021", "6/30/2021").toFixed(1);
 var salvation = progressCal("5/7/2021", "12/31/2021").toFixed(1);
-var mini1800 = progressCal("5/10/2021", "8/10/2021").toFixed(1);
 var cyberboard_r2 = progressCal("5/28/2021", "7/31/2021").toFixed(1);
 var am_hatsu = progressCal("4/29/2021", "10/29/2021").toFixed(1);
 var fuji65 = progressCal("3/16/2021", "2/15/2022").toFixed(1);
@@ -311,8 +310,9 @@ const data = [
       priceInt: 2499 / 6.5,
       time: '2021-05-10',
       shipping: '三个月',
-      progressInt: mini1800,
-      progress: <Progress percent={mini1800} />,
+      progressInt: 100 + mini1800,
+      updateDate: '2021-08-10',
+      progress: <Progress strokeColor='orange' percent={mini1800} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
       https://1800mini</Link> 
     },
@@ -325,8 +325,9 @@ const data = [
       priceInt: 3670 / 6.5,
       time: '2021-05-10',
       shipping: '三个月',
-      progressInt: master98,
-      progress: <Progress percent={master98} />,
+      updateDate: '2021-08-10',
+      progressInt: 100 + master98,
+      progress: <Progress strokeColor='orange' percent={master98} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
       https://master98</Link> 
     },
