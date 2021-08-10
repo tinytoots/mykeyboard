@@ -2231,7 +2231,7 @@ const data = [
       time: '2020-06-30',
       shipping: 'Aug. 2021',
       updateDate: '2021-08-09',
-      delayTotalDays: '0',
+      delayTotalDays: '9 months',
       progress: <Progress percent={100} />,
       progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Blue-Samurai/" target="_blank">
@@ -2247,7 +2247,7 @@ const data = [
       time: '2020-06-30',
       shipping: 'Aug. 2021',
       updateDate: '2021-08-09',
-      delayTotalDays: '0',
+      delayTotalDays: '9 months',
       progress: <Progress percent={100} />,
       progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Samurai-R2/" target="_blank">
