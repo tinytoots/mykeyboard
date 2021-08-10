@@ -339,8 +339,10 @@ const data = [
       priceInt: 2980 / 6.5,
       time: '2021-05-15开团，售完为止',
       shipping: 'June 2021',
-      progressInt: 100 + i104,
-      progress: <Progress strokeColor="orange" percent={i104} />,
+      progressInt: 100,
+      updateDate: '2021-08-09',
+      delayTotalDays: '1 month',
+      progress: <Progress percent={100} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2JKxrvL3YlyO" target="_blank">
       https://i104</Link> 
     },
