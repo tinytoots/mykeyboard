@@ -2072,9 +2072,11 @@ const data = [
       price: '$120',
       priceInt: 120,
       time: '2020-03-25',
-      shipping: 'May 2021',
-      progress: <Progress strokeColor="orange" percent={Apollo} />,
-      progressInt: 100 + Apollo,
+      shipping: 'Dec. 2020',
+      progress: <Progress percent={100} />,
+      progressInt: 100,
+      delayTotalDays: "8 months",
+      updateDate: "2021-08-20",
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Apollo/" target="_blank">
       https://apollo</Link> 
     }, 
