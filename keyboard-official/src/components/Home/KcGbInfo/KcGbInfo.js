@@ -2105,8 +2105,10 @@ const data = [
       priceInt: 1488 / 6.5,
       time: '2020-05-06',
       shipping: 'June 2021完成生产',
-      progress: <Progress strokeColor="orange" percent={Wild} />,
-      progressInt: 100 + Wild,
+      progress: <Progress percent={100} />,
+      updateDate: '2021-08-26',
+      delayTotalDays: '7 months',
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Wild/" target="_blank">
       https://wild</Link> 
     }, 
