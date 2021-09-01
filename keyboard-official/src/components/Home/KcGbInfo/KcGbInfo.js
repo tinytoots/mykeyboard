@@ -137,12 +137,12 @@ var Noire = progressCal("11/4/2020", "10/31/2021").toFixed(1);
 var Space_Cadet_R2 = delayCal("10/30/2020", "6/30/2021").toFixed(1);
 var Red_Dragon = progressCal("11/1/2020", "9/30/2021").toFixed(1);
 var Demon_Sword = progressCal("10/31/2020", "9/30/2021").toFixed(1);
-var Sloth = progressCal("10/2/2020", "8/31/2021").toFixed(1);
-var Monokai_Material = progressCal("10/4/2020", "8/31/2021").toFixed(1);
-var Shorebound = progressCal("10/4/2020", "8/31/2021").toFixed(1);
+var Sloth = delayCal("10/2/2020", "8/31/2021").toFixed(1);
+var Monokai_Material = delayCal("10/4/2020", "8/31/2021").toFixed(1);
+var Shorebound = delayCal("10/4/2020", "8/31/2021").toFixed(1);
 var Red_Devils = progressCal("9/30/2020", "9/30/2021").toFixed(1);
-var Yuru = progressCal("10/1/2020", "8/31/2021").toFixed(1);
-var Posh = progressCal("10/2/2020", "8/31/2021").toFixed(1);
+var Yuru = delayCal("10/1/2020", "8/31/2021").toFixed(1);
+var Posh = delayCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = delayCal("9/21/2020", "6/30/2021").toFixed(1);
 var Shoko_R2 = progressCal("9/15/2020", "9/30/2021").toFixed(1);
 var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
@@ -154,7 +154,7 @@ var Ishtar = delayCal("8/28/2020", "6/30/2021").toFixed(1);
 var Evil_Dolch = delayCal("8/28/2020", "6/30/2021").toFixed(1);
 var Pono = progressCal("8/14/2020", "1/31/2022").toFixed(1);
 var Sumi = delayCal("8/15/2020", "4/30/2021").toFixed(1);
-var Prepress = progressCal("8/28/2020", "8/31/2021").toFixed(1);
+var Prepress = delayCal("8/28/2020", "8/31/2021").toFixed(1);
 var Mecha_01 = progressCal("8/7/2020", "11/30/2021").toFixed(1);
 var Nord = progressCal("7/10/2020", "3/31/2022").toFixed(1);
 var Modern_Dolch_R2 = progressCal("7/2/2020", "11/30/2021").toFixed(1);
@@ -203,7 +203,7 @@ var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
 var Blue_Samurai = progressCal("6/30/2020", "8/31/2021").toFixed(1);
 var Deku = progressCal("8/7/2020", "8/31/2021").toFixed(1);
 var Frost_Witch = delayCal("5/24/2020", "2/28/2021").toFixed(1);
-var Dracula = progressCal("10/31/2019", "8/31/2021").toFixed(1);
+var Dracula = delayCal("10/31/2019", "8/31/2021").toFixed(1);
 var Moonlight = progressCal("6/26/2021", "6/30/2022").toFixed(1);
 var British_Racing_Green = progressCal("6/30/2021", "6/30/2022").toFixed(1);
 var Lavender = progressCal("6/30/2021", "12/31/2022").toFixed(1);
@@ -1329,8 +1329,8 @@ const data = [
       priceInt: 125,
       time: '2020-10-02',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Sloth} />,
-      progressInt: Sloth,
+      progress: <Progress strokeColor="orange" percent={Sloth} />,
+      progressInt: 100 + Sloth,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Sloth/" target="_blank">
       https://sloth</Link>,
     },
@@ -1343,8 +1343,8 @@ const data = [
       priceInt: 135,
       time: '2020-10-04',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Monokai_Material} />,
-      progressInt: Monokai_Material,
+      progress: <Progress strokeColor="orange" percent={Monokai_Material} />,
+      progressInt: 100 + Monokai_Material,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Monokai-Material/" target="_blank">
       https://monokai-material</Link>,
     },
@@ -1357,8 +1357,8 @@ const data = [
       priceInt: 140,
       time: '2020-10-04',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Shorebound} />,
-      progressInt: Shorebound,
+      progress: <Progress strokeColor="orange" percent={Shorebound} />,
+      progressInt: 100 + Shorebound,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shorebound/" target="_blank">
       https://shorebound</Link>,
     },
@@ -1385,8 +1385,8 @@ const data = [
       priceInt: 134.99,
       time: '2020-10-01',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Yuru} />,
-      progressInt: Yuru,
+      progress: <Progress strokeColor="orange" percent={Yuru} />,
+      progressInt: 100 + Yuru,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Yuru/" target="_blank">
       https://yuru</Link>,
     },
@@ -1399,8 +1399,8 @@ const data = [
       priceInt: 139.99,
       time: '2020-10-02',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Posh} />,
-      progressInt: Posh,
+      progress: <Progress strokeColor="orange" percent={Posh} />,
+      progressInt: 100 + Posh,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Posh/" target="_blank">
       https://posh</Link>,
     },
@@ -1590,8 +1590,8 @@ const data = [
       priceInt: 149.99,
       time: '2020-08-28',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Prepress} />,
-      progressInt: Prepress,
+      progress: <Progress strokeColor="orange" percent={Prepress} />,
+      progressInt: 100 + Prepress,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Prepress/" target="_blank">
       https://prepress</Link>,
     },
@@ -2295,8 +2295,8 @@ const data = [
       priceInt: 130,
       time: '2019-10-31',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Dracula} />,
-      progressInt: Dracula,
+      progress: <Progress strokeColor="orange" percent={Dracula} />,
+      progressInt: 100 + Dracula,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dracula/" target="_blank">
       https://dracula</Link> 
     },

@@ -72,7 +72,7 @@ var matrix65 = progressCal("1/6/2021", "7/1/2021").toFixed(1);
 var space80 = progressCal("5/10/2021", "11/31/2021").toFixed(1);
 var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
 var Andromeda = delayCal("10/31/2020", "7/31/2021").toFixed(1);
-var mach80 = progressCal("4/30/2021", "8/31/2021").toFixed(1);
+var mach80 = delayCal("4/30/2021", "8/31/2021").toFixed(1);
 var leaf65 = progressCal("1/2/2021", "8/31/2021").toFixed(1);
 var mini1800 = delayCal("5/10/2021", "8/10/2021").toFixed(1);
 var master98 = delayCal("5/10/2021", "8/10/2021").toFixed(1);
@@ -89,10 +89,10 @@ var hidari = progressCal("4/30/2021", "12/31/2022").toFixed(1);
 var Angle_Vertex = delayCal("6/6/2021", "7/31/2021").toFixed(1);
 var Duo_S = progressCal("6/5/2021", "3/31/2022").toFixed(1);
 var KANSAS = delayCal("4/16/2021", "7/31/2021").toFixed(1);
-var BUFF67 = progressCal("6/13/2021", "8/31/2021").toFixed(1);
+var BUFF67 = delayCal("6/13/2021", "8/31/2021").toFixed(1);
 var BLADE = progressCal("6/20/2021", "7/31/2021").toFixed(1);
 var Satisfaction75_R2 = progressCal("11/6/2020", "9/30/2021").toFixed(1);
-var i6X = progressCal("6/30/2021", "8/31/2021").toFixed(1);
+var i6X = delayCal("6/30/2021", "8/31/2021").toFixed(1);
 var Rose60 = progressCal("7/1/2021", "9/30/2021").toFixed(1);
 var Matrix_ME = progressCal("7/16/2021", "11/30/2021").toFixed(1);
 var Fuji75 = progressCal("8/1/2021", "11/30/2021").toFixed(1);
@@ -282,8 +282,8 @@ const data = [
       priceInt: 3299 / 6.5,
       time: '2021-04-30',
       shipping: '4个月',
-      progressInt: mach80,
-      progress: <Progress percent={mach80} />,
+      progressInt: 100 + mach80,
+      progress: <Progress strokeColor="orange" percent={mach80} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/D6MNdX0Ep0K5" target="_blank">
       https://mach80</Link> 
     },
@@ -513,8 +513,8 @@ const data = [
       priceInt: 998 / 6.5,
       time: '2021-06-13',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={BUFF67} />,
-      progressInt: BUFF67,
+      progress: <Progress strokeColor="orange" percent={BUFF67} />,
+      progressInt: 100 + BUFF67,
       detail: <Link href="https://www.zfrontier.com/app/flow/2E8BJAjZgV1L" target="_blank">
       https://buffer67-v2</Link> 
     },
@@ -557,8 +557,8 @@ const data = [
       priceInt: 1680 / 6.5,
       time: '2021-06-30',
       shipping: '2021-08-31',
-      progress: <Progress percent={i6X} />,
-      progressInt: i6X,
+      progress: <Progress strokeColor="orange" percent={i6X} />,
+      progressInt: 100 + i6X,
       detail: <Link href="https://www.zfrontier.com/app/flow/DGWgVpnNZNva" target="_blank">
       https://i6x</Link> 
     },
