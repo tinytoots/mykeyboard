@@ -2280,9 +2280,11 @@ const data = [
       price: '$115',
       priceInt: 115,
       time: '2020-05-24',
+      updateDate: '2021-09-01',
+      delayTotalDays: '6 months',
       shipping: 'Feb. 2021',
-      progress: <Progress strokeColor="orange" percent={Frost_Witch} />,
-      progressInt: 100 + Frost_Witch,
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Frost-Witch/" target="_blank">
       https://frost-witch</Link> 
     },
