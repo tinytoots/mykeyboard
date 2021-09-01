@@ -164,7 +164,7 @@ var Skyriter = progressCal("8/28/2020", "6/31/2021").toFixed(1);
 var Rocket = delayCal("8/26/2020", "6/30/2021").toFixed(1);
 var Daisy = delayCal("9/30/2020", "6/30/2021").toFixed(1);
 var Dual_Shot = progressCal("10/11/2020", "9/30/2021").toFixed(1);
-var Jadeite = progressCal("10/16/2020", "8/31/2021").toFixed(1);
+var Jadeite = delayCal("10/16/2020", "8/31/2021").toFixed(1);
 var Bliss_R2 = progressCal("10/15/2020", "12/31/2021").toFixed(1);
 var Nightlight = progressCal("10/30/2020", "9/30/2021").toFixed(1);
 var Carbon_R3 = progressCal("10/30/2020", "9/17/2021").toFixed(1);
@@ -201,7 +201,7 @@ var UwU = progressCal("6/15/2021", "3/31/2022").toFixed(1);
 var Patisserie = progressCal("6/13/2021", "6/30/2022").toFixed(1);
 var Haku = progressCal("6/18/2021", "6/30/2022").toFixed(1);
 var Blue_Samurai = progressCal("6/30/2020", "8/31/2021").toFixed(1);
-var Deku = progressCal("8/7/2020", "8/31/2021").toFixed(1);
+var Deku = delayCal("8/7/2020", "8/31/2021").toFixed(1);
 var Frost_Witch = delayCal("5/24/2020", "2/28/2021").toFixed(1);
 var Dracula = delayCal("10/31/2019", "8/31/2021").toFixed(1);
 var Moonlight = progressCal("6/26/2021", "6/30/2022").toFixed(1);
@@ -1737,8 +1737,8 @@ const data = [
       priceInt: 120,
       time: '2020-10-16',
       shipping: 'Aug. 2021',
-      progress: <Progress percent={Jadeite} />,
-      progressInt: Jadeite,
+      progress: <Progress strokeColor="orange" percent={Jadeite} />,
+      progressInt: 100 + Jadeite,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Jadeite/" target="_blank">
       https://jadeite</Link>,
     },
@@ -2267,8 +2267,8 @@ const data = [
       time: '2020-08-07',
       shipping: 'Aug. 2021',
       updateDate: '2021-07-03',
-      progress: <Progress percent={Deku} />,
-      progressInt: Deku,
+      progress: <Progress strokeColor="orange" percent={Deku} />,
+      progressInt: 100 + Deku,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Deku/" target="_blank"> 
       https://deku</Link> 
     },
