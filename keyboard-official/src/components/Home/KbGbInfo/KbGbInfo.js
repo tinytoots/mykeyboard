@@ -67,7 +67,7 @@ var foundary_jules = progressCal("4/15/2020", "6/30/2021").toFixed(1);
 var m50a = delayCal("5/31/2020", "12/31/2020").toFixed(1);
 var iron165_r2 = progressCal("2/27/2021", "3/1/2022").toFixed(1);
 var iron180 = progressCal("11/14/2020", "10/1/2021").toFixed(1);
-var im = progressCal("9/1/2020", "9/1/2021").toFixed(1);
+var im = delayCal("9/1/2020", "9/1/2021").toFixed(1);
 var matrix65 = progressCal("1/6/2021", "7/1/2021").toFixed(1);
 var space80 = progressCal("5/10/2021", "11/31/2021").toFixed(1);
 var box75 = progressCal("2/19/2021", "12/31/2021").toFixed(1);
@@ -213,8 +213,8 @@ const data = [
       priceInt: 2599 / 6.5,
       time: '2020-09-01',
       shipping: 'Q3 2021',
-      progressInt: im,
-      progress: <Progress percent={im} />,
+      progressInt: 100 + im,
+      progress: <Progress strokeColor="orange" percent={im} />,
       detail: '请访问Matrix Lab QQ群'
     },
     {
