@@ -114,7 +114,7 @@ var Avanguardia = progressCal("1/15/2021", "12/31/2021").toFixed(1);
 var Gregory = progressCal("1/18/2021", "12/31/2021").toFixed(1);
 var Hanami_Dango = progressCal("1/26/2021", "11/30/2021").toFixed(1);
 var gh80082 = progressCal("12/31/2020", "12/31/2021").toFixed(1);
-var Serika_R2 = progressCal("1/7/2021", "9/30/2021").toFixed(1);
+var Serika_R2 = delayCal("1/7/2021", "9/30/2021").toFixed(1);
 var Pink_on_Navy = progressCal("1/1/2021", "12/31/2021").toFixed(1);
 var Aurora_Polaris = progressCal("12/31/2020", "10/31/2021").toFixed(1);
 var Alpine = progressCal("1/12/2021", "10/31/2021").toFixed(1);
@@ -123,28 +123,28 @@ var ThinkCaps = progressCal("12/31/2020", "11/30/2021").toFixed(1);
 var Pixel = progressCal("12/12/2020", "10/1/2021").toFixed(1);
 var Yuri_R2 = progressCal("12/14/2020", "11/30/2021").toFixed(1);
 var Amethyst = progressCal("12/13/2020", "11/30/2021").toFixed(1);
-var Fundamentals = progressCal("12/4/2020", "9/30/2021").toFixed(1);
-var Pride = progressCal("12/4/2020", "9/30/2021").toFixed(1);
-var Honor = progressCal("11/30/2020", "9/30/2021").toFixed(1);
-var Hallyu = progressCal("12/1/2020", "9/30/2021").toFixed(1);
-var Taegeukgi = progressCal("11/20/2020", "9/30/2021").toFixed(1);
-var Red_Line = progressCal("11/13/2020", "9/30/2021").toFixed(1);
-var Grand_Prix = progressCal("5/4/2021", "9/30/2021").toFixed(1);
-var Mudbeam = progressCal("10/30/2020", "9/30/2021").toFixed(1);
+var Fundamentals = delayCal("12/4/2020", "9/30/2021").toFixed(1);
+var Pride = delayCal("12/4/2020", "9/30/2021").toFixed(1);
+var Honor = delayCal("11/30/2020", "9/30/2021").toFixed(1);
+var Hallyu = delayCal("12/1/2020", "9/30/2021").toFixed(1);
+var Taegeukgi = delayCal("11/20/2020", "9/30/2021").toFixed(1);
+var Red_Line = delayCal("11/13/2020", "9/30/2021").toFixed(1);
+var Grand_Prix = delayCal("5/4/2021", "9/30/2021").toFixed(1);
+var Mudbeam = delayCal("10/30/2020", "9/30/2021").toFixed(1);
 var Retrocast = progressCal("11/6/2020", "10/31/2021").toFixed(1);
 var Rainy_Day = progressCal("11/16/2020", "10/31/2021").toFixed(1);
 var Noire = progressCal("11/4/2020", "10/31/2021").toFixed(1);
 var Space_Cadet_R2 = delayCal("10/30/2020", "6/30/2021").toFixed(1);
-var Red_Dragon = progressCal("11/1/2020", "9/30/2021").toFixed(1);
-var Demon_Sword = progressCal("10/31/2020", "9/30/2021").toFixed(1);
+var Red_Dragon = delayCal("11/1/2020", "9/30/2021").toFixed(1);
+var Demon_Sword = delayCal("10/31/2020", "9/30/2021").toFixed(1);
 var Sloth = delayCal("10/2/2020", "8/31/2021").toFixed(1);
 var Monokai_Material = delayCal("10/4/2020", "8/31/2021").toFixed(1);
 var Shorebound = delayCal("10/4/2020", "8/31/2021").toFixed(1);
-var Red_Devils = progressCal("9/30/2020", "9/30/2021").toFixed(1);
+var Red_Devils = delayCal("9/30/2020", "9/30/2021").toFixed(1);
 var Yuru = delayCal("10/1/2020", "8/31/2021").toFixed(1);
 var Posh = delayCal("10/2/2020", "8/31/2021").toFixed(1);
 var Beta = delayCal("9/21/2020", "6/30/2021").toFixed(1);
-var Shoko_R2 = progressCal("9/15/2020", "9/30/2021").toFixed(1);
+var Shoko_R2 = delayCal("9/15/2020", "9/30/2021").toFixed(1);
 var HammerHead = progressCal("7/30/2020", "9/30/2021").toFixed(1);
 var OG_Spacekeys_R2 = delayCal("9/4/2020", "7/30/2021").toFixed(1);
 var Bento_R2 = progressCal("8/31/2020", "12/31/2021").toFixed(1);
@@ -166,7 +166,7 @@ var Daisy = delayCal("9/30/2020", "6/30/2021").toFixed(1);
 var Dual_Shot = progressCal("10/11/2020", "9/30/2021").toFixed(1);
 var Jadeite = delayCal("10/16/2020", "8/31/2021").toFixed(1);
 var Bliss_R2 = progressCal("10/15/2020", "12/31/2021").toFixed(1);
-var Nightlight = progressCal("10/30/2020", "9/30/2021").toFixed(1);
+var Nightlight = delayCal("10/30/2020", "9/30/2021").toFixed(1);
 var Carbon_R3 = progressCal("10/30/2020", "9/17/2021").toFixed(1);
 var Biso = delayCal("10/31/2020", "6/30/2021").toFixed(1);
 var Angel_Devil_Daisy = delayCal("11/15/2020", "6/30/2021").toFixed(1);
@@ -179,7 +179,7 @@ var Tatooine = progressCal("4/16/2021", "6/30/2022").toFixed(1);
 var X_mas_Gift = progressCal("4/11/2021", "6/15/2022").toFixed(1);
 var sp_Handarbeit = progressCal("5/1/2021", "6/24/2022").toFixed(1);
 var Prism = progressCal("4/30/2021", "6/30/2022").toFixed(1);
-var Oni = progressCal("9/1/2020", "9/30/2021").toFixed(1);
+var Oni = delayCal("9/1/2020", "9/30/2021").toFixed(1);
 var Espresso = progressCal("5/14/2021", "6/14/2022").toFixed(1);
 var Ramses = progressCal("5/14/2021", "9/30/2022").toFixed(1);
 var Tang = progressCal("5/27/2021", "8/31/2022").toFixed(1);
@@ -1008,8 +1008,8 @@ const data = [
       priceInt: 110,
       time: '2021-01-07',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Serika_R2} />,
-      progressInt: Serika_R2,
+      progress: <Progress strokeColor="orange" percent={Serika_R2} />,
+      progressInt: 100 + Serika_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Serika-R2/" target="_blank">
       https://serika-r2</Link>,
     },
@@ -1133,8 +1133,8 @@ const data = [
       priceInt: 115,
       time: '2020-12-04',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Fundamentals} />,
-      progressInt: Fundamentals,
+      progress: <Progress strokeColor="orange" percent={Fundamentals} />,
+      progressInt: 100 + Fundamentals,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Fundamentals/" target="_blank">
       https://fundamentals</Link>,
     },
@@ -1147,8 +1147,8 @@ const data = [
       priceInt: 142.99,
       time: '2020-12-04',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Pride} />,
-      progressInt: Pride,
+      progress: <Progress strokeColor="orange" percent={Pride} />,
+      progressInt: 100 + Pride,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Pride/" target="_blank">
       https://pride</Link>,
     },
@@ -1161,8 +1161,8 @@ const data = [
       priceInt: 95,
       time: '2020-11-30',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Honor} />,
-      progressInt: Honor,
+      progress: <Progress strokeColor="orange" percent={Honor} />,
+      progressInt: 100 + Honor,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Honor/" target="_blank">
       https://honor</Link>,
     },
@@ -1175,8 +1175,8 @@ const data = [
       priceInt: 129.99,
       time: '2020-12-01',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Hallyu} />,
-      progressInt: Hallyu,
+      progress: <Progress strokeColor="orange" percent={Hallyu} />,
+      progressInt: 100 + Hallyu,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Hallyu/" target="_blank">
       https://hallyu</Link>,
     },
@@ -1189,8 +1189,8 @@ const data = [
       priceInt: 142.99,
       time: '2020-11-20',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Taegeukgi} />,
-      progressInt: Taegeukgi,
+      progress: <Progress strokeColor="orange" percent={Taegeukgi} />,
+      progressInt: 100 + Taegeukgi,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Taegeukgi/" target="_blank">
       https://taegeukgi</Link>,
     },
@@ -1203,8 +1203,8 @@ const data = [
       priceInt: 104.99,
       time: '2020-11-13',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Red_Line} />,
-      progressInt: Red_Line,
+      progress: <Progress strokeColor="orange" percent={Red_Line} />,
+      progressInt: 100 + Red_Line,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Line/" target="_blank">
       https://red-line</Link>,
     },
@@ -1217,8 +1217,8 @@ const data = [
       priceInt: 125,
       time: '2020-10-30',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Grand_Prix} />,
-      progressInt: Grand_Prix,
+      progress: <Progress strokeColor="orange" percent={Grand_Prix} />,
+      progressInt: 100 + Grand_Prix,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Grand-Prix/" target="_blank">
       https://grand-prix</Link>,
     },
@@ -1231,8 +1231,8 @@ const data = [
       priceInt: 135,
       time: '2020-10-30',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Mudbeam} />,
-      progressInt: Mudbeam,
+      progress: <Progress strokeColor="orange" percent={Mudbeam} />,
+      progressInt: 100 + Mudbeam,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Mudbeam/" target="_blank">
       https://mudbeam</Link>,
     },
@@ -1301,8 +1301,8 @@ const data = [
       priceInt: 134.99,
       time: '2020-11-01',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Red_Dragon} />,
-      progressInt: Red_Dragon,
+      progress: <Progress strokeColor="orange" percent={Red_Dragon} />,
+      progressInt: 100 + Red_Dragon,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Dragon/" target="_blank">
       https://red-dragon</Link>,
     },
@@ -1315,8 +1315,8 @@ const data = [
       priceInt: 134.99,
       time: '2020-10-31',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Demon_Sword} />,
-      progressInt: Demon_Sword,
+      progress: <Progress strokeColor="orange" percent={Demon_Sword} />,
+      progressInt: 100 + Demon_Sword,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Demon-Sword/" target="_blank">
       https://demon-sword</Link>,
     },
@@ -1371,8 +1371,8 @@ const data = [
       priceInt: 135,
       time: '2020-09-30',
       shipping: 'Q3 2021',
-      progress: <Progress percent={Red_Devils} />,
-      progressInt: Red_Devils,
+      progress: <Progress strokeColor="orange" percent={Red_Devils} />,
+      progressInt: 100 + Red_Devils,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Red-Devils/" target="_blank">
       https://red-devils</Link>,
     },
@@ -1429,8 +1429,8 @@ const data = [
       // shipping: 'July 2021',
       shipping: 'Q3 2021',
       updateDate: '2021-07-29',
-      progress: <Progress percent={Shoko_R2} />,
-      progressInt: Shoko_R2,
+      progress: <Progress strokeColor="orange" percent={Shoko_R2} />,
+      progressInt: 100 + Shoko_R2,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Shoko-R2/" target="_blank">
       https://shoko-r2</Link>,
     },
@@ -1473,9 +1473,9 @@ const data = [
       time: '2020-09-01',
       shipping: 'Q3 2021',
       // shipping: 'July 2021',
-      progress: <Progress percent={Oni} />,
+      progress: <Progress strokeColor="orange" percent={Oni} />,
       updateDate: '2021-07-29',
-      progressInt: Oni,
+      progressInt: 100 + Oni,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Oni/" target="_blank">
       https://oni</Link>,
     },

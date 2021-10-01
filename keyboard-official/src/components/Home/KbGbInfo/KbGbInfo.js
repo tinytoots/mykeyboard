@@ -470,8 +470,8 @@ const data = [
       priceInt: 2850 / 6.5,
       time: '2021-06-06开团',
       shipping: 'July 2021',
-      progress: <Progress strokeColor="orange" percent={Angle_Vertex} />,
-      progressInt: 100 + Angle_Vertex,
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://www.zfrontier.com/app/flow/DAxrwKEjvmGr" target="_blank">
       https://angle-vertex</Link> 
     },
@@ -513,8 +513,8 @@ const data = [
       priceInt: 998 / 6.5,
       time: '2021-06-13',
       shipping: 'Aug. 2021',
-      progress: <Progress strokeColor="orange" percent={BUFF67} />,
-      progressInt: 100 + BUFF67,
+      progress: <Progress percent={100} />,
+      progressInt: 100,
       detail: <Link href="https://www.zfrontier.com/app/flow/2E8BJAjZgV1L" target="_blank">
       https://buffer67-v2</Link> 
     },
