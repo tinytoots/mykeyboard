@@ -1709,8 +1709,8 @@ const data = [
       priceInt: 823 / 6.5,
       time: '2020-09-30',
       shipping: 'Q2 2021',
-      progress: <Progress strokeColor="orange" percent={Daisy} />,
-      progressInt: 100 + Daisy,
+      progress: <Progress percent={Daisy} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Daisy/" target="_blank">
       https://daisy</Link>,
     },
@@ -1807,8 +1807,8 @@ const data = [
       priceInt: 1098 / 6.5,
       time: '2020-11-15',
       shipping: 'Q2 2021',
-      progress: <Progress strokeColor="orange" percent={Angel_Devil_Daisy} />,
-      progressInt: 100 + Angel_Devil_Daisy,
+      progress: <Progress percent={Angel_Devil_Daisy} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/sa-keycaps/Angel-Devil-Daisy/" target="_blank">
       https://angel-devil-daisy</Link>,
     },
@@ -2297,8 +2297,8 @@ const data = [
       priceInt: 130,
       time: '2019-10-31',
       shipping: 'Aug. 2021',
-      progress: <Progress strokeColor="orange" percent={Dracula} />,
-      progressInt: 100 + Dracula,
+      progress: <Progress percent={Dracula} />,
+      progressInt: 100,
       detail: <Link href="https://matrixzj.github.io/docs/gmk-keycaps/Dracula/" target="_blank">
       https://dracula</Link> 
     },

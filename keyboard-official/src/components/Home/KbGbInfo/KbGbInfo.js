@@ -213,8 +213,8 @@ const data = [
       priceInt: 2599 / 6.5,
       time: '2020-09-01',
       shipping: 'Q3 2021',
-      progressInt: 100 + im,
-      progress: <Progress strokeColor="orange" percent={im} />,
+      progressInt: 100,
+      progress: <Progress percent={im} />,
       detail: '请访问Matrix Lab QQ群'
     },
     {
@@ -326,8 +326,8 @@ const data = [
       time: '2021-05-10',
       shipping: '三个月',
       updateDate: '2021-08-10',
-      progressInt: 100 + master98,
-      progress: <Progress strokeColor='orange' percent={master98} />,
+      progressInt: 100,
+      progress: <Progress percent={master98} />,
       detail: <Link href="https://www.zfrontier.com/app/flow/2aVbAwVW8r8d" target="_blank">
       https://master98</Link> 
     },
@@ -442,8 +442,8 @@ const data = [
       priceInt: 450,
       time: '2020-07-30',
       shipping: 'Q1 2021',
-      progressInt: 100 + ZENITH,
-      progress: <Progress strokeColor="orange" percent={ZENITH} />,
+      progressInt: 100,
+      progress: <Progress percent={ZENITH} />,
       detail: <Link href="https://ramaworks.store/products/zenith-keyboard?_pos=2%26_sid=3de98b01f%26_ss=r" target="_blank">
       https://zenith</Link> 
     },
@@ -488,21 +488,6 @@ const data = [
       progressInt: Duo_S,
       detail: <Link href="https://www.zfrontier.com/app/flow/2agrqXpyqQ6m" target="_blank">
       https://duo-s</Link> 
-    },
-    {
-      key: '28',
-      name: 'KANSAS 65',
-      brand: 'Jerry studio',
-      type: <FormattedMessage id="unlimited"/>,
-      price: '¥1999',
-      priceInt: 1999 / 6.5,
-      time: '2021-04-16',
-      shipping: 'July 2021',
-      updateDate: '2021-07-31',
-      progress: <Progress strokeColor="orange" percent={KANSAS} />,
-      progressInt: 100 + KANSAS,
-      detail: <Link href="https://www.zfrontier.com/app/flow/296WzdolNV98" target="_blank">
-      https://kansas</Link> 
     },
     {
       key: '29',
@@ -557,8 +542,8 @@ const data = [
       priceInt: 1680 / 6.5,
       time: '2021-06-30',
       shipping: '2021-08-31',
-      progress: <Progress strokeColor="orange" percent={i6X} />,
-      progressInt: 100 + i6X,
+      progress: <Progress percent={i6X} />,
+      progressInt: 100,
       detail: <Link href="https://www.zfrontier.com/app/flow/DGWgVpnNZNva" target="_blank">
       https://i6x</Link> 
     },
