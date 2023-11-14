@@ -6,58 +6,9 @@ import 'antd/dist/antd.css';
 import Highlighter from 'react-highlight-words';
 import { SearchOutlined } from '@ant-design/icons';
 import { FormattedMessage } from 'react-intl';
+import { progressCal, delayCal } from '../calculations';
 
 const { Title, Paragraph, Text, Link } = Typography;
-
-function progressCal(start, end) {
-  var startDate = new Date(start); 
-  var endDate = new Date(end); 
-  var Difference_In_Time = endDate.getTime() - startDate.getTime(); 
-  var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
-  // document.write("日期： <br>" +startDate + "<br>和<br>" + endDate + "<br>相差的天数为：" 
-  //           + Difference_In_Days); 
-
-  var todayDate = new Date();
-  var todayDate2 = todayDate.toLocaleDateString();
-  // document.write("<br><br>今天日期为：" 
-  //           + todayDate2); 
-
-  var date3 = new Date(todayDate2);        
-  var Difference_In_Time2 = date3.getTime() - startDate.getTime(); 
-  var Difference_In_Days2 = Difference_In_Time2 / (1000 * 3600 * 24);
-  // document.write("<br><br>日期： <br>" + startDate + "<br>和<br>" + endDate + "<br>相差的天数为：" 
-  //           + Difference_In_Days2); 
-
-  var percent = Difference_In_Days2 / Difference_In_Days * 100;
-  // document.write("<br><br>进度" + percent);
-  return percent;
-}
-
-function delayCal(start, end) {
-  var startDate = new Date(start); 
-  var endDate = new Date(end); 
-  var Difference_In_Time = endDate.getTime() - startDate.getTime(); 
-  // 原计划总用时
-  var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
-  // document.write("日期： <br>" +startDate + "<br>和<br>" + endDate + "<br>相差的天数为：" 
-  //           + Difference_In_Days); 
-
-  var todayDate = new Date();
-  var todayDate2 = todayDate.toLocaleDateString();
-  // document.write("<br><br>今天日期为：" 
-  //           + todayDate2); 
-
-  var date3 = new Date(todayDate2);        
-  var Difference_In_Time2 = date3.getTime() - startDate.getTime(); 
-  // 目前总用时
-  var Difference_In_Days2 = Difference_In_Time2 / (1000 * 3600 * 24);
-  // document.write("<br><br>日期： <br>" + startDate + "<br>和<br>" + endDate + "<br>相差的天数为：" 
-  //           + Difference_In_Days2); 
-
-  var percent2 = (Difference_In_Days2 - Difference_In_Days) / Difference_In_Days * 100;
-  // document.write("<br><br>进度" + percent);
-  return percent2;
-}
 
 var parcel = progressCal("5/31/2021", "6/30/2022").toFixed(1);
 var arch = progressCal("5/30/2021", "6/30/2022").toFixed(1);
@@ -2571,7 +2522,7 @@ export default class KbGbInfo extends React.Component {
             Search
           </Button>
           <Button onClick={() => this.handleReset(clearFilters)} size="small" style={{ width: 90 }}>
-            Reset
+            esetddd
           </Button>
           <Button
             type="link"

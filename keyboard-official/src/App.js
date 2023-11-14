@@ -26,7 +26,7 @@ function App() {
           <Route path="/keycap" component={Price} /> 
           {/* <Route path="/problem" component={Problem} />  */}
           <Route path="/keyboard" component={Home} /> 
-          <Route path="/" component={Home} /> 
+          <Route path="/" component={Home} />  
           <Redirect to="/" />
         </Switch>
         <Footer />
