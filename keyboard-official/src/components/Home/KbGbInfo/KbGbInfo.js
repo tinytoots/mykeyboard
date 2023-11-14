@@ -1,27 +1,16 @@
 import React, { useRef, useState } from 'react';
 import './KbGbInfo.css';
-import { Table, Input, Button, Space, Typography, Progress } from 'antd';
-import ReactDOM from 'react-dom';
+import { Table, Progress } from 'antd';
 import 'antd/dist/antd.css';
-import Highlighter from 'react-highlight-words';
-import { SearchOutlined } from '@ant-design/icons';
-import { Row, Col } from 'antd';
 import { FormattedMessage } from 'react-intl'
-import { progressCal, delayCal } from '../calculations';
 import getColumnSearchProps from '../getColumnSearchProps';
 import keyboardData from '../../Constant/keyboardData';
 
-const { Title, Paragraph, Text, Link } = Typography;
 
 
-
-
-
-// document.write("<br><br>进度" + u80a_seq2);
-  
   export default function KbGbInfo() {
   const [searchText, setSearchText] = useState('');
-  const [searchedColumn, setSearchedColumn] = useState('');
+  const [ setSearchedColumn ] = useState('');
   const searchInput = useRef(null);
 
 
@@ -62,6 +51,7 @@ const { Title, Paragraph, Text, Link } = Typography;
         title: <FormattedMessage id="gbType"/>,
         dataIndex: 'type',
         key: 'type',
+        render: text => <FormattedMessage id={text} />,
         width: '16%',
         responsive: ['sm']
       },
@@ -101,14 +91,19 @@ const { Title, Paragraph, Text, Link } = Typography;
             expandable={{
               expandedRowRender: record => <p style={{ margin: 0 }}>
                 <FormattedMessage id="kbBrand"/>： {record.brand}<br/>
-                <FormattedMessage id="gbType"/>： {record.type}<br/>
+                <FormattedMessage id="gbType"/>：  <FormattedMessage id={record.type} /><br/>
                 <FormattedMessage id="gbPrice"/>： {record.price}<br/>
                 <FormattedMessage id="gbEnd"/>： {record.time}<br/>
                 <FormattedMessage id="shipping"/>： {record.shipping}<br/>
-                <FormattedMessage id="detail"/>： {record.detail}<br/>
+                <FormattedMessage id="detail"/>： 
+                <a href={record.detailUrl} target="_blank" rel="noopener noreferrer">
+                  {record.detailText}
+                </a>
+                <br />
                 <FormattedMessage id="update"/>： {record.updateDate}<br/>
                 <FormattedMessage id="delayTotal"/>： {record.delayTotalDays}<br/>
-                {record.progress} <br/>
+                <Progress percent={record.progressInt} />
+                <br/>
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#1890FF"/> <FormattedMessage id="gbProgress"/> &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#FAAD14"/> <FormattedMessage id="gbDelay"/> &nbsp;
                 <Progress style={{width:8}} percent={100} showInfo={false} strokeColor="#52C41A"/> <FormattedMessage id="gbShipping"/> &nbsp;
