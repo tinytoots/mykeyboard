@@ -1,20 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Header.css';
 import 'antd/dist/antd.css';
-import appConstants from '../Constant/constant'
-import { Menu, Image, Button, Tooltip, Switch } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined, TranslationOutlined, SearchOutlined } from '@ant-design/icons';
+import { Menu, Switch } from 'antd';
 import { NavLink } from 'react-router-dom'
 import logo3 from './logo3.svg';
-import headersolve from './headersolve.svg';
 import { FormattedMessage } from 'react-intl'
-import { useContext } from 'react';
 import { LOCALES } from '../i18n/constants';
 import { AppContext } from '../Context';
 
-
 const { SubMenu } = Menu;
-
 
 // setLanguage(LOCALES.ENGLISH)}
 
@@ -77,6 +71,9 @@ export default class Header extends React.Component {
                     defaultunChecked 
                     onChange={onChange} 
             />
+            </Menu.Item>
+            <Menu.Item key="profile">
+              <NavLink to="/profile" style={{color: '#8e8e93', textDecoration: 'none'}} activeStyle={{color: '#d1d1d6', textDecoration: 'none'}}><FormattedMessage id="profile"/></NavLink>
             </Menu.Item>
           </Menu>
         </div>

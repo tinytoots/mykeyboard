@@ -13,13 +13,14 @@ var customerEmail = "mykeyboardforfun@gmail.com";
 
 const blockContent = `AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、不限可能的数据可视化最佳实践。得益于丰富的业务场景和用户需求挑战，AntV 经历多年积累与不断打磨，已支撑整个阿里集团内外 20000+ 业务系统，通过了日均千万级 UV 产品的严苛考验。
 我们正在基础图表，图分析，图编辑，地理空间可视化，智能可视化等各个可视化的领域耕耘，欢迎同路人一起前行。`;
-
+console.log('ddddddddddddddddd');
 export default function Profile() {
     return (
         <div className="root">
             <Typography>
                 <Text type="secondary"><FormattedMessage id="hint"/></Text>
                 <Title><FormattedMessage id="intro"/></Title>
+                
                 <Paragraph>
                 大家好，我叫小恐龙，是一名机械键盘玩家。平时在键盘群里和大家聊天发现，目前还没有工具可以直观的显示当前键盘团购的进度，所以决定自己写一个，这样大家正好能一起用，也算为我们的键盘社区贡献一点自己的力量。这个网站的每一条数据都是我逐个查询添加的，为了尽可能保证数据准确性，我会找到对应的官方团购贴进行核对，但即使这样，<Text mark>由于我个人所能投入的精力有限，难免会出现数据不准确的情况，请大家谅解。如果大家发现以上问题欢迎随时给我<a href={`mailto:${customerEmail}?subject=数据纠正`} >发邮件</a>，我会尽快更新</Text>。同时如果大家对网站有什么建议或者有趣的功能也欢迎<a href={`mailto:${customerEmail}?subject=键盘网站建议`} >发邮件</a>联系我。后续我会根据大家的需求逐步开发迭代，希望这个网站能成为我们玩家群体共同的客制化网站！
                 </Paragraph> 

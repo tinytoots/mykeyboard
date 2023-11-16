@@ -6,6 +6,7 @@ import Profile from './pages/Profile/Profile'
 import Price from './pages/Price/Price'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
+import UserProfile from './pages/UserProfile/UserProfile'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         }}>
         <Header />
         <Switch>
+          <Route path="/profile" component={UserProfile} /> 
           <Route path="/readme" component={Profile} /> 
           <Route path="/keycap" component={Price} /> 
           {/* <Route path="/problem" component={Problem} />  */}
